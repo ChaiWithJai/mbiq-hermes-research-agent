@@ -12,6 +12,7 @@
         "source_url": { "type": "string", "format": "uri" },
         "year": { "type": "integer" },
         "event_count": { "type": "integer", "minimum": 1 },
+        "duplicate_count": { "type": "integer", "minimum": 0 },
         "imported_at": { "type": "string", "format": "date-time" }
       }
     },
@@ -31,6 +32,7 @@
           "category": { "type": "string" },
           "type": { "type": "string" },
           "location": { "type": "string" },
+          "duplicate_of": { "type": ["string", "null"] },
           "research_notes": { "type": "array", "items": { "type": "string" } },
           "source_labels": { "type": "array", "items": { "type": "string" } }
         }
@@ -38,4 +40,3 @@
     }
   }
 }
-

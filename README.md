@@ -7,7 +7,7 @@ A small, local-first research desk for Meanwhile Back in Queens. Hermes is the a
 - Hermes Agent is installed from Nous Research commit `7e84d2b5a43d47b1da33cfa662d0f87991774b1c`.
 - Hermes points to `prism-ml/Ternary-Bonsai-27B-mlx-2bit` at `http://127.0.0.1:8080/v1`.
 - The official Exa remote MCP is configured with search, advanced search, and fetch tools.
-- `data/events.json` contains all 109 events from the MBIQ Research Hub, with the original date text and confidence labels.
+- `data/events.json` contains all 109 source records from the MBIQ Research Hub, with the original date text and confidence labels. Three exact duplicate records are preserved and marked with `duplicate_of`.
 - `AGENTS.md` gives Hermes the MBIQ role, research workflow, evidence gates, and writing rules.
 - The eval suite measures whether the system completes an editor-ready research job.
 
@@ -56,4 +56,3 @@ The project uses a focused subset of the 814 rules in [shreyashankar/mine-writin
 ## Safety boundary
 
 The agent may research and draft locally. It may not publish, contact people, or treat unresolved history as settled fact. Every brief ends at human editorial review.
-

@@ -4,7 +4,8 @@
     "source_chunk_url": "https://mbiq-research-hub.netlify.app/_next/static/chunks/0ppql3uns4bmb.js",
     "year": 2027,
     "event_count": 109,
-    "imported_at": "2026-07-14T20:20:10.219Z",
+    "duplicate_count": 3,
+    "imported_at": "2026-07-14T20:31:13.249Z",
     "note": "Dates retain the source display text and confidence label. Expected dates must be rechecked before publication."
   },
   "events": [
@@ -19,6 +20,7 @@
       "category": "Holiday",
       "type": "Public holiday",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: New Year's Day marks the first day of the Gregorian calendar and is one of the world's most widely recognized civic holidays. In New York, its meaning is inseparable from Times Square New Year's Eve: the city becomes a global stage for countdown culture, tourism, nightlife, public safety planning and the symbolic reset that follows the holiday season.",
         "Who celebrates: Residents, visitors, hospitality, nightlife, families",
@@ -41,6 +43,7 @@
       "category": "Culture",
       "type": "Cultural holiday",
       "location": "East Harlem / citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Three Kings Day, or Dia de los Reyes, commemorates the visit of the Magi in Christian tradition and is especially important in Puerto Rican, Dominican, Mexican, Caribbean and broader Latino communities. In NYC it has long been celebrated through family gatherings, gift-giving, parades, museum programming and neighborhood events, making it a strong bridge between faith, childhood traditions and Latino cultural visibility.",
         "Who celebrates: Families, Latino communities, schools, museums, neighborhood groups",
@@ -63,6 +66,7 @@
       "category": "Holiday",
       "type": "Public holiday",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Martin Luther King Jr. Day honors the civil rights leader's legacy of nonviolent activism, voting rights, labor justice and racial equality. The holiday became federal law in 1983 and is often framed as a day of service, which gives NYC organizations a natural moment for volunteer campaigns, public history, Black institution spotlights and civic education.",
         "Who celebrates: Civic groups, students, families, nonprofits",
@@ -85,6 +89,7 @@
       "category": "Social",
       "type": "Social calendar / heritage month",
       "location": "Citywide; Harlem, Brooklyn, Queens, Bronx cultural institutions",
+      "duplicate_of": null,
       "research_notes": [
         "History: Black History Month grew from historian Carter G. Woodson's earlier Negro History Week and became a month-long U.S. observance in February. It is celebrated by schools, museums, libraries, brands, creators, Black-led organizations and communities across the African diaspora.",
         "Who celebrates: Black communities, educators, museums, libraries, nonprofits, cultural brands, restaurants, creators",
@@ -109,6 +114,7 @@
       "category": "Sports",
       "type": "Hockey / international showcase",
       "location": "UBS Arena, Elmont",
+      "duplicate_of": null,
       "research_notes": [
         "History: The NHL All-Star Game began in the mid-20th century as a showcase of the league's best players and has evolved into a fan festival and skills weekend. The 2027 UBS Arena edition matters locally because it brings national hockey attention to the New York metro area and uses an international team format, tying the event to global hockey identities as well as Islanders, Rangers and Devils fandom.",
         "Who celebrates: Hockey fans, international sports fans, Long Island visitors, youth athletes",
@@ -132,6 +138,7 @@
       "category": "Culture",
       "type": "Cultural holiday / parade season",
       "location": "Chinatown, Flushing, Sunset Park, citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Lunar New Year marks the start of the lunisolar calendar and is celebrated by Chinese, Korean, Vietnamese and other Asian communities with family gatherings, symbolic foods, red envelopes, lion dances and temple or community events. In NYC, the holiday reflects the strength of Asian neighborhoods such as Manhattan Chinatown, Flushing and Sunset Park, and it carries both cultural and business significance for restaurants, schools and local merchants.",
         "Who celebrates: Chinese, Korean, Vietnamese and broader Asian communities, families, tourists, restaurants",
@@ -157,6 +164,7 @@
       "category": "Culture",
       "type": "Vietnamese New Year",
       "location": "Queens Vietnamese restaurants and community spaces; citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Tet is the most important Vietnamese holiday and marks the start of the Vietnamese lunisolar calendar. It blends family reunion, ancestor veneration, cleaning, gift-giving, lucky money and food traditions such as banh chung and pickled vegetables.",
         "Who celebrates: Vietnamese families, restaurants, cafes, nail and beauty businesses, AAPI organizations",
@@ -180,6 +188,7 @@
       "category": "Culture",
       "type": "Tibetan / Himalayan New Year",
       "location": "Jackson Heights, Woodside, Sunnyside",
+      "duplicate_of": null,
       "research_notes": [
         "History: Losar predates Tibetan Buddhism and became one of Tibetan culture's central new-year festivals. Traditions include cleaning, offerings, khapse pastries, family visits and monastery rituals; U.S. observance dates may vary by community calendar.",
         "Who celebrates: Tibetan, Nepali Himalayan, Bhutanese and Buddhist communities, momo restaurants, cultural groups",
@@ -204,6 +213,7 @@
       "category": "Holiday",
       "type": "Religious / cultural observance",
       "location": "Citywide; Queens, Brooklyn, Bronx and Manhattan Muslim communities",
+      "duplicate_of": null,
       "research_notes": [
         "History: Ramadan is the ninth month of the Islamic lunar calendar and is regarded as the month in which the Quran was revealed to the Prophet Muhammad. Fasting during Ramadan is one of the Five Pillars of Islam. Because the Islamic calendar is lunar, Ramadan moves earlier each Gregorian year and begins with the sighting of the crescent moon, so local observance can vary by a day.",
         "Who celebrates: Muslim communities, mosques, halal restaurants, families, schools, nonprofits, interfaith groups",
@@ -229,6 +239,7 @@
       "category": "Holiday",
       "type": "Public / school holiday window",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Lincoln's Birthday and Presidents' Day sit inside a uniquely American civic memory calendar. Lincoln's birthday honors the president associated with the Civil War and emancipation, while Washington's Birthday became the federal holiday many people informally call Presidents' Day. In NYC planning, the holiday window matters because schools, museums and family attractions often build midwinter programming around it.",
         "Who celebrates: Families, schools, museums, tourism operators",
@@ -251,6 +262,7 @@
       "category": "Sports",
       "type": "Soccer season / playoffs",
       "location": "NYCFC venues, Red Bull Arena",
+      "duplicate_of": null,
       "research_notes": [
         "History: The 2027 MLS sprint season is historically unusual because it acts as a bridge between the league's old calendar and a new summer-to-spring rhythm. For NYC, it is a strong soccer storytelling moment: NYCFC, the Red Bulls and local supporter cultures all sit in one of the most globally connected soccer markets in the country.",
         "Who celebrates: Soccer fans, immigrant communities, youth clubs, international travelers",
@@ -275,6 +287,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Corona, Jackson Heights, Woodside, citywide Dominican spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Dominican Independence Day commemorates the 1844 declaration of independence from Haiti and the founding of the Dominican Republic. In NYC it connects Upper Manhattan, the Bronx, Queens and broader Dominican diaspora identity.",
         "Who celebrates: Dominican communities, restaurants, beauty businesses, baseball fans, Spanish-language media",
@@ -298,6 +311,7 @@
       "category": "Social",
       "type": "Social calendar / heritage month",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Women's History Month is observed in March in the United States and aligns with International Women's Day on March 8. It expanded from Women's History Week and is now used by schools, cultural institutions, media organizations and brands to highlight women's contributions and ongoing equity issues.",
         "Who celebrates: Women-led businesses, creators, nonprofits, schools, sports organizations, arts groups, family audiences",
@@ -320,6 +334,7 @@
       "category": "Parade",
       "type": "Queens heritage parade",
       "location": "Sunnyside and Woodside, Queens",
+      "duplicate_of": null,
       "research_notes": [
         "History: St. Pat's for All began as an inclusive response to exclusion from other Irish parade spaces and became one of Queens's most distinctive neighborhood civic traditions.",
         "Who celebrates: Irish community, LGBTQ New Yorkers, Sunnyside/Woodside families, schools, local civic groups",
@@ -343,6 +358,7 @@
       "category": "Parade",
       "type": "Queens heritage parade",
       "location": "Sunnyside and Woodside, Queens",
+      "duplicate_of": "march-st-pat-s-for-all-parade",
       "research_notes": [
         "History: St. Pat's for All began as an inclusive response to exclusion from other Irish parade spaces and became one of Queens's most distinctive neighborhood civic traditions.",
         "Who celebrates: Irish community, LGBTQ New Yorkers, Sunnyside/Woodside families, schools, local civic groups",
@@ -366,6 +382,7 @@
       "category": "Social",
       "type": "Global observance / social media moment",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: International Women's Day is observed every March 8 and has roots in early 20th-century labor and suffrage movements. The United Nations began celebrating it in 1975, and it is now used worldwide by communities, institutions and brands to recognize women's achievements and advocate for equality.",
         "Who celebrates: Women-led organizations, employees, founders, athletes, artists, educators, advocacy groups, brands",
@@ -388,6 +405,7 @@
       "category": "Holiday",
       "type": "Religious / cultural holiday",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Eid al-Fitr marks the end of Ramadan, the month of fasting, prayer, charity and reflection in Islam. The holiday is celebrated with communal prayer, family visits, new clothes, sweets and acts of giving. In NYC, its significance is visible across Muslim communities from Queens and Brooklyn to the Bronx, and it is increasingly recognized in public school and civic calendars.",
         "Who celebrates: Muslim communities, families, halal restaurants, schools",
@@ -411,6 +429,7 @@
       "category": "Sports",
       "type": "College basketball tournament",
       "location": "Madison Square Garden",
+      "duplicate_of": null,
       "research_notes": [
         "History: The Big East Tournament has been closely tied to Madison Square Garden since the early 1980s, helping define New York as a center of college basketball culture. Its significance comes from alumni travel, school rivalries, media attention and the way MSG turns a conference tournament into a citywide sports week.",
         "Who celebrates: College basketball fans, alumni groups, sports bars, hotels",
@@ -433,6 +452,7 @@
       "category": "Parade",
       "type": "Irish heritage parade",
       "location": "Fifth Avenue, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: New York's St. Patrick's Day Parade dates back to the 18th century and predates the United States as a nation. It became a central expression of Irish immigrant identity, Catholic community life and political visibility in the city. Today it is both a heritage parade and a reminder of how immigrant groups used public processions to claim space in New York.",
         "Who celebrates: Irish diaspora, tourists, bars, cultural institutions, families",
@@ -456,6 +476,7 @@
       "category": "Culture",
       "type": "Persianate / Central Asian New Year",
       "location": "Citywide; Queens Afghan, Iranian, Central Asian and South Asian networks",
+      "duplicate_of": null,
       "research_notes": [
         "History: Nowruz has roots in ancient Iranian and Zoroastrian traditions and marks renewal at the spring equinox. It is celebrated with Haft-Sin tables, spring cleaning, visiting family, sweets and community gatherings.",
         "Who celebrates: Afghan, Iranian, Kurdish, Central Asian, South Asian and interfaith communities",
@@ -478,6 +499,7 @@
       "category": "Sports",
       "type": "Road race",
       "location": "Brooklyn to Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: The NYC Half is part of the city's modern running culture, which grew around New York Road Runners and the rise of mass-participation road racing. It matters because it brings a major race experience to spring, connecting Brooklyn and Manhattan while creating a wellness, charity, tourism and neighborhood-cheering moment before the fall marathon.",
         "Who celebrates: Runners, wellness brands, hotels, fitness studios",
@@ -500,6 +522,7 @@
       "category": "Festival",
       "type": "Spring festival / color festival",
       "location": "Richmond Hill, South Richmond Hill, Queens parks and temples",
+      "duplicate_of": null,
       "research_notes": [
         "History: Holi marks spring, renewal and stories of devotion and the triumph of good over evil. In Caribbean and Indo-Caribbean communities it is also widely known as Phagwah and is a major public expression of Hindu and diaspora identity.",
         "Who celebrates: Indian, Punjabi, Nepali, Guyanese, Trinidadian, Indo-Caribbean and Hindu communities",
@@ -523,6 +546,7 @@
       "category": "Culture",
       "type": "Religious / cultural holiday",
       "location": "Queens Indo-Caribbean and South Asian corridors",
+      "duplicate_of": null,
       "research_notes": [
         "History: Holi, often called Phagwah in Indo-Caribbean communities, celebrates spring, renewal and the triumph of good over evil. In Queens, it is especially tied to Guyanese, Trinidadian and South Asian communities.",
         "Who celebrates: Guyanese, Trinidadian, Indian, Punjabi, Hindu communities, families, mandirs, schools and food businesses",
@@ -547,6 +571,7 @@
       "category": "Culture",
       "type": "National independence day / diaspora pride",
       "location": "Astoria and citywide Greek institutions",
+      "duplicate_of": null,
       "research_notes": [
         "History: Greek Independence Day commemorates the start of the 1821 Greek War of Independence. In Queens, Astoria gives the holiday a local business, church, school and food-culture dimension.",
         "Who celebrates: Greek diaspora, Orthodox churches, bakeries, restaurants, schools, civic groups",
@@ -570,6 +595,7 @@
       "category": "Sports",
       "type": "Baseball season start",
       "location": "Yankee Stadium and Citi Field",
+      "duplicate_of": null,
       "research_notes": [
         "History: Opening Day is a baseball ritual that signals spring, civic pride and a new narrative arc for every team. In NYC, Yankees and Mets openers carry extra cultural weight because the two clubs represent different borough identities, histories and fan traditions, from Yankee Stadium's championship mythology to Citi Field's Queens-rooted baseball culture.",
         "Who celebrates: Baseball fans, families, tourists, sports bars, neighborhood businesses",
@@ -594,6 +620,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Jamaica, Jackson Heights, Ozone Park and Bangladeshi community spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Bangladesh Independence Day commemorates the country's 1971 declaration of independence. In Queens, it connects flags, Bangla language, food, mosques, small businesses and civic organizations.",
         "Who celebrates: Bangladeshi families, Bangla media, halal restaurants, sweets shops, community groups",
@@ -617,6 +644,7 @@
       "category": "Holiday",
       "type": "Religious / cultural weekend",
       "location": "Citywide; Fifth Avenue for Easter Parade",
+      "duplicate_of": null,
       "research_notes": [
         "History: Good Friday and Easter sit at the center of the Christian liturgical calendar, commemorating the crucifixion and resurrection of Jesus. NYC's Easter Parade and Bonnet Festival developed into a public fashion and street-life tradition on Fifth Avenue, making the weekend both a religious observance and a highly visual civic ritual.",
         "Who celebrates: Families, churches, fashion creators, restaurants",
@@ -640,6 +668,7 @@
       "category": "Sports",
       "type": "March Madness / Sweet 16 and Elite 8",
       "location": "Madison Square Garden",
+      "duplicate_of": null,
       "research_notes": [
         "History: March Madness grew from a college championship into one of America's most recognizable sports tournaments. When regional rounds come to Madison Square Garden, the event connects national college basketball stakes with New York's reputation as a basketball capital, drawing alumni, media, sponsors and traveling fans into Midtown.",
         "Who celebrates: College sports fans, alumni associations, sponsors, hotels",
@@ -662,6 +691,7 @@
       "category": "Culture",
       "type": "Thai New Year",
       "location": "Elmhurst, Woodside, Jackson Heights and Thai businesses",
+      "duplicate_of": null,
       "research_notes": [
         "History: Songkran is Thailand's traditional New Year and is observed annually around April 13-15. Its water rituals symbolize cleansing and renewal, and it is now also a major cultural tourism festival.",
         "Who celebrates: Thai restaurants, temples, Southeast Asian communities, food creators, families",
@@ -686,6 +716,7 @@
       "category": "Culture",
       "type": "Bengali New Year",
       "location": "Jamaica, Jackson Heights, Bangladeshi and Bengali community spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Pohela Boishakh marks the first day of the Bengali calendar. For Bangladeshi and Bengali diaspora communities, it is a cultural rather than only religious marker, often celebrated through fairs, music, food and traditional clothing.",
         "Who celebrates: Bangladeshi, Bengali, restaurants, sweets shops, Bangla media, families",
@@ -709,6 +740,7 @@
       "category": "Culture",
       "type": "Sikh / Punjabi harvest and new year festival",
       "location": "Richmond Hill, South Richmond Hill, gurdwaras and Punjabi corridors",
+      "duplicate_of": null,
       "research_notes": [
         "History: Vaisakhi is associated with the Punjabi harvest season and, in Sikh history, the 1699 formation of the Khalsa by Guru Gobind Singh. It is often marked with gurdwara services, processions, food and community gatherings.",
         "Who celebrates: Punjabi, Sikh and Indian communities, gurdwaras, restaurants, families",
@@ -732,6 +764,7 @@
       "category": "Festival",
       "type": "Queens food market / neighborhood event",
       "location": "Flushing Meadows-Corona Park, Queens",
+      "duplicate_of": null,
       "research_notes": [
         "History: Queens Night Market launched in Flushing Meadows-Corona Park in 2015 and became a signature Queens food event by centering affordable, global street food from dozens of countries.",
         "Who celebrates: Queens families, food creators, immigrant vendors, tourists, students, neighborhood explorers",
@@ -756,6 +789,7 @@
       "category": "Festival",
       "type": "Queens food market / neighborhood event",
       "location": "Flushing Meadows-Corona Park, Queens",
+      "duplicate_of": "april-queens-night-market-season",
       "research_notes": [
         "History: Queens Night Market launched in Flushing Meadows-Corona Park in 2015 and became a signature Queens food event by centering affordable, global street food from dozens of countries.",
         "Who celebrates: Queens families, food creators, immigrant vendors, tourists, students, neighborhood explorers",
@@ -780,6 +814,7 @@
       "category": "Social",
       "type": "Environmental / civic moment",
       "location": "Citywide; Jamaica Bay, Flushing Meadows and parks",
+      "duplicate_of": null,
       "research_notes": [
         "History: Earth Day began in 1970 and is now observed globally. In Queens, it connects directly to Jamaica Bay, flood-prone neighborhoods, park stewardship and industrial-border environmental justice.",
         "Who celebrates: Parks groups, schools, climate organizations, families, neighborhood associations, waterfront communities",
@@ -803,6 +838,7 @@
       "category": "Culture",
       "type": "Remembrance day",
       "location": "Queens Armenian churches, schools and community networks",
+      "duplicate_of": null,
       "research_notes": [
         "History: April 24 marks the date in 1915 when Ottoman authorities arrested Armenian intellectuals and community leaders in Constantinople, an event widely treated as the beginning of the Armenian Genocide.",
         "Who celebrates: Armenian diaspora, churches, schools, cultural organizations, civic groups",
@@ -826,6 +862,7 @@
       "category": "Social",
       "type": "Social calendar / heritage month",
       "location": "Citywide; Queens focus in Flushing, Elmhurst, Jackson Heights and Woodside",
+      "duplicate_of": null,
       "research_notes": [
         "History: AAPI Heritage Month is observed every May in the United States. May was chosen in part to mark early Japanese immigration to the U.S. and the completion of the transcontinental railroad, which relied heavily on Chinese labor.",
         "Who celebrates: AANHPI communities, restaurants, cultural organizations, schools, creators, small businesses",
@@ -849,6 +886,7 @@
       "category": "Parade",
       "type": "Japanese culture parade / street fair",
       "location": "Central Park West area, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: Japan Parade is a newer NYC cultural event, but it draws on a long history of Japanese cultural exchange in New York through food, arts, business, anime, film and diplomacy. Its significance is that it makes Japanese and Japanese American culture visible on a major Manhattan parade route while creating space for both tradition and contemporary pop culture.",
         "Who celebrates: Japanese diaspora, anime/manga fans, families, food lovers",
@@ -871,6 +909,7 @@
       "category": "Social",
       "type": "National social holiday / retail moment",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Mother's Day in the United States is celebrated on the second Sunday in May. It was popularized by Anna Jarvis in the early 1900s to honor mothers and maternal bonds, then became a major cultural and commercial holiday.",
         "Who celebrates: Families, restaurants, florists, spas, retailers, hotels, photographers, family creators",
@@ -893,6 +932,7 @@
       "category": "Culture",
       "type": "National independence day / Jewish calendar",
       "location": "Queens Jewish and Israeli community spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Yom Ha'atzmaut commemorates the 1948 declaration of the State of Israel and is observed according to the Hebrew calendar, usually paired with Yom HaZikaron remembrance the day before.",
         "Who celebrates: Israeli, Jewish, synagogues, schools, kosher restaurants, civic groups",
@@ -915,6 +955,7 @@
       "category": "Sports",
       "type": "WNBA regular season / playoffs",
       "location": "Barclays Center, Brooklyn",
+      "duplicate_of": null,
       "research_notes": [
         "History: The New York Liberty were one of the WNBA's original franchises in 1997, making them central to the history of professional women's basketball. Their Brooklyn era has become part of the larger growth of women's sports, where attendance, media attention, fashion, activism and youth participation all intersect.",
         "Who celebrates: Basketball fans, women's sports audiences, families, youth teams, brands",
@@ -938,6 +979,7 @@
       "category": "Holiday",
       "type": "Religious / cultural holiday",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Eid al-Adha, the Festival of Sacrifice, commemorates Ibrahim's willingness to sacrifice in Islamic tradition and coincides with the Hajj pilgrimage season. It is observed through prayer, family gatherings, charity and meat distribution. In NYC, it is a significant moment for Muslim families, halal businesses, mosques and mutual aid networks.",
         "Who celebrates: Muslim communities, families, halal food businesses, schools",
@@ -961,6 +1003,7 @@
       "category": "Culture",
       "type": "National / diaspora heritage day",
       "location": "Cambria Heights, Queens Village, Laurelton, Rosedale",
+      "duplicate_of": null,
       "research_notes": [
         "History: Haitian Flag Day commemorates the creation of the Haitian flag during the Haitian Revolution era and is widely celebrated by Haitian communities across the diaspora.",
         "Who celebrates: Haitian families, restaurants, churches, schools, Creole-language media, Caribbean organizations",
@@ -985,6 +1028,7 @@
       "category": "Culture",
       "type": "NYC history / landmark anniversary",
       "location": "Brooklyn Bridge, DUMBO and Lower Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: The Brooklyn Bridge opened on May 24, 1883 after years of engineering work led by John A. Roebling, Washington Roebling and Emily Warren Roebling. The bridge became a symbol of Brooklyn, Manhattan and the industrial rise of New York.",
         "Who celebrates: History audiences, architecture fans, tourists, photographers, DUMBO businesses, walking-tour operators",
@@ -1006,6 +1050,7 @@
       "category": "Culture",
       "type": "Music / venue season",
       "location": "Forest Hills Stadium, Queens",
+      "duplicate_of": null,
       "research_notes": [
         "History: Forest Hills Stadium opened as the West Side Tennis Club's stadium and hosted major tennis before becoming one of Queens's most distinctive outdoor music venues.",
         "Who celebrates: Music fans, Forest Hills businesses, tennis-history audiences, nightlife and hospitality partners",
@@ -1029,6 +1074,7 @@
       "category": "Holiday",
       "type": "Public holiday / summer kickoff",
       "location": "Citywide, beaches, parks",
+      "duplicate_of": null,
       "research_notes": [
         "History: Memorial Day began after the Civil War as a day to decorate the graves of fallen soldiers and became a federal holiday honoring U.S. military members who died in service. In New York it also functions as the unofficial start of summer, so its significance is both solemn and practical: remembrance, parades, beaches, travel and seasonal business all converge.",
         "Who celebrates: Families, veterans groups, hospitality, outdoor brands",
@@ -1051,6 +1097,7 @@
       "category": "Sports",
       "type": "Basketball playoffs / finals",
       "location": "Madison Square Garden, Barclays Center, watch parties",
+      "duplicate_of": null,
       "research_notes": [
         "History: The NBA playoffs are the league's highest-stakes storytelling period, when local fandom, celebrity culture, sports bars, fashion and media attention intensify. In NYC, any Knicks or Nets postseason run becomes more than sports content because basketball is deeply tied to playground culture, sneaker culture and the city's self-image.",
         "Who celebrates: Basketball fans, sports bars, hotels, fashion and sneaker audiences",
@@ -1073,6 +1120,7 @@
       "category": "Sports",
       "type": "Hockey playoffs / final",
       "location": "MSG, UBS Arena, Prudential Center, watch parties",
+      "duplicate_of": null,
       "research_notes": [
         "History: The Stanley Cup is one of the oldest trophies in North American sports, and the NHL playoffs are built around endurance, rivalries and regional identity. In the New York metro area, Rangers, Islanders and Devils postseason runs activate distinct fan bases and neighborhood viewing cultures across Manhattan, Long Island and New Jersey.",
         "Who celebrates: Hockey fans, sports bars, commuter audiences, families",
@@ -1095,6 +1143,7 @@
       "category": "Social",
       "type": "Heritage month",
       "location": "Southeast Queens, Richmond Hill, South Richmond Hill, citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Caribbean American Heritage Month is observed in June in the United States and recognizes the contributions of Caribbean immigrants and descendants across civic life, arts, food, business and culture.",
         "Who celebrates: Caribbean communities, restaurants, churches, music venues, small businesses, civic organizations",
@@ -1118,6 +1167,7 @@
       "category": "Culture",
       "type": "Queens neighborhood arts season",
       "location": "Jamaica, Queens",
+      "duplicate_of": null,
       "research_notes": [
         "History: Jamaica has long been a Queens transportation, shopping, education and Black cultural hub; arts programming there connects the area's commercial history with contemporary Southeast Queens creativity.",
         "Who celebrates: Southeast Queens families, students, Black cultural institutions, Caribbean communities, local businesses",
@@ -1141,6 +1191,7 @@
       "category": "Culture",
       "type": "LGBTQIA+ culture / parade season",
       "location": "Citywide, Manhattan core",
+      "duplicate_of": null,
       "research_notes": [
         "History: NYC Pride is rooted in the 1969 Stonewall uprising, when LGBTQ people resisted police raids in Greenwich Village. The annual march and surrounding events became a global symbol of queer liberation, mourning, protest and celebration. In content planning, Pride should be treated as both a party season and a civil rights history month.",
         "Who celebrates: LGBTQIA+ communities, visitors, nightlife, nonprofits, brands",
@@ -1162,6 +1213,7 @@
       "category": "Festival",
       "type": "Queens arts festival / borough-wide culture",
       "location": "Borough-wide, Queens",
+      "duplicate_of": null,
       "research_notes": [
         "History: Queens Rising is a June arts celebration created to highlight Queens' culture and creative diversity. The official site describes it as a multidisciplinary borough-wide celebration with live music, performances, exhibitions and community programming.",
         "Who celebrates: Queens artists, cultural institutions, local businesses, families, creators, sponsors",
@@ -1186,6 +1238,7 @@
       "category": "Culture",
       "type": "NYC civic history / Brooklyn and Queens local observance",
       "location": "Brooklyn and Queens; formerly NYC school calendar",
+      "duplicate_of": null,
       "research_notes": [
         "History: Brooklyn-Queens Day, also called Anniversary Day, traces back to 19th-century Sunday school parades in Brooklyn. It became associated with Brooklyn, later Queens, and was long known as a school-calendar day. The day off was removed after Diwali became an NYC public school holiday, but the date remains valuable for local-history content.",
         "Who celebrates: Brooklyn and Queens history audiences, schools, local civic groups, neighborhood creators, parents",
@@ -1208,6 +1261,7 @@
       "category": "Festival",
       "type": "Queens music festival / social media moment",
       "location": "Flushing Meadows Corona Park, Queens",
+      "duplicate_of": null,
       "research_notes": [
         "History: Governors Ball launched in 2011 and later moved to Queens, with recent editions hosted at Flushing Meadows Corona Park. The official festival positions itself as New York's big multi-genre music weekend with global artists and local food.",
         "Who celebrates: Music fans, Gen Z audiences, brands, fashion creators, food vendors, hotels, Queens visitors",
@@ -1231,6 +1285,7 @@
       "category": "Parade",
       "type": "Queens parade / Pride / multicultural festival",
       "location": "Jackson Heights, Queens",
+      "duplicate_of": null,
       "research_notes": [
         "History: Queens Pride began in 1993 after the murder of Julio Rivera and amid local fights over LGBTQ visibility and multicultural education. It is now a major Jackson Heights event and one of NYC's most locally rooted Pride traditions.",
         "Who celebrates: LGBTQIA+ communities, Jackson Heights residents, immigrant communities, families, nightlife, nonprofits",
@@ -1255,6 +1310,7 @@
       "category": "Culture",
       "type": "National independence day / diaspora pride",
       "location": "Woodside Little Manila and Filipino community spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: June 12 commemorates the 1898 Philippine declaration of independence from Spain. In Queens, Woodside's Little Manila makes the day a strong local story even when major parades happen elsewhere.",
         "Who celebrates: Filipino families, restaurants, bakeries, churches, nurses and health-care workers, community groups",
@@ -1278,6 +1334,7 @@
       "category": "Parade",
       "type": "Puerto Rican heritage parade",
       "location": "Fifth Avenue, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: The National Puerto Rican Day Parade grew out of NYC's large Puerto Rican community and became one of the city's most powerful displays of Boricua identity. Its significance goes beyond the parade route: it celebrates diaspora history, language, music, politics, migration, family pride and the central role Puerto Ricans have played in shaping modern New York.",
         "Who celebrates: Puerto Rican diaspora, Latin music fans, families, civic leaders, tourism",
@@ -1302,6 +1359,7 @@
       "category": "Parade",
       "type": "Arts parade / summer kickoff",
       "location": "Coney Island, Brooklyn",
+      "duplicate_of": null,
       "research_notes": [
         "History: The Coney Island Mermaid Parade began in 1983 as an arts-driven celebration of seaside mythology, boardwalk eccentricity and Brooklyn creativity. It matters because it keeps Coney Island's carnival spirit alive, blending costume, performance, neighborhood identity and the unofficial start of summer beach culture.",
         "Who celebrates: Artists, families, nightlife, photographers, beachgoers",
@@ -1323,6 +1381,7 @@
       "category": "Holiday",
       "type": "Public holiday / cultural programming",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Juneteenth commemorates June 19, 1865, when enslaved people in Galveston, Texas learned of their freedom after the Civil War. It became a federal holiday in 2021, but Black communities had celebrated it for generations. In NYC, Juneteenth is a moment for Black history, emancipation education, arts, food, family gatherings and civic reflection.",
         "Who celebrates: Black communities, museums, schools, nonprofits, families",
@@ -1344,6 +1403,7 @@
       "category": "Social",
       "type": "National social holiday / retail moment",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Father's Day is observed in the United States on the third Sunday in June. It recognizes fathers, fatherhood and paternal bonds, and has become a major dining, gifting and family content moment.",
         "Who celebrates: Families, restaurants, retailers, barbershops, sports venues, creators",
@@ -1366,6 +1426,7 @@
       "category": "Sports",
       "type": "International soccer",
       "location": "Likely MetLife, Red Bull Arena, Yankee Stadium or Citi Field",
+      "duplicate_of": null,
       "research_notes": [
         "History: International soccer friendlies in New York draw on the region's role as a global diaspora hub. Matches involving major clubs or national teams become cultural gatherings as much as sports events, activating restaurants, bars, flags, languages and neighborhood identities tied to the teams on the field.",
         "Who celebrates: Global football fans, diaspora communities, tourism, sports bars",
@@ -1387,6 +1448,7 @@
       "category": "Holiday",
       "type": "Public holiday / fireworks",
       "location": "Citywide waterfront",
+      "duplicate_of": null,
       "research_notes": [
         "History: Independence Day commemorates the adoption of the Declaration of Independence in 1776. In NYC, the holiday is experienced through fireworks, waterfront crowds, tourism and public-space planning, but it also invites more thoughtful content around immigration, citizenship, civic identity and who gets to define American freedom.",
         "Who celebrates: Families, tourists, hotels, restaurants, rooftop venues",
@@ -1409,6 +1471,7 @@
       "category": "Sports",
       "type": "Soccer season launch",
       "location": "NYCFC, Red Bulls, metro area",
+      "duplicate_of": null,
       "research_notes": [
         "History: MLS's move toward a summer-to-spring calendar is a major structural shift meant to align the league more closely with global soccer rhythms. For NYC, where soccer fandom is highly international, the change creates a useful cultural bridge between local clubs, immigrant fan communities and worldwide football calendars.",
         "Who celebrates: Soccer fans, supporters groups, international communities, youth clubs",
@@ -1432,6 +1495,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Jackson Heights, Calle Colombia / 82nd Street, Little Colombia corridor",
+      "duplicate_of": null,
       "research_notes": [
         "History: Colombian Independence Day commemorates the July 20, 1810 events in Bogota that began the independence process from Spain. In Queens, it connects directly to Calle Colombia and Little Colombia street identity.",
         "Who celebrates: Colombian families, restaurants, bakeries, soccer fans, beauty businesses, Spanish-language media",
@@ -1456,6 +1520,7 @@
       "category": "Festival",
       "type": "Indigenous culture festival",
       "location": "Queens County Farm Museum, Glen Oaks",
+      "duplicate_of": null,
       "research_notes": [
         "History: Powwows are intertribal gatherings centered on dance, music, regalia, food, craft and community. In Queens, the Thunderbird American Indian Powwow gives New Yorkers a chance to encounter Indigenous cultural expression in a city where Native histories are often overlooked, while also requiring respectful, Native-led storytelling.",
         "Who celebrates: Families, cultural travelers, educators, craft and food audiences",
@@ -1477,6 +1542,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Jackson Heights, Corona, Elmhurst and Peruvian business corridors",
+      "duplicate_of": null,
       "research_notes": [
         "History: Peru celebrates independence on July 28, marking the 1821 proclamation of independence. Queens planning can connect the date to cevicherias, pollerias, music, dance and soccer communities.",
         "Who celebrates: Peruvian families, restaurants, dance groups, soccer fans, Spanish-language creators",
@@ -1500,6 +1566,7 @@
       "category": "Festival",
       "type": "Neighborhood culture festival",
       "location": "Harlem",
+      "duplicate_of": null,
       "research_notes": [
         "History: Harlem Week began in the 1970s as a one-day tribute and expanded into a multi-day celebration of Harlem's cultural, economic and political legacy. Its significance comes from Harlem's central role in Black arts, music, literature, activism, religion, entrepreneurship and neighborhood pride.",
         "Who celebrates: Harlem residents, Black culture audiences, music fans, food lovers",
@@ -1522,6 +1589,7 @@
       "category": "Culture",
       "type": "National independence day / diaspora pride",
       "location": "Jamaica, St. Albans, Cambria Heights, Laurelton",
+      "duplicate_of": null,
       "research_notes": [
         "History: Jamaica became independent from the United Kingdom on August 6, 1962. In Queens, the day connects to Southeast Queens Caribbean identity and West Indian Carnival season.",
         "Who celebrates: Jamaican families, restaurants, churches, reggae/dancehall audiences, Caribbean businesses",
@@ -1545,6 +1613,7 @@
       "category": "Festival",
       "type": "Sports / multicultural festival",
       "location": "Meadow Lake, Flushing Meadows Corona Park",
+      "duplicate_of": null,
       "research_notes": [
         "History: Dragon boat racing has roots in ancient Chinese tradition and is associated with the Dragon Boat Festival honoring the poet Qu Yuan. The Queens festival matters because it turns Meadow Lake into a competitive sports and cultural gathering, connecting Asian heritage, teamwork, food, performance and Flushing's global identity.",
         "Who celebrates: Asian communities, athletes, families, food audiences, Queens visitors",
@@ -1569,6 +1638,7 @@
       "category": "Parade",
       "type": "Dominican heritage parade",
       "location": "Sixth Avenue, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: The Dominican Day Parade celebrates Dominican heritage, migration and community power in New York, home to one of the largest Dominican populations outside the Dominican Republic. Its significance is tied to music, flags, family pride, political visibility and uptown neighborhoods such as Washington Heights and Inwood.",
         "Who celebrates: Dominican diaspora, Latin music fans, families, restaurants",
@@ -1592,6 +1662,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Corona, Jackson Heights, Elmhurst, Woodside",
+      "duplicate_of": null,
       "research_notes": [
         "History: August 10 marks Ecuador's First Cry of Independence in 1809. In Queens, Ecuadorian community life is visible in restaurants, soccer, parishes, remittance businesses and family networks.",
         "Who celebrates: Ecuadorian families, restaurants, soccer fans, Spanish-language media, churches",
@@ -1617,6 +1688,7 @@
       "category": "Culture",
       "type": "Music / cultural history",
       "location": "Citywide; Queensbridge, Hollis and South Jamaica focus",
+      "duplicate_of": null,
       "research_notes": [
         "History: Hip-hop's widely recognized origin date is August 11, 1973 in the Bronx, but Queens became one of the culture's defining boroughs through Queensbridge, Hollis and South Jamaica artists.",
         "Who celebrates: Music fans, DJs, schools, museums, streetwear brands, local historians, record shops",
@@ -1640,6 +1712,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Jackson Heights, Elmhurst, Jamaica, Richmond Hill",
+      "duplicate_of": null,
       "research_notes": [
         "History: Pakistan Independence Day marks the creation of Pakistan in 1947 following the partition of British India. Queens observance connects to halal businesses, mosques, cricket, fashion and Urdu-language community life.",
         "Who celebrates: Pakistani families, restaurants, mosques, fashion retailers, cricket communities",
@@ -1663,6 +1736,7 @@
       "category": "Parade",
       "type": "Indian heritage parade",
       "location": "Madison Avenue / Midtown, expected",
+      "duplicate_of": null,
       "research_notes": [
         "History: India Day Parade marks India's independence from British rule in 1947 and celebrates Indian diaspora culture in New York. The parade's significance spans national pride, religion, language, Bollywood, fashion, food, business and the broader South Asian presence across Queens, New Jersey and the metro area.",
         "Who celebrates: Indian diaspora, South Asian communities, families, restaurants, retail",
@@ -1687,6 +1761,7 @@
       "category": "Culture",
       "type": "National liberation day",
       "location": "Flushing, Murray Hill, Bayside, Korean community spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Korean Liberation Day is observed on August 15 and commemorates the end of Japanese colonial rule in 1945. In Queens, it can anchor Korean history, elder stories and Korean business corridor content.",
         "Who celebrates: Korean families, churches, restaurants, senior organizations, Korean-language media",
@@ -1709,6 +1784,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Ridgewood, Glendale, Forest Hills and Eastern European networks",
+      "duplicate_of": null,
       "research_notes": [
         "History: Ukraine's Independence Day commemorates the 1991 declaration of independence from the Soviet Union. In Queens, it connects to Eastern European churches, businesses and post-2022 support networks.",
         "Who celebrates: Ukrainian families, churches, bakeries, relief organizations, Eastern European communities",
@@ -1733,6 +1809,7 @@
       "category": "Social",
       "type": "Social calendar / civic observance",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Women's Equality Day is observed on August 26 in the United States to mark the certification of the 19th Amendment, which prohibited denying the vote on the basis of sex. It is used by civic, educational and advocacy groups to discuss gender equity and political participation.",
         "Who celebrates: Civic groups, women-led organizations, educators, nonprofits, founders, creators",
@@ -1754,6 +1831,7 @@
       "category": "Sports",
       "type": "Grand Slam tennis",
       "location": "USTA Billie Jean King National Tennis Center, Queens",
+      "duplicate_of": null,
       "research_notes": [
         "History: The US Open began in the late 19th century and became one of tennis's four Grand Slam tournaments. Its Queens location gives NYC a global sports spotlight every year, combining elite competition, international visitors, celebrity culture, fashion, hospitality and the borough's role as a world-facing gateway.",
         "Who celebrates: International visitors, tennis fans, luxury brands, restaurants, hotels",
@@ -1777,6 +1855,7 @@
       "category": "Festival",
       "type": "Brazilian culture festival",
       "location": "Little Brazil / Midtown, expected",
+      "duplicate_of": null,
       "research_notes": [
         "History: Brazilian Day in New York is connected to Brazil's Independence Day period and the city's Brazilian diaspora. When produced, it brings music, food, flags and Portuguese-language culture into Midtown, turning a national celebration into a public expression of diaspora pride.",
         "Who celebrates: Brazilian diaspora, music fans, food audiences, tourism",
@@ -1801,6 +1880,7 @@
       "category": "Parade",
       "type": "Caribbean carnival / parade",
       "location": "Brooklyn, Eastern Parkway and surrounding areas",
+      "duplicate_of": null,
       "research_notes": [
         "History: West Indian American Day Carnival grew from Caribbean pre-Lenten and emancipation traditions and became a major Brooklyn Labor Day celebration. Its significance lies in Caribbean diaspora identity, mas bands, steelpan, soca, calypso, food, flags and the political visibility of communities from Trinidad, Jamaica, Haiti, Barbados and beyond.",
         "Who celebrates: Caribbean diaspora, music fans, food vendors, families, tourists",
@@ -1825,6 +1905,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Astoria, Sunnyside, Long Island City and citywide Brazilian spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Brazil's Independence Day commemorates the 1822 declaration of independence from Portugal. In NYC, Brazilian cultural visibility also connects to music, dance, soccer, food and Portuguese-language businesses.",
         "Who celebrates: Brazilian families, restaurants, music audiences, soccer fans, beauty businesses",
@@ -1848,6 +1929,7 @@
       "category": "Sports",
       "type": "Football season",
       "location": "MetLife Stadium and NYC watch parties",
+      "duplicate_of": null,
       "research_notes": [
         "History: The NFL season is a fall ritual in American sports culture, and Giants and Jets games turn MetLife Stadium and NYC sports bars into weekly gathering points. For content planning, its significance comes from tailgating, fantasy football, rivalries, commuting patterns and the way football structures autumn weekends.",
         "Who celebrates: Football fans, sports bars, commuters, tailgate audiences",
@@ -1871,6 +1953,7 @@
       "category": "Culture",
       "type": "Korean harvest holiday",
       "location": "Flushing, Murray Hill, Bayside and Korean community spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Chuseok is one of Korea's most important holidays and falls on the 15th day of the 8th lunar month. Families traditionally gather, honor ancestors and share harvest foods.",
         "Who celebrates: Korean families, restaurants, bakeries, churches, senior centers, Korean-language media",
@@ -1894,6 +1977,7 @@
       "category": "Culture",
       "type": "Regional independence day",
       "location": "Corona, Flushing, Jamaica, Elmhurst and Central American corridors",
+      "duplicate_of": null,
       "research_notes": [
         "History: September 15 marks the 1821 independence of several Central American countries from Spain, including Guatemala and El Salvador. It is also the opening date of U.S. Hispanic Heritage Month.",
         "Who celebrates: Guatemalan, Salvadoran and Central American families, pupuserias, bakeries, churches, soccer communities",
@@ -1918,6 +2002,7 @@
       "category": "Social",
       "type": "Social calendar / heritage month",
       "location": "Citywide; Queens, Upper Manhattan, Bronx and Brooklyn focus",
+      "duplicate_of": null,
       "research_notes": [
         "History: National Hispanic Heritage Month runs from September 15 to October 15. The start date connects to independence anniversaries for several Latin American countries, and the observance expanded from a week to a month in 1988.",
         "Who celebrates: Latino communities, restaurants, music and dance audiences, schools, creators, brands",
@@ -1942,6 +2027,7 @@
       "category": "Festival",
       "type": "Italian American feast / street fair",
       "location": "Little Italy, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: The Feast of San Gennaro began in Little Italy in 1926 when Neapolitan immigrants honored Saint Januarius, the patron saint of Naples. Today it is both a religious feast and a street festival, preserving Italian American memory while also reflecting how immigrant neighborhoods become tourism and food destinations.",
         "Who celebrates: Italian American communities, tourists, food lovers, families",
@@ -1964,6 +2050,7 @@
       "category": "Culture",
       "type": "National independence day",
       "location": "Corona, Jackson Heights, Elmhurst, Woodside",
+      "duplicate_of": null,
       "research_notes": [
         "History: Mexican Independence Day commemorates the Cry of Dolores in 1810, which launched Mexico's independence struggle. It is distinct from Cinco de Mayo and is Mexico's central national day.",
         "Who celebrates: Mexican families, restaurants, bakeries, markets, soccer fans, Spanish-language media",
@@ -1989,6 +2076,7 @@
       "category": "Festival",
       "type": "Queens fair / family event",
       "location": "Queens County Farm Museum, Floral Park",
+      "duplicate_of": null,
       "research_notes": [
         "History: Queens County Farm Museum preserves a farming landscape with roots in the late 17th century, making the fair a rare reminder that Queens includes rural and agricultural histories too.",
         "Who celebrates: Families, schools, food vendors, local makers, history audiences, eastern Queens communities",
@@ -2012,6 +2100,7 @@
       "category": "Festival",
       "type": "Queens fair / family event",
       "location": "Queens County Farm Museum, Floral Park",
+      "duplicate_of": "september-queens-county-fair",
       "research_notes": [
         "History: Queens County Farm Museum preserves a farming landscape with roots in the late 17th century, making the fair a rare reminder that Queens includes rural and agricultural histories too.",
         "Who celebrates: Families, schools, food vendors, local makers, history audiences, eastern Queens communities",
@@ -2035,6 +2124,7 @@
       "category": "Parade",
       "type": "Black culture / heritage parade",
       "location": "Harlem",
+      "duplicate_of": null,
       "research_notes": [
         "History: The African American Day Parade began in Harlem in the late 1960s and is one of the country's major Black heritage parades. It celebrates Black institutions, civic leaders, schools, marching bands, faith groups and cultural pride, keeping Harlem's public avenue traditions connected to community recognition.",
         "Who celebrates: Black communities, civic groups, schools, families, Harlem businesses",
@@ -2059,6 +2149,7 @@
       "category": "Festival",
       "type": "Brooklyn street fair",
       "location": "Atlantic Avenue, Brooklyn",
+      "duplicate_of": null,
       "research_notes": [
         "History: Atlantic Antic is one of Brooklyn's largest street festivals and reflects the borough's layered commercial and residential life. Its significance is hyperlocal: restaurants, makers, civic groups, families and performers use the avenue as a long public commons for one day.",
         "Who celebrates: Brooklyn residents, families, food lovers, small businesses",
@@ -2081,6 +2172,7 @@
       "category": "Social",
       "type": "Heritage month",
       "location": "Woodside Little Manila, Hollis, Jamaica and citywide Filipino spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Filipino American History Month is observed in October, tied to the documented arrival of Filipinos in what is now the United States in 1587 and later Filipino American organizing.",
         "Who celebrates: Filipino families, Little Manila businesses, nurses and health-care workers, churches, schools, creators",
@@ -2106,6 +2198,7 @@
       "category": "Social",
       "type": "Heritage month",
       "location": "Howard Beach, Middle Village, Whitestone, Corona and citywide Italian American spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Italian-American Heritage and Culture Month is observed in October in the United States. In Queens, it intersects with Italian American neighborhood histories beyond Manhattan's Little Italy.",
         "Who celebrates: Italian American families, bakeries, delis, restaurants, Catholic institutions, social clubs",
@@ -2131,6 +2224,7 @@
       "category": "Sports",
       "type": "Baseball playoffs / World Series",
       "location": "Yankee Stadium, Citi Field, watch parties",
+      "duplicate_of": null,
       "research_notes": [
         "History: MLB's postseason turns a long regular season into a high-pressure civic drama. In New York, Yankees or Mets playoff baseball activates deep histories of championship memory, neighborhood identity, rivalry, sports radio, bars and family traditions passed across generations.",
         "Who celebrates: Baseball fans, sports bars, hotels, neighborhood businesses",
@@ -2154,6 +2248,7 @@
       "category": "Holiday",
       "type": "Jewish New Year",
       "location": "Forest Hills, Rego Park, Kew Gardens Hills, Far Rockaway, Bayside",
+      "duplicate_of": null,
       "research_notes": [
         "History: Rosh Hashanah begins the Jewish High Holy Days and is associated with prayer, the shofar, repentance and symbolic foods such as apples and honey for a sweet new year.",
         "Who celebrates: Jewish and Israeli communities, synagogues, kosher restaurants, schools, families",
@@ -2177,6 +2272,7 @@
       "category": "Parade",
       "type": "Polish heritage parade",
       "location": "Fifth Avenue, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: Pulaski Day Parade honors Casimir Pulaski, a Polish-born military leader remembered for his role in the American Revolution. In NYC it is also a public expression of Polish American heritage, connecting Fifth Avenue ceremony with communities such as Greenpoint and broader Polish diaspora networks.",
         "Who celebrates: Polish diaspora, families, civic groups, cultural organizations",
@@ -2201,6 +2297,7 @@
       "category": "Holiday",
       "type": "Public holiday / cultural observance",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: This October holiday carries different meanings depending on the community and institution. Italian heritage celebrations often emphasize immigrant pride and Italian American contributions, while Indigenous Peoples' Day reframes the date around Native survival, sovereignty and the harms of colonization. The significance is in handling both histories with precision and respect.",
         "Who celebrates: Schools, families, Italian American groups, Indigenous communities, museums",
@@ -2224,6 +2321,7 @@
       "category": "Holiday",
       "type": "Religious / cultural holiday",
       "location": "Citywide; Queens and South Asian communities",
+      "duplicate_of": null,
       "research_notes": [
         "History: Diwali, the Festival of Lights, is celebrated by Hindu, Sikh, Jain and some Buddhist communities with lamps, sweets, prayer, family visits and renewal. In NYC, especially Queens, it has grown in public visibility through school-calendar recognition, South Asian business corridors, temple events and community festivals.",
         "Who celebrates: South Asian communities, families, restaurants, retail, schools",
@@ -2248,6 +2346,7 @@
       "category": "Parade",
       "type": "Participatory arts parade",
       "location": "Greenwich Village, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: The Village Halloween Parade began in the 1970s as a neighborhood arts procession and grew into one of NYC's most famous participatory events. Its significance comes from creative freedom, queer nightlife, puppetry, costume culture and the Village's long history as a space for performance and counterculture.",
         "Who celebrates: Artists, nightlife, families, tourists, costume makers",
@@ -2271,6 +2370,7 @@
       "category": "Culture",
       "type": "Mexican remembrance tradition",
       "location": "Corona, Jackson Heights, Elmhurst, museums and community spaces",
+      "duplicate_of": null,
       "research_notes": [
         "History: Dia de los Muertos is rooted in Mexican traditions honoring deceased loved ones around November 1 and 2. Ofrendas, flowers, candles, food and photos make memory visible in homes and public spaces.",
         "Who celebrates: Mexican families, cultural organizations, museums, schools, bakeries, florists",
@@ -2294,6 +2394,7 @@
       "category": "Social",
       "type": "Social calendar / heritage month",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Native American Heritage Month is observed in November in the United States. It is used by cultural institutions, educators and Native communities to recognize Indigenous histories, sovereignty, art, language and contemporary life.",
         "Who celebrates: Indigenous communities, museums, educators, cultural institutions, families, civic organizations",
@@ -2317,6 +2418,7 @@
       "category": "Holiday",
       "type": "Civic holiday / school closure",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Election Day is a civic anchor for voting, public schools and local political life. In NYC, even off-year elections can determine city and state offices, ballot questions and neighborhood-level power, making it a useful moment for nonpartisan voter education and civic literacy.",
         "Who celebrates: Voters, families, civic organizations, students",
@@ -2338,6 +2440,7 @@
       "category": "Sports",
       "type": "World Marathon Major",
       "location": "All five boroughs",
+      "duplicate_of": null,
       "research_notes": [
         "History: The New York City Marathon began in 1970 with loops in Central Park before expanding into a five-borough race in 1976. Its significance is enormous: it turns the entire city into a course, combines elite sport with charity fundraising and neighborhood cheering, and gives every borough a visible role in one global event.",
         "Who celebrates: Runners, families, global visitors, wellness brands, neighborhoods along course",
@@ -2361,6 +2464,7 @@
       "category": "Parade",
       "type": "Civic parade",
       "location": "Fifth Avenue, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: Veterans Day began as Armistice Day, marking the end of World War I on November 11, 1918, and later expanded to honor all U.S. military veterans. New York's parade tradition makes the day a civic commemoration, connecting service, family memory, public gratitude and veteran support organizations.",
         "Who celebrates: Veterans, families, civic groups, schools, nonprofits",
@@ -2383,6 +2487,7 @@
       "category": "Parade",
       "type": "Holiday parade",
       "location": "Upper West Side to Midtown",
+      "duplicate_of": null,
       "research_notes": [
         "History: Macy's Thanksgiving Day Parade began in 1924 and became one of America's best-known holiday broadcasts. Its significance is both local and national: it turns Manhattan into a live performance corridor and signals the start of the holiday shopping season, family travel and brand storytelling.",
         "Who celebrates: Families, tourists, brands, hotels, broadcasters",
@@ -2405,6 +2510,7 @@
       "category": "Social",
       "type": "Retail / social media moment",
       "location": "Citywide; neighborhood retail corridors",
+      "duplicate_of": null,
       "research_notes": [
         "History: Black Friday is the Friday after Thanksgiving and has become a major U.S. retail shopping day. Small Business Saturday follows the next day and is widely used to push local shopping, neighborhood discovery and independent retail.",
         "Who celebrates: Retailers, makers, restaurants, neighborhood BIDs, creators, gift-guide audiences",
@@ -2427,6 +2533,7 @@
       "category": "Social",
       "type": "Digital retail / nonprofit giving moment",
       "location": "Digital-first; citywide partners",
+      "duplicate_of": null,
       "research_notes": [
         "History: Cyber Monday is the Monday after Thanksgiving and is tied to online shopping. GivingTuesday follows on Tuesday and began as a global generosity movement, making it a natural day for nonprofits, mutual aid groups and mission-led brands.",
         "Who celebrates: E-commerce brands, nonprofits, creators, donors, small businesses, community organizations",
@@ -2449,6 +2556,7 @@
       "category": "Festival",
       "type": "Holiday season",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: NYC's holiday season layers many traditions at once: Christmas windows and trees, Hanukkah menorah lightings, Kwanzaa programming, winter markets, concerts, school breaks and tourism. Its significance is that New York becomes a stage for both religious observance and commercial spectacle.",
         "Who celebrates: Families, shoppers, tourists, cultural institutions, restaurants",
@@ -2471,6 +2579,7 @@
       "category": "Holiday",
       "type": "Public holiday",
       "location": "Citywide",
+      "duplicate_of": null,
       "research_notes": [
         "History: Christmas commemorates the birth of Jesus in Christian tradition and has also become a major cultural and commercial holiday in the United States. In NYC, it is tied to church services, family meals, tourism, retail windows, Rockefeller Center, music and the question of what remains open in a dense global city.",
         "Who celebrates: Families, tourists, churches, restaurants, hotels",
@@ -2493,6 +2602,7 @@
       "category": "Festival",
       "type": "Global broadcast event",
       "location": "Times Square, Manhattan",
+      "duplicate_of": null,
       "research_notes": [
         "History: Times Square New Year's Eve grew from early 20th-century public celebrations around the New York Times building and the famous ball drop. It became a global media ritual, making NYC the symbolic capital of the countdown and a major test of crowd management, live entertainment and destination marketing.",
         "Who celebrates: Tourists, hotels, nightlife, broadcasters, brands",

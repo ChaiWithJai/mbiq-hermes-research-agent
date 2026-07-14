@@ -57,12 +57,16 @@ if (!Array.isArray(rawEvents) || rawEvents.length !== 109) {
 }
 
 const seen = new Set();
+const canonicalBySignature = new Map();
 const events = rawEvents.map((event) => {
   const base = `${event.month}-${event.title}`;
   let id = slug(base);
   let suffix = 2;
   while (seen.has(id)) id = `${slug(base)}-${suffix++}`;
   seen.add(id);
+  const signature = [event.month, event.date, event.title, event.location].join('|').toLowerCase();
+  const duplicateOf = canonicalBySignature.get(signature) || null;
+  if (!duplicateOf) canonicalBySignature.set(signature, id);
   const notes = Array.isArray(event.extra) ? event.extra : [];
   const sourceNote = notes.find((note) => note.startsWith('Sources:')) || '';
   return {
@@ -76,6 +80,7 @@ const events = rawEvents.map((event) => {
     category: event.category,
     type: event.type,
     location: event.location,
+    duplicate_of: duplicateOf,
     research_notes: notes.filter((note) => !note.startsWith('Sources:')),
     source_labels: sourceNote.replace(/^Sources:\s*/, '').split(';').map((value) => value.trim()).filter(Boolean)
   };
@@ -87,6 +92,7 @@ const document = {
     source_chunk_url: chunkUrl.href,
     year: YEAR,
     event_count: events.length,
+    duplicate_count: events.filter((event) => event.duplicate_of).length,
     imported_at: new Date().toISOString(),
     note: 'Dates retain the source display text and confidence label. Expected dates must be rechecked before publication.'
   },
@@ -96,4 +102,3 @@ const document = {
 await mkdir(dirname(output), { recursive: true });
 await writeFile(output, `${JSON.stringify(document, null, 2)}\n`);
 console.log(`Wrote ${events.length} events to ${output}`);
-
