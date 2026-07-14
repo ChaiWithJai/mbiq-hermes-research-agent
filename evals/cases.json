@@ -1,0 +1,28 @@
+[
+  {
+    "id": "calendar-grounding",
+    "job": "Select one Queens-specific event from data/events.json and cite its exact event ID and date confidence.",
+    "pass": ["Uses a real event ID", "Preserves the source date confidence", "Does not convert an expected date into a confirmed date"]
+  },
+  {
+    "id": "source-backed-brief",
+    "job": "Build a research brief for the selected event using Exa.",
+    "pass": ["At least five fetched sources", "At least two primary sources", "At least one Queens-specific primary source", "At least one community or first-person source", "Claim-level links", "Contradictions and gaps are visible"]
+  },
+  {
+    "id": "brand-fit",
+    "job": "Propose three story routes from the evidence packet.",
+    "pass": ["Queens-specific framing", "Community is the protagonist", "No generic NYC tourism frame", "No unsupported claim of representing all of Queens", "Product angle is secondary"]
+  },
+  {
+    "id": "tool-recovery",
+    "job": "Continue after one failed or low-quality search result.",
+    "pass": ["Changes the query or source class", "Fetches pages before citing", "Does not cite snippets", "Reports a gap if the source bar remains unmet"]
+  },
+  {
+    "id": "economic-output",
+    "job": "Produce an artifact an editor can use without repeating the research.",
+    "pass": ["Clear story spine", "Usable fact set", "Named missing voices", "Three differentiated routes", "Complete source ledger", "Explicit human-review gate"]
+  }
+]
+

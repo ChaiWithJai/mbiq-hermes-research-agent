@@ -1,0 +1,21 @@
+model:
+  provider: custom
+  base_url: http://127.0.0.1:8080/v1
+  default: prism-ml/Ternary-Bonsai-27B-mlx-2bit
+
+mcp_servers:
+  exa:
+    url: https://mcp.exa.ai/mcp?tools=web_search_exa,web_search_advanced_exa,web_fetch_exa
+    supports_parallel_tool_calls: true
+    tools:
+      include:
+        - web_search_exa
+        - web_search_advanced_exa
+        - web_fetch_exa
+      prompts: false
+      resources: false
+
+approvals:
+  mode: ask
+  cron_mode: deny
+

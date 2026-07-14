@@ -1,0 +1,2508 @@
+{
+  "metadata": {
+    "source_url": "https://mbiq-research-hub.netlify.app/",
+    "source_chunk_url": "https://mbiq-research-hub.netlify.app/_next/static/chunks/0ppql3uns4bmb.js",
+    "year": 2027,
+    "event_count": 109,
+    "imported_at": "2026-07-14T20:20:10.219Z",
+    "note": "Dates retain the source display text and confidence label. Expected dates must be rechecked before publication."
+  },
+  "events": [
+    {
+      "id": "january-new-year-s-day",
+      "year": 2027,
+      "month": "January",
+      "date_display": "Jan 1, Fri",
+      "date_confidence": "Confirmed date",
+      "title": "New Year's Day",
+      "summary": "Federal, state and city holiday with heavy travel, nightlife and hospitality relevance after New Year's Eve.",
+      "category": "Holiday",
+      "type": "Public holiday",
+      "location": "Citywide",
+      "research_notes": [
+        "History: New Year's Day marks the first day of the Gregorian calendar and is one of the world's most widely recognized civic holidays. In New York, its meaning is inseparable from Times Square New Year's Eve: the city becomes a global stage for countdown culture, tourism, nightlife, public safety planning and the symbolic reset that follows the holiday season.",
+        "Who celebrates: Residents, visitors, hospitality, nightlife, families",
+        "Collaboration angle: Recovery brunch guides, hotel packages, alcohol-free reset content, public-space cleanup/community stories.",
+        "Content use: Publish New Year's Eve logistics in December, then New Year's Day food, transit and wellness guides."
+      ],
+      "source_labels": [
+        "NYC Public Schools Calendar",
+        "U.S. OPM: 2027 Federal Holidays"
+      ]
+    },
+    {
+      "id": "january-three-kings-day",
+      "year": 2027,
+      "month": "January",
+      "date_display": "Jan 6, Wed; parade usually nearby",
+      "date_confidence": "Annual expected",
+      "title": "Three Kings Day",
+      "summary": "A major Latino and Caribbean Christian holiday in NYC, often anchored by East Harlem cultural programming and family events.",
+      "category": "Culture",
+      "type": "Cultural holiday",
+      "location": "East Harlem / citywide",
+      "research_notes": [
+        "History: Three Kings Day, or Dia de los Reyes, commemorates the visit of the Magi in Christian tradition and is especially important in Puerto Rican, Dominican, Mexican, Caribbean and broader Latino communities. In NYC it has long been celebrated through family gatherings, gift-giving, parades, museum programming and neighborhood events, making it a strong bridge between faith, childhood traditions and Latino cultural visibility.",
+        "Who celebrates: Families, Latino communities, schools, museums, neighborhood groups",
+        "Collaboration angle: Toy drives, family arts workshops, bakery partnerships, bilingual creator content.",
+        "Content use: Build a family-friendly guide and explain the rosca, gift-giving and neighborhood traditions."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "january-martin-luther-king-jr-day",
+      "year": 2027,
+      "month": "January",
+      "date_display": "Jan 18, Mon",
+      "date_confidence": "Confirmed date",
+      "title": "Martin Luther King Jr. Day",
+      "summary": "Public holiday with civic programming, volunteer campaigns, museum events and Black history storytelling.",
+      "category": "Holiday",
+      "type": "Public holiday",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Martin Luther King Jr. Day honors the civil rights leader's legacy of nonviolent activism, voting rights, labor justice and racial equality. The holiday became federal law in 1983 and is often framed as a day of service, which gives NYC organizations a natural moment for volunteer campaigns, public history, Black institution spotlights and civic education.",
+        "Who celebrates: Civic groups, students, families, nonprofits",
+        "Collaboration angle: Day-of-service partners, nonprofit spotlights, Black-owned business guides, youth leadership features.",
+        "Content use: Prepare a service-oriented content package two weeks ahead of the holiday."
+      ],
+      "source_labels": [
+        "NYC Public Schools Calendar",
+        "U.S. OPM: 2027 Federal Holidays"
+      ]
+    },
+    {
+      "id": "february-black-history-month",
+      "year": 2027,
+      "month": "February",
+      "date_display": "February",
+      "date_confidence": "Confirmed annual observance",
+      "title": "Black History Month",
+      "summary": "A core content month for Black history, culture, business, arts, education and civic storytelling.",
+      "category": "Social",
+      "type": "Social calendar / heritage month",
+      "location": "Citywide; Harlem, Brooklyn, Queens, Bronx cultural institutions",
+      "research_notes": [
+        "History: Black History Month grew from historian Carter G. Woodson's earlier Negro History Week and became a month-long U.S. observance in February. It is celebrated by schools, museums, libraries, brands, creators, Black-led organizations and communities across the African diaspora.",
+        "Who celebrates: Black communities, educators, museums, libraries, nonprofits, cultural brands, restaurants, creators",
+        "Collaboration angle: Black-owned business features, creator spotlights, museum partnerships, neighborhood history walks, education-first social series.",
+        "Content use: Build a month-long editorial calendar with weekly themes: history, food, music, business, family and future leaders.",
+        "Community tags: Jamaican, Haitian, Barbadian, Grenadian, Guyanese, Trinidadian",
+        "Neighborhood tags: East Elmhurst, Jamaica, Hollis, St. Albans, Cambria Heights, Rosedale, South Jamaica, Rochdale Village"
+      ],
+      "source_labels": [
+        "Black History Month",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "february-nhl-all-star-weekend",
+      "year": 2027,
+      "month": "February",
+      "date_display": "Feb 5-6, Fri-Sat",
+      "date_confidence": "Confirmed date",
+      "title": "NHL All-Star Weekend",
+      "summary": "UBS Arena hosts a revamped NHL All-Star Weekend with international teams representing Canada, Finland, Sweden, the United States and a World roster.",
+      "category": "Sports",
+      "type": "Hockey / international showcase",
+      "location": "UBS Arena, Elmont",
+      "research_notes": [
+        "History: The NHL All-Star Game began in the mid-20th century as a showcase of the league's best players and has evolved into a fan festival and skills weekend. The 2027 UBS Arena edition matters locally because it brings national hockey attention to the New York metro area and uses an international team format, tying the event to global hockey identities as well as Islanders, Rangers and Devils fandom.",
+        "Who celebrates: Hockey fans, international sports fans, Long Island visitors, youth athletes",
+        "Collaboration angle: Country-themed watch parties, hockey clinics, arena travel guides, sports bar partnerships.",
+        "Content use: Create a Long Island weekend guide and explain the new international format.",
+        "NYC teams to highlight: New York Rangers, New York Islanders"
+      ],
+      "source_labels": [
+        "NY Post: 2027 NHL All-Star Weekend at UBS Arena",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "february-lunar-new-year",
+      "year": 2027,
+      "month": "February",
+      "date_display": "Feb 6, Sat; parades likely following weekends",
+      "date_confidence": "Confirmed holiday, parade dates TBD",
+      "title": "Lunar New Year",
+      "summary": "One of NYC's largest Asian cultural moments, with school-calendar relevance and events across Manhattan, Queens and Brooklyn.",
+      "category": "Culture",
+      "type": "Cultural holiday / parade season",
+      "location": "Chinatown, Flushing, Sunset Park, citywide",
+      "research_notes": [
+        "History: Lunar New Year marks the start of the lunisolar calendar and is celebrated by Chinese, Korean, Vietnamese and other Asian communities with family gatherings, symbolic foods, red envelopes, lion dances and temple or community events. In NYC, the holiday reflects the strength of Asian neighborhoods such as Manhattan Chinatown, Flushing and Sunset Park, and it carries both cultural and business significance for restaurants, schools and local merchants.",
+        "Who celebrates: Chinese, Korean, Vietnamese and broader Asian communities, families, tourists, restaurants",
+        "Collaboration angle: Restaurant crawls, family craft workshops, retail campaigns, red-envelope promotions, creator-led neighborhood tours.",
+        "Content use: Split coverage by neighborhood: Manhattan Chinatown, Flushing, Sunset Park and museum programming.",
+        "Community tags: Chinese, Taiwanese, Korean, Vietnamese",
+        "Neighborhood tags: Woodside, Elmhurst, Flushing, Whitestone, Bayside, Fresh Meadows, Auburndale"
+      ],
+      "source_labels": [
+        "NYC Public Schools Calendar",
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "february-tet-vietnamese-lunar-new-year",
+      "year": 2027,
+      "month": "February",
+      "date_display": "Feb 6-8, Sat-Mon",
+      "date_confidence": "Confirmed lunar date",
+      "title": "Tet / Vietnamese Lunar New Year",
+      "summary": "Vietnamese New Year, aligned with Lunar New Year, with family gatherings, ancestral remembrance, special foods, flowers and renewal rituals.",
+      "category": "Culture",
+      "type": "Vietnamese New Year",
+      "location": "Queens Vietnamese restaurants and community spaces; citywide",
+      "research_notes": [
+        "History: Tet is the most important Vietnamese holiday and marks the start of the Vietnamese lunisolar calendar. It blends family reunion, ancestor veneration, cleaning, gift-giving, lucky money and food traditions such as banh chung and pickled vegetables.",
+        "Who celebrates: Vietnamese families, restaurants, cafes, nail and beauty businesses, AAPI organizations",
+        "Collaboration angle: Vietnamese restaurant guides, family recipe videos, elder interviews, flower/gift content, Tet explainer reels.",
+        "Content use: Tie Tet into Lunar New Year coverage but keep a separate Vietnamese story rather than folding it into a generic Asian New Year post.",
+        "Community tags: Vietnamese"
+      ],
+      "source_labels": [
+        "Tet / Vietnamese Lunar New Year",
+        "Asian Pacific American Heritage Month"
+      ]
+    },
+    {
+      "id": "february-losar-tibetan-new-year",
+      "year": 2027,
+      "month": "February",
+      "date_display": "Feb 8-10, estimated",
+      "date_confidence": "Estimated date",
+      "title": "Losar / Tibetan New Year",
+      "summary": "Tibetan New Year season for Tibetan and Himalayan communities, with food, prayer, family gatherings and renewal practices.",
+      "category": "Culture",
+      "type": "Tibetan / Himalayan New Year",
+      "location": "Jackson Heights, Woodside, Sunnyside",
+      "research_notes": [
+        "History: Losar predates Tibetan Buddhism and became one of Tibetan culture's central new-year festivals. Traditions include cleaning, offerings, khapse pastries, family visits and monastery rituals; U.S. observance dates may vary by community calendar.",
+        "Who celebrates: Tibetan, Nepali Himalayan, Bhutanese and Buddhist communities, momo restaurants, cultural groups",
+        "Collaboration angle: Momo crawl tie-ins, Tibetan restaurant features, Losar explainers, community organization spotlights.",
+        "Content use: Use Diversity Plaza and Jackson Heights as the local anchor; verify 2027 event dates with Tibetan community groups closer to February.",
+        "Community tags: Tibetan, Nepali"
+      ],
+      "source_labels": [
+        "Losar",
+        "Conde Nast Traveler: Tibetan food in Jackson Heights",
+        "TIME: Diversity Plaza in Jackson Heights"
+      ]
+    },
+    {
+      "id": "february-ramadan-begins",
+      "year": 2027,
+      "month": "February",
+      "date_display": "Feb 8-Mar 8, estimated; moon sighting may vary",
+      "date_confidence": "Estimated date",
+      "title": "Ramadan Begins",
+      "summary": "The start of Ramadan, a month of fasting, prayer, reflection, charity and nightly community gatherings for Muslims.",
+      "category": "Holiday",
+      "type": "Religious / cultural observance",
+      "location": "Citywide; Queens, Brooklyn, Bronx and Manhattan Muslim communities",
+      "research_notes": [
+        "History: Ramadan is the ninth month of the Islamic lunar calendar and is regarded as the month in which the Quran was revealed to the Prophet Muhammad. Fasting during Ramadan is one of the Five Pillars of Islam. Because the Islamic calendar is lunar, Ramadan moves earlier each Gregorian year and begins with the sighting of the crescent moon, so local observance can vary by a day.",
+        "Who celebrates: Muslim communities, mosques, halal restaurants, families, schools, nonprofits, interfaith groups",
+        "Collaboration angle: Iftar guides, halal restaurant maps, mosque open-house explainers, charity drives, Muslim-owned business features, late-night food content.",
+        "Content use: Plan a month-long Ramadan content arc: pre-Ramadan prep, first-night iftar, neighborhood food guides, charity stories, Laylat al-Qadr context and Eid transition.",
+        "Community tags: Bangladeshi, Pakistani, Afghan, Guyanese, Trinidadian, Egyptian, Moroccan, Lebanese, Yemeni, Bosnian, Albanian",
+        "Neighborhood tags: Astoria, Briarwood, Jamaica, Queens Village, South Ozone Park"
+      ],
+      "source_labels": [
+        "Ramadan date and background reference",
+        "Eid al-Fitr date reference",
+        "NYC Public Schools Calendar"
+      ]
+    },
+    {
+      "id": "february-lincoln-s-birthday-and-presidents-day",
+      "year": 2027,
+      "month": "February",
+      "date_display": "Feb 12 and Feb 15",
+      "date_confidence": "Confirmed date",
+      "title": "Lincoln's Birthday and Presidents' Day",
+      "summary": "A midwinter school and public holiday window that can affect family travel, museums and indoor programming.",
+      "category": "Holiday",
+      "type": "Public / school holiday window",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Lincoln's Birthday and Presidents' Day sit inside a uniquely American civic memory calendar. Lincoln's birthday honors the president associated with the Civil War and emancipation, while Washington's Birthday became the federal holiday many people informally call Presidents' Day. In NYC planning, the holiday window matters because schools, museums and family attractions often build midwinter programming around it.",
+        "Who celebrates: Families, schools, museums, tourism operators",
+        "Collaboration angle: Family museum itineraries, indoor activity packages, winter break food guides.",
+        "Content use: Bundle with Lunar New Year if neighborhood events overlap."
+      ],
+      "source_labels": [
+        "NYC Public Schools Calendar",
+        "U.S. OPM: 2027 Federal Holidays"
+      ]
+    },
+    {
+      "id": "february-mls-sprint-season",
+      "year": 2027,
+      "month": "February",
+      "date_display": "Feb-May, exact schedule TBD",
+      "date_confidence": "Confirmed window",
+      "title": "MLS Sprint Season",
+      "summary": "MLS runs a short 14-match transition season before moving to a summer-to-spring calendar. NYCFC and the Red Bulls become key local soccer storylines.",
+      "category": "Sports",
+      "type": "Soccer season / playoffs",
+      "location": "NYCFC venues, Red Bull Arena",
+      "research_notes": [
+        "History: The 2027 MLS sprint season is historically unusual because it acts as a bridge between the league's old calendar and a new summer-to-spring rhythm. For NYC, it is a strong soccer storytelling moment: NYCFC, the Red Bulls and local supporter cultures all sit in one of the most globally connected soccer markets in the country.",
+        "Who celebrates: Soccer fans, immigrant communities, youth clubs, international travelers",
+        "Collaboration angle: Club supporter profiles, kit launches, pub watch guides, youth soccer clinics, borough soccer culture stories.",
+        "Content use: Explain why 2027 has two MLS moments: the sprint season and the new full calendar starting in July.",
+        "NYC teams to highlight: New York City FC"
+      ],
+      "source_labels": [
+        "The Guardian: 2027 MLS sprint season explained",
+        "2027-28 Major League Soccer season background",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "february-dominican-independence-day",
+      "year": 2027,
+      "month": "February",
+      "date_display": "Feb 27, Sat",
+      "date_confidence": "Confirmed annual date",
+      "title": "Dominican Independence Day",
+      "summary": "Dominican Independence Day, a national and diaspora pride moment connected to flags, food, music, baseball and community recognition.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Corona, Jackson Heights, Woodside, citywide Dominican spaces",
+      "research_notes": [
+        "History: Dominican Independence Day commemorates the 1844 declaration of independence from Haiti and the founding of the Dominican Republic. In NYC it connects Upper Manhattan, the Bronx, Queens and broader Dominican diaspora identity.",
+        "Who celebrates: Dominican communities, restaurants, beauty businesses, baseball fans, Spanish-language media",
+        "Collaboration angle: Quisqueya Boulevard research content, Dominican restaurant guides, merengue/bachata playlists, baseball creator pieces.",
+        "Content use: Pair with the Dominican Queens card and keep a follow-up task to verify Quisqueya Boulevard boundaries.",
+        "Community tags: Dominican"
+      ],
+      "source_labels": [
+        "Dominican NYC context",
+        "National Hispanic Heritage Month"
+      ]
+    },
+    {
+      "id": "march-women-s-history-month",
+      "year": 2027,
+      "month": "March",
+      "date_display": "March",
+      "date_confidence": "Confirmed annual observance",
+      "title": "Women's History Month",
+      "summary": "A major social content month for women's history, leadership, entrepreneurship, sports, health, arts and community power.",
+      "category": "Social",
+      "type": "Social calendar / heritage month",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Women's History Month is observed in March in the United States and aligns with International Women's Day on March 8. It expanded from Women's History Week and is now used by schools, cultural institutions, media organizations and brands to highlight women's contributions and ongoing equity issues.",
+        "Who celebrates: Women-led businesses, creators, nonprofits, schools, sports organizations, arts groups, family audiences",
+        "Collaboration angle: Women founder profiles, panels, female athlete content, creator roundtables, mentorship events, women-owned restaurant maps.",
+        "Content use: Create a full March series: women in Queens, women in sports, women-owned hospitality, community leaders and International Women's Day activations."
+      ],
+      "source_labels": [
+        "Women's History Month",
+        "International Women's Day"
+      ]
+    },
+    {
+      "id": "march-st-pat-s-for-all-parade",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Sun, Mar 7",
+      "date_confidence": "Expected annual parade",
+      "title": "St. Pat's for All Parade",
+      "summary": "Inclusive Irish and community parade through Sunnyside and Woodside.",
+      "category": "Parade",
+      "type": "Queens heritage parade",
+      "location": "Sunnyside and Woodside, Queens",
+      "research_notes": [
+        "History: St. Pat's for All began as an inclusive response to exclusion from other Irish parade spaces and became one of Queens's most distinctive neighborhood civic traditions.",
+        "Who celebrates: Irish community, LGBTQ New Yorkers, Sunnyside/Woodside families, schools, local civic groups",
+        "Collaboration angle: Irish pubs, dance schools, local musicians, inclusive heritage content, Queens pride storytelling.",
+        "Content use: Treat this as a Queens-specific parade with a values story, not only a St. Patrick's Day warm-up.",
+        "Community tags: Irish, Filipino, Nepali, Tibetan, Thai",
+        "Neighborhood tags: Astoria, Sunnyside, Woodside, Woodhaven"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "march-st-pat-s-for-all-parade-2",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Sun, Mar 7",
+      "date_confidence": "Expected annual parade",
+      "title": "St. Pat's for All Parade",
+      "summary": "Inclusive Irish and community parade through Sunnyside and Woodside.",
+      "category": "Parade",
+      "type": "Queens heritage parade",
+      "location": "Sunnyside and Woodside, Queens",
+      "research_notes": [
+        "History: St. Pat's for All began as an inclusive response to exclusion from other Irish parade spaces and became one of Queens's most distinctive neighborhood civic traditions.",
+        "Who celebrates: Irish community, LGBTQ New Yorkers, Sunnyside/Woodside families, schools, local civic groups",
+        "Collaboration angle: Irish pubs, dance schools, local musicians, inclusive heritage content, Queens pride storytelling.",
+        "Content use: Treat this as a Queens-specific parade with a values story, not only a St. Patrick's Day warm-up.",
+        "Community tags: Irish, Filipino, Nepali, Tibetan, Thai",
+        "Neighborhood tags: Astoria, Sunnyside, Woodside, Woodhaven"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "march-international-women-s-day",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 8, Mon",
+      "date_confidence": "Confirmed date",
+      "title": "International Women's Day",
+      "summary": "A high-engagement global social moment for gender equity, women's leadership, labor, culture and rights.",
+      "category": "Social",
+      "type": "Global observance / social media moment",
+      "location": "Citywide",
+      "research_notes": [
+        "History: International Women's Day is observed every March 8 and has roots in early 20th-century labor and suffrage movements. The United Nations began celebrating it in 1975, and it is now used worldwide by communities, institutions and brands to recognize women's achievements and advocate for equality.",
+        "Who celebrates: Women-led organizations, employees, founders, athletes, artists, educators, advocacy groups, brands",
+        "Collaboration angle: Panel events, creator interviews, women-owned business roundups, fundraising tie-ins, brand campaigns with measurable support.",
+        "Content use: Anchor the first week of March around International Women's Day, then extend into Women's History Month."
+      ],
+      "source_labels": [
+        "International Women's Day",
+        "Women's History Month"
+      ]
+    },
+    {
+      "id": "march-eid-al-fitr",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 9, Tue; moon sighting may vary",
+      "date_confidence": "Estimated date",
+      "title": "Eid al-Fitr",
+      "summary": "The celebration marking the end of Ramadan, with major family, mosque, restaurant and community relevance across NYC.",
+      "category": "Holiday",
+      "type": "Religious / cultural holiday",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Eid al-Fitr marks the end of Ramadan, the month of fasting, prayer, charity and reflection in Islam. The holiday is celebrated with communal prayer, family visits, new clothes, sweets and acts of giving. In NYC, its significance is visible across Muslim communities from Queens and Brooklyn to the Bronx, and it is increasingly recognized in public school and civic calendars.",
+        "Who celebrates: Muslim communities, families, halal restaurants, schools",
+        "Collaboration angle: Halal dining guides, modest fashion stories, community giving features, Eid market coverage.",
+        "Content use: Flag date variance clearly and update once local communities confirm observance.",
+        "Community tags: Bangladeshi, Pakistani, Afghan, Guyanese, Trinidadian, Egyptian, Moroccan, Lebanese, Yemeni, Bosnian, Albanian"
+      ],
+      "source_labels": [
+        "Eid al-Fitr date reference",
+        "NYC Public Schools Calendar"
+      ]
+    },
+    {
+      "id": "march-big-east-men-s-basketball-tournament",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 10-13, expected",
+      "date_confidence": "Annual expected",
+      "title": "Big East Men's Basketball Tournament",
+      "summary": "The Big East Tournament is a signature Madison Square Garden college basketball week and one of March's strongest sports tourism draws.",
+      "category": "Sports",
+      "type": "College basketball tournament",
+      "location": "Madison Square Garden",
+      "research_notes": [
+        "History: The Big East Tournament has been closely tied to Madison Square Garden since the early 1980s, helping define New York as a center of college basketball culture. Its significance comes from alumni travel, school rivalries, media attention and the way MSG turns a conference tournament into a citywide sports week.",
+        "Who celebrates: College basketball fans, alumni groups, sports bars, hotels",
+        "Collaboration angle: Alumni watch parties, Midtown dining maps, bracket content, college creator partnerships.",
+        "Content use: Use Selection Sunday and St. John's/UConn/Big East storylines as hooks."
+      ],
+      "source_labels": [
+        "Big East Men's Basketball Tournament",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "march-nyc-st-patrick-s-day-parade",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 17, Wed",
+      "date_confidence": "Confirmed by annual rule",
+      "title": "NYC St. Patrick's Day Parade",
+      "summary": "One of NYC's oldest and largest heritage parades, centered on Irish culture, Catholic tradition and civic participation.",
+      "category": "Parade",
+      "type": "Irish heritage parade",
+      "location": "Fifth Avenue, Manhattan",
+      "research_notes": [
+        "History: New York's St. Patrick's Day Parade dates back to the 18th century and predates the United States as a nation. It became a central expression of Irish immigrant identity, Catholic community life and political visibility in the city. Today it is both a heritage parade and a reminder of how immigrant groups used public processions to claim space in New York.",
+        "Who celebrates: Irish diaspora, tourists, bars, cultural institutions, families",
+        "Collaboration angle: Irish pub maps, sober celebration guides, diaspora profiles, music and dance features.",
+        "Content use: Publish route, transit, viewing and neighborhood guide one week out.",
+        "Community tags: Irish"
+      ],
+      "source_labels": [
+        "NYC St. Patrick's Day Parade",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "march-nowruz",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 20, Sat",
+      "date_confidence": "Confirmed equinox date",
+      "title": "Nowruz",
+      "summary": "Spring equinox new year celebrated by Persian, Afghan, Kurdish, Central Asian and other communities.",
+      "category": "Culture",
+      "type": "Persianate / Central Asian New Year",
+      "location": "Citywide; Queens Afghan, Iranian, Central Asian and South Asian networks",
+      "research_notes": [
+        "History: Nowruz has roots in ancient Iranian and Zoroastrian traditions and marks renewal at the spring equinox. It is celebrated with Haft-Sin tables, spring cleaning, visiting family, sweets and community gatherings.",
+        "Who celebrates: Afghan, Iranian, Kurdish, Central Asian, South Asian and interfaith communities",
+        "Collaboration angle: Haft-Sin explainer, Afghan restaurant features, floral/gift guides, spring renewal content.",
+        "Content use: Use as a bridge between Ramadan, spring content and Afghan/Persianate community storytelling.",
+        "Community tags: Afghan"
+      ],
+      "source_labels": [
+        "Nowruz"
+      ]
+    },
+    {
+      "id": "march-united-airlines-nyc-half",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 21, Sun, expected",
+      "date_confidence": "Annual expected",
+      "title": "United Airlines NYC Half",
+      "summary": "A major NYRR half marathon connecting Brooklyn and Manhattan with high participation and spectator energy.",
+      "category": "Sports",
+      "type": "Road race",
+      "location": "Brooklyn to Manhattan",
+      "research_notes": [
+        "History: The NYC Half is part of the city's modern running culture, which grew around New York Road Runners and the rise of mass-participation road racing. It matters because it brings a major race experience to spring, connecting Brooklyn and Manhattan while creating a wellness, charity, tourism and neighborhood-cheering moment before the fall marathon.",
+        "Who celebrates: Runners, wellness brands, hotels, fitness studios",
+        "Collaboration angle: Training plans, recovery partners, running-club profiles, carb-loading maps.",
+        "Content use: Start training content in January; race-week logistics in March."
+      ],
+      "source_labels": [
+        "New York City Marathon",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "march-holi-and-phagwah",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 22, estimated",
+      "date_confidence": "Estimated date",
+      "title": "Holi and Phagwah",
+      "summary": "Festival of colors celebrated by Hindu, South Asian, Indo-Caribbean and Nepali communities, often with powder, music and food.",
+      "category": "Festival",
+      "type": "Spring festival / color festival",
+      "location": "Richmond Hill, South Richmond Hill, Queens parks and temples",
+      "research_notes": [
+        "History: Holi marks spring, renewal and stories of devotion and the triumph of good over evil. In Caribbean and Indo-Caribbean communities it is also widely known as Phagwah and is a major public expression of Hindu and diaspora identity.",
+        "Who celebrates: Indian, Punjabi, Nepali, Guyanese, Trinidadian, Indo-Caribbean and Hindu communities",
+        "Collaboration angle: Color festival coverage, mandir partnerships, Richmond Hill food guides, family-safe event listings.",
+        "Content use: Separate South Asian Holi and Indo-Caribbean Phagwah angles; capture Liberty Avenue and Richmond Hill context.",
+        "Community tags: Indian, Punjabi, Nepali, Guyanese, Trinidadian"
+      ],
+      "source_labels": [
+        "Holi",
+        "Liberty Avenue and Little Guyana"
+      ]
+    },
+    {
+      "id": "march-phagwah-holi",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mon, Mar 22",
+      "date_confidence": "Date reference; local events TBD",
+      "title": "Phagwah / Holi",
+      "summary": "Spring festival of color with strong Indo-Caribbean and South Asian relevance in Richmond Hill, South Ozone Park and Queens Village.",
+      "category": "Culture",
+      "type": "Religious / cultural holiday",
+      "location": "Queens Indo-Caribbean and South Asian corridors",
+      "research_notes": [
+        "History: Holi, often called Phagwah in Indo-Caribbean communities, celebrates spring, renewal and the triumph of good over evil. In Queens, it is especially tied to Guyanese, Trinidadian and South Asian communities.",
+        "Who celebrates: Guyanese, Trinidadian, Indian, Punjabi, Hindu communities, families, mandirs, schools and food businesses",
+        "Collaboration angle: Color-safe family events, roti shop maps, mandir calendars, Indo-Caribbean music and dance content.",
+        "Content use: Separate Indo-Caribbean Phagwah from generic Holi color-party content; Liberty Avenue and 101st Avenue matter.",
+        "Community tags: Guyanese, Trinidadian, Indian, Punjabi",
+        "Neighborhood tags: Richmond Hill, Ozone Park, South Ozone Park"
+      ],
+      "source_labels": [
+        "Phagwah / Holi background",
+        "Liberty Avenue and Little Guyana"
+      ]
+    },
+    {
+      "id": "march-greek-independence-day",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 25, Thu",
+      "date_confidence": "Confirmed annual date",
+      "title": "Greek Independence Day",
+      "summary": "Greek national day and diaspora pride moment with strong Astoria relevance.",
+      "category": "Culture",
+      "type": "National independence day / diaspora pride",
+      "location": "Astoria and citywide Greek institutions",
+      "research_notes": [
+        "History: Greek Independence Day commemorates the start of the 1821 Greek War of Independence. In Queens, Astoria gives the holiday a local business, church, school and food-culture dimension.",
+        "Who celebrates: Greek diaspora, Orthodox churches, bakeries, restaurants, schools, civic groups",
+        "Collaboration angle: Astoria Greek food guide, church/cultural center features, bakery reels, diaspora history posts.",
+        "Content use: Anchor locally in Astoria rather than treating the event as only a Manhattan parade story.",
+        "Community tags: Greek"
+      ],
+      "source_labels": [
+        "Greek Independence Day",
+        "Astoria cultural communities"
+      ]
+    },
+    {
+      "id": "march-mlb-opening-window-yankees-and-mets",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Late Mar / early Apr, exact schedule TBD",
+      "date_confidence": "Expected window",
+      "title": "MLB Opening Window: Yankees and Mets",
+      "summary": "MLB usually opens in late March or early April, starting a long Yankees/Mets content season through September and potentially October.",
+      "category": "Sports",
+      "type": "Baseball season start",
+      "location": "Yankee Stadium and Citi Field",
+      "research_notes": [
+        "History: Opening Day is a baseball ritual that signals spring, civic pride and a new narrative arc for every team. In NYC, Yankees and Mets openers carry extra cultural weight because the two clubs represent different borough identities, histories and fan traditions, from Yankee Stadium's championship mythology to Citi Field's Queens-rooted baseball culture.",
+        "Who celebrates: Baseball fans, families, tourists, sports bars, neighborhood businesses",
+        "Collaboration angle: Opening Day guides, Bronx and Queens business features, rivalry content, ballpark food reviews.",
+        "Content use: Track schedule release and build home-opener guides for both teams.",
+        "NYC teams to highlight: New York Yankees, New York Mets",
+        "Neighborhood tags: Flushing, Willets Point, Flushing Meadows-Corona Park"
+      ],
+      "source_labels": [
+        "Major League Baseball schedule",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "march-bangladesh-independence-day",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 26, Fri",
+      "date_confidence": "Confirmed annual date",
+      "title": "Bangladesh Independence Day",
+      "summary": "Bangladeshi national and diaspora pride day, important for Jamaica's Little Bangladesh and Jackson Heights communities.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Jamaica, Jackson Heights, Ozone Park and Bangladeshi community spaces",
+      "research_notes": [
+        "History: Bangladesh Independence Day commemorates the country's 1971 declaration of independence. In Queens, it connects flags, Bangla language, food, mosques, small businesses and civic organizations.",
+        "Who celebrates: Bangladeshi families, Bangla media, halal restaurants, sweets shops, community groups",
+        "Collaboration angle: Little Bangladesh Jamaica guides, Bangla creator interviews, food and sweets maps, youth civic profiles.",
+        "Content use: Pair with International Mother Language Day in a future update for a fuller Bangladeshi calendar arc.",
+        "Community tags: Bangladeshi"
+      ],
+      "source_labels": [
+        "Bengali Americans in NYC",
+        "Ethnic enclaves in North American cities"
+      ]
+    },
+    {
+      "id": "march-good-friday-and-easter-weekend",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 26-28",
+      "date_confidence": "Confirmed date",
+      "title": "Good Friday and Easter Weekend",
+      "summary": "Christian holiday weekend with church services, family meals and the informal Easter Parade and Bonnet Festival on Fifth Avenue.",
+      "category": "Holiday",
+      "type": "Religious / cultural weekend",
+      "location": "Citywide; Fifth Avenue for Easter Parade",
+      "research_notes": [
+        "History: Good Friday and Easter sit at the center of the Christian liturgical calendar, commemorating the crucifixion and resurrection of Jesus. NYC's Easter Parade and Bonnet Festival developed into a public fashion and street-life tradition on Fifth Avenue, making the weekend both a religious observance and a highly visual civic ritual.",
+        "Who celebrates: Families, churches, fashion creators, restaurants",
+        "Collaboration angle: Bonnet/fashion shoots, brunch guides, church architecture walks, family activities.",
+        "Content use: Pair solemn Good Friday context with playful Easter Sunday street-style coverage.",
+        "Community tags: Italian, Irish, Polish, Greek, Romanian, Ukrainian, Armenian, Albanian, Serbian"
+      ],
+      "source_labels": [
+        "NYC Public Schools Calendar",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "march-ncaa-men-s-basketball-east-regional",
+      "year": 2027,
+      "month": "March",
+      "date_display": "Mar 26 and Mar 28",
+      "date_confidence": "Confirmed date",
+      "title": "NCAA Men's Basketball East Regional",
+      "summary": "Madison Square Garden hosts the 2027 NCAA Men's Basketball East Regional, bringing Sweet 16 and Elite 8 games to Midtown.",
+      "category": "Sports",
+      "type": "March Madness / Sweet 16 and Elite 8",
+      "location": "Madison Square Garden",
+      "research_notes": [
+        "History: March Madness grew from a college championship into one of America's most recognizable sports tournaments. When regional rounds come to Madison Square Garden, the event connects national college basketball stakes with New York's reputation as a basketball capital, drawing alumni, media, sponsors and traveling fans into Midtown.",
+        "Who celebrates: College sports fans, alumni associations, sponsors, hotels",
+        "Collaboration angle: Alumni meetups, game-day hospitality, bracket analysis, Midtown food and transit guides.",
+        "Content use: Build a regional fan guide once teams are selected on Selection Sunday."
+      ],
+      "source_labels": [
+        "2027 NCAA Men's Basketball Tournament venues",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "april-songkran-thai-new-year",
+      "year": 2027,
+      "month": "April",
+      "date_display": "Apr 13-15",
+      "date_confidence": "Confirmed annual date pattern",
+      "title": "Songkran / Thai New Year",
+      "summary": "Thai New Year, associated with cleansing, renewal, family respect, temple merit-making and water rituals.",
+      "category": "Culture",
+      "type": "Thai New Year",
+      "location": "Elmhurst, Woodside, Jackson Heights and Thai businesses",
+      "research_notes": [
+        "History: Songkran is Thailand's traditional New Year and is observed annually around April 13-15. Its water rituals symbolize cleansing and renewal, and it is now also a major cultural tourism festival.",
+        "Who celebrates: Thai restaurants, temples, Southeast Asian communities, food creators, families",
+        "Collaboration angle: Thai restaurant crawls, temple/community listings, water ritual explainers, dessert and street-food content.",
+        "Content use: Use Elmhurst and Woodside Thai corridors as the local story anchor.",
+        "Community tags: Thai",
+        "Neighborhood tags: Elmhurst"
+      ],
+      "source_labels": [
+        "Songkran",
+        "Woodside communities"
+      ]
+    },
+    {
+      "id": "april-pohela-boishakh-bengali-new-year",
+      "year": 2027,
+      "month": "April",
+      "date_display": "Apr 14, Wed",
+      "date_confidence": "Confirmed annual date pattern",
+      "title": "Pohela Boishakh / Bengali New Year",
+      "summary": "Bengali New Year, celebrated with food, music, fairs, family gatherings and Bangla cultural pride.",
+      "category": "Culture",
+      "type": "Bengali New Year",
+      "location": "Jamaica, Jackson Heights, Bangladeshi and Bengali community spaces",
+      "research_notes": [
+        "History: Pohela Boishakh marks the first day of the Bengali calendar. For Bangladeshi and Bengali diaspora communities, it is a cultural rather than only religious marker, often celebrated through fairs, music, food and traditional clothing.",
+        "Who celebrates: Bangladeshi, Bengali, restaurants, sweets shops, Bangla media, families",
+        "Collaboration angle: Little Bangladesh Jamaica coverage, Bengali sweets and fish guides, music/dance listings, youth creator interviews.",
+        "Content use: Connect this to Bangladesh Independence Day and International Mother Language Day for a full Bengali content calendar.",
+        "Community tags: Bangladeshi"
+      ],
+      "source_labels": [
+        "Bengali Americans in NYC",
+        "Ethnic enclaves in North American cities"
+      ]
+    },
+    {
+      "id": "april-vaisakhi",
+      "year": 2027,
+      "month": "April",
+      "date_display": "Apr 14, Wed",
+      "date_confidence": "Confirmed annual date pattern",
+      "title": "Vaisakhi",
+      "summary": "Major Sikh and Punjabi festival marking harvest, solar new year and the creation of the Khalsa.",
+      "category": "Culture",
+      "type": "Sikh / Punjabi harvest and new year festival",
+      "location": "Richmond Hill, South Richmond Hill, gurdwaras and Punjabi corridors",
+      "research_notes": [
+        "History: Vaisakhi is associated with the Punjabi harvest season and, in Sikh history, the 1699 formation of the Khalsa by Guru Gobind Singh. It is often marked with gurdwara services, processions, food and community gatherings.",
+        "Who celebrates: Punjabi, Sikh and Indian communities, gurdwaras, restaurants, families",
+        "Collaboration angle: Gurdwara explainers, Punjabi food guides, Little Punjab corridor content, Sikh civic profiles.",
+        "Content use: Use Little Punjab / 101st Avenue and Richmond Hill as the Queens geography.",
+        "Community tags: Punjabi, Indian"
+      ],
+      "source_labels": [
+        "Vaisakhi",
+        "Liberty Avenue and Little Guyana"
+      ]
+    },
+    {
+      "id": "april-queens-night-market-season",
+      "year": 2027,
+      "month": "April",
+      "date_display": "Apr-Oct",
+      "date_confidence": "Expected annual season",
+      "title": "Queens Night Market season",
+      "summary": "Saturday night food and culture market centered on Queens's immigrant food map and independent vendors.",
+      "category": "Festival",
+      "type": "Queens food market / neighborhood event",
+      "location": "Flushing Meadows-Corona Park, Queens",
+      "research_notes": [
+        "History: Queens Night Market launched in Flushing Meadows-Corona Park in 2015 and became a signature Queens food event by centering affordable, global street food from dozens of countries.",
+        "Who celebrates: Queens families, food creators, immigrant vendors, tourists, students, neighborhood explorers",
+        "Collaboration angle: Vendor profiles, country-by-country food trails, creator tastings, limited product drops tied to featured cuisines.",
+        "Content use: Use as a living map of Queens communities; tag vendors by neighborhood and country instead of treating the market as one generic food festival.",
+        "Community tags: Chinese, Taiwanese, Korean, Indian, Filipino, Mexican, Peruvian, Guyanese, Trinidadian, Jamaican, Japanese, Vietnamese, Thai, Tibetan, Nepali, Punjabi, Pakistani, Bangladeshi, Colombian, Ecuadorian, Dominican, Egyptian, Greek",
+        "Neighborhood tags: Elmhurst, Corona, Flushing, Flushing Meadows-Corona Park"
+      ],
+      "source_labels": [
+        "Queens Night Market",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "april-queens-night-market-season-2",
+      "year": 2027,
+      "month": "April",
+      "date_display": "Apr-Oct",
+      "date_confidence": "Expected annual season",
+      "title": "Queens Night Market Season",
+      "summary": "Saturday night food and culture market centered on Queens's immigrant food map and independent vendors.",
+      "category": "Festival",
+      "type": "Queens food market / neighborhood event",
+      "location": "Flushing Meadows-Corona Park, Queens",
+      "research_notes": [
+        "History: Queens Night Market launched in Flushing Meadows-Corona Park in 2015 and became a signature Queens food event by centering affordable, global street food from dozens of countries.",
+        "Who celebrates: Queens families, food creators, immigrant vendors, tourists, students, neighborhood explorers",
+        "Collaboration angle: Vendor profiles, country-by-country food trails, creator tastings, limited product drops tied to featured cuisines.",
+        "Content use: Use as a living map of Queens communities; tag vendors by neighborhood and country instead of treating the market as one generic food festival.",
+        "Community tags: Chinese, Taiwanese, Korean, Indian, Filipino, Mexican, Peruvian, Guyanese, Trinidadian, Jamaican, Japanese, Vietnamese, Thai, Tibetan, Nepali, Punjabi, Pakistani, Bangladeshi, Colombian, Ecuadorian, Dominican, Egyptian, Greek",
+        "Neighborhood tags: Elmhurst, Corona, Flushing, Flushing Meadows-Corona Park"
+      ],
+      "source_labels": [
+        "Queens Night Market",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "april-earth-day",
+      "year": 2027,
+      "month": "April",
+      "date_display": "Thu, Apr 22",
+      "date_confidence": "Confirmed annual observance",
+      "title": "Earth Day",
+      "summary": "A civic content window for parks, waterways, climate resilience, street trees, cleanup days and environmental justice.",
+      "category": "Social",
+      "type": "Environmental / civic moment",
+      "location": "Citywide; Jamaica Bay, Flushing Meadows and parks",
+      "research_notes": [
+        "History: Earth Day began in 1970 and is now observed globally. In Queens, it connects directly to Jamaica Bay, flood-prone neighborhoods, park stewardship and industrial-border environmental justice.",
+        "Who celebrates: Parks groups, schools, climate organizations, families, neighborhood associations, waterfront communities",
+        "Collaboration angle: Cleanup day guides, park volunteer spotlights, school eco-clubs, reusable product drops and local waterway explainers.",
+        "Content use: Use neighborhood-level stakes: Broad Channel and The Hole are not abstract climate stories; they show water, drainage and infrastructure up close.",
+        "Neighborhood tags: The Hole, Broad Channel"
+      ],
+      "source_labels": [
+        "Earth Day",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "april-armenian-genocide-remembrance-day",
+      "year": 2027,
+      "month": "April",
+      "date_display": "Apr 24, Sat",
+      "date_confidence": "Confirmed annual date",
+      "title": "Armenian Genocide Remembrance Day",
+      "summary": "A solemn Armenian diaspora remembrance day for the victims of the Armenian Genocide.",
+      "category": "Culture",
+      "type": "Remembrance day",
+      "location": "Queens Armenian churches, schools and community networks",
+      "research_notes": [
+        "History: April 24 marks the date in 1915 when Ottoman authorities arrested Armenian intellectuals and community leaders in Constantinople, an event widely treated as the beginning of the Armenian Genocide.",
+        "Who celebrates: Armenian diaspora, churches, schools, cultural organizations, civic groups",
+        "Collaboration angle: Respectful remembrance posts, Armenian church/cultural group listings, oral-history interviews.",
+        "Content use: Use a careful memorial tone; do not package it as a generic heritage celebration.",
+        "Community tags: Armenian"
+      ],
+      "source_labels": [
+        "Armenian Genocide Remembrance Day",
+        "New York City ethnic enclaves"
+      ]
+    },
+    {
+      "id": "may-asian-american-native-hawaiian-and-pacific-islander-heritage-month",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May",
+      "date_confidence": "Confirmed annual observance",
+      "title": "Asian American, Native Hawaiian and Pacific Islander Heritage Month",
+      "summary": "A major social and cultural content month for Asian American, Native Hawaiian and Pacific Islander histories, foodways, arts and businesses.",
+      "category": "Social",
+      "type": "Social calendar / heritage month",
+      "location": "Citywide; Queens focus in Flushing, Elmhurst, Jackson Heights and Woodside",
+      "research_notes": [
+        "History: AAPI Heritage Month is observed every May in the United States. May was chosen in part to mark early Japanese immigration to the U.S. and the completion of the transcontinental railroad, which relied heavily on Chinese labor.",
+        "Who celebrates: AANHPI communities, restaurants, cultural organizations, schools, creators, small businesses",
+        "Collaboration angle: Queens food guides, Flushing and Elmhurst creator walks, anti-hate nonprofit partnerships, film/music programming, founder profiles.",
+        "Content use: Build Queens-forward coverage that avoids treating AAPI communities as a single story; separate East Asian, South Asian, Southeast Asian and Pacific Islander angles.",
+        "Community tags: Chinese, Taiwanese, Korean, Japanese, Filipino, Vietnamese, Thai, Tibetan, Nepali, Indian, Punjabi, Pakistani, Bangladeshi, Sri Lankan, Afghan"
+      ],
+      "source_labels": [
+        "Asian Pacific American Heritage Month",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "may-japan-parade-and-japan-street-fair",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May, exact date TBD",
+      "date_confidence": "Annual expected",
+      "title": "Japan Parade and Japan Street Fair",
+      "summary": "A spring Japanese cultural celebration with parade units, food, performance and pop-culture connections.",
+      "category": "Parade",
+      "type": "Japanese culture parade / street fair",
+      "location": "Central Park West area, Manhattan",
+      "research_notes": [
+        "History: Japan Parade is a newer NYC cultural event, but it draws on a long history of Japanese cultural exchange in New York through food, arts, business, anime, film and diplomacy. Its significance is that it makes Japanese and Japanese American culture visible on a major Manhattan parade route while creating space for both tradition and contemporary pop culture.",
+        "Who celebrates: Japanese diaspora, anime/manga fans, families, food lovers",
+        "Collaboration angle: Restaurant partnerships, creator cosplay content, cultural explainers, Japan travel brands.",
+        "Content use: Combine heritage, pop culture and food into a weekend guide.",
+        "Community tags: Japanese"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "may-mother-s-day",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May 9, Sun",
+      "date_confidence": "Confirmed annual rule",
+      "title": "Mother's Day",
+      "summary": "A major restaurant, retail, family and creator-content weekend tied to brunch, gifting, flowers, wellness and family storytelling.",
+      "category": "Social",
+      "type": "National social holiday / retail moment",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Mother's Day in the United States is celebrated on the second Sunday in May. It was popularized by Anna Jarvis in the early 1900s to honor mothers and maternal bonds, then became a major cultural and commercial holiday.",
+        "Who celebrates: Families, restaurants, florists, spas, retailers, hotels, photographers, family creators",
+        "Collaboration angle: Brunch guides, flower shops, family photo packages, mother-daughter founder stories, wellness partners.",
+        "Content use: Publish reservation-heavy guides early; layer in emotional storytelling closer to the day.",
+        "NYC teams to highlight: New York Yankees, New York Mets, New York Liberty, New York City FC, Gotham FC"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "may-yom-ha-atzmaut-israel-independence-day",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May 12, Wed",
+      "date_confidence": "Confirmed Hebrew-calendar date",
+      "title": "Yom Ha'atzmaut / Israel Independence Day",
+      "summary": "Israel Independence Day, observed by many Israeli and Jewish communities with community gatherings and cultural programming.",
+      "category": "Culture",
+      "type": "National independence day / Jewish calendar",
+      "location": "Queens Jewish and Israeli community spaces",
+      "research_notes": [
+        "History: Yom Ha'atzmaut commemorates the 1948 declaration of the State of Israel and is observed according to the Hebrew calendar, usually paired with Yom HaZikaron remembrance the day before.",
+        "Who celebrates: Israeli, Jewish, synagogues, schools, kosher restaurants, civic groups",
+        "Collaboration angle: Community calendar listings, kosher restaurant guides, Israeli music/food content, school and synagogue programming.",
+        "Content use: Handle with context and care; note Yom HaZikaron the evening before.",
+        "Community tags: Israeli and Jewish"
+      ],
+      "source_labels": [
+        "Yom Ha'atzmaut"
+      ]
+    },
+    {
+      "id": "may-new-york-liberty-season",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May-Nov, exact schedule TBD",
+      "date_confidence": "Expected window",
+      "title": "New York Liberty Season",
+      "summary": "The Liberty anchor NYC's women's basketball calendar at Barclays Center. Reporting indicates the WNBA moves to a 50-game season in 2027.",
+      "category": "Sports",
+      "type": "WNBA regular season / playoffs",
+      "location": "Barclays Center, Brooklyn",
+      "research_notes": [
+        "History: The New York Liberty were one of the WNBA's original franchises in 1997, making them central to the history of professional women's basketball. Their Brooklyn era has become part of the larger growth of women's sports, where attendance, media attention, fashion, activism and youth participation all intersect.",
+        "Who celebrates: Basketball fans, women's sports audiences, families, youth teams, brands",
+        "Collaboration angle: Women's sports content series, youth clinics, player-fashion coverage, Brooklyn game-night maps.",
+        "Content use: Build a Liberty season hub and update once the WNBA schedule publishes.",
+        "NYC teams to highlight: New York Liberty"
+      ],
+      "source_labels": [
+        "WNBA 2027 expansion reporting",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "may-eid-al-adha",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May 17, Mon, estimated",
+      "date_confidence": "Estimated date",
+      "title": "Eid al-Adha",
+      "summary": "A major Islamic holiday observed with prayer, family gatherings, charity and food traditions; final date depends on moon sighting.",
+      "category": "Holiday",
+      "type": "Religious / cultural holiday",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Eid al-Adha, the Festival of Sacrifice, commemorates Ibrahim's willingness to sacrifice in Islamic tradition and coincides with the Hajj pilgrimage season. It is observed through prayer, family gatherings, charity and meat distribution. In NYC, it is a significant moment for Muslim families, halal businesses, mosques and mutual aid networks.",
+        "Who celebrates: Muslim communities, families, halal food businesses, schools",
+        "Collaboration angle: Community giving stories, halal butcher/restaurant guides, mosque open-house features.",
+        "Content use: Add a moon-sighting update note in the week before observance.",
+        "Community tags: Bangladeshi, Pakistani, Afghan, Guyanese, Trinidadian, Egyptian, Moroccan, Lebanese, Yemeni, Bosnian, Albanian"
+      ],
+      "source_labels": [
+        "Eid al-Adha date reference",
+        "NYC Public Schools Calendar"
+      ]
+    },
+    {
+      "id": "may-haitian-flag-day",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May 18, Tue",
+      "date_confidence": "Confirmed annual date",
+      "title": "Haitian Flag Day",
+      "summary": "Haitian Flag Day, a major Haitian diaspora pride moment connected to history, food, music and civic life.",
+      "category": "Culture",
+      "type": "National / diaspora heritage day",
+      "location": "Cambria Heights, Queens Village, Laurelton, Rosedale",
+      "research_notes": [
+        "History: Haitian Flag Day commemorates the creation of the Haitian flag during the Haitian Revolution era and is widely celebrated by Haitian communities across the diaspora.",
+        "Who celebrates: Haitian families, restaurants, churches, schools, Creole-language media, Caribbean organizations",
+        "Collaboration angle: Southeast Queens Haitian food guide, flag history explainer, kompa playlists, community leader profiles.",
+        "Content use: Anchor in Southeast Queens and connect to Caribbean American Heritage Month in June.",
+        "Community tags: Haitian",
+        "Neighborhood tags: Laurelton"
+      ],
+      "source_labels": [
+        "Haitian Flag Day",
+        "Cambria Heights, Queens"
+      ]
+    },
+    {
+      "id": "may-brooklyn-bridge-opening-anniversary",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May 24, Mon",
+      "date_confidence": "Confirmed historical date",
+      "title": "Brooklyn Bridge Opening Anniversary",
+      "summary": "A local NYC history hook around one of the city's most iconic landmarks, useful for walking tours, architecture and photo content.",
+      "category": "Culture",
+      "type": "NYC history / landmark anniversary",
+      "location": "Brooklyn Bridge, DUMBO and Lower Manhattan",
+      "research_notes": [
+        "History: The Brooklyn Bridge opened on May 24, 1883 after years of engineering work led by John A. Roebling, Washington Roebling and Emily Warren Roebling. The bridge became a symbol of Brooklyn, Manhattan and the industrial rise of New York.",
+        "Who celebrates: History audiences, architecture fans, tourists, photographers, DUMBO businesses, walking-tour operators",
+        "Collaboration angle: Walking tours, archival photo posts, DUMBO restaurant maps, engineering explainers, creator photo walks.",
+        "Content use: Use the anniversary as a lightweight May content hook, especially for Brooklyn-Manhattan crossover collaborations."
+      ],
+      "source_labels": [
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "may-forest-hills-stadium-concert-season",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May-Oct",
+      "date_confidence": "Expected annual season",
+      "title": "Forest Hills Stadium concert season",
+      "summary": "Queens summer concert season at a historic tennis stadium turned music venue.",
+      "category": "Culture",
+      "type": "Music / venue season",
+      "location": "Forest Hills Stadium, Queens",
+      "research_notes": [
+        "History: Forest Hills Stadium opened as the West Side Tennis Club's stadium and hosted major tennis before becoming one of Queens's most distinctive outdoor music venues.",
+        "Who celebrates: Music fans, Forest Hills businesses, tennis-history audiences, nightlife and hospitality partners",
+        "Collaboration angle: Concert-day neighborhood guides, station-area food maps, artist x Queens drops, local business bundles.",
+        "Content use: Build around the venue's double identity: old tennis history and present-day summer concert culture.",
+        "Community tags: Israeli and Jewish, Russian, Armenian",
+        "Neighborhood tags: Forest Hills, Kew Gardens"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "may-memorial-day-weekend",
+      "year": 2027,
+      "month": "May",
+      "date_display": "May 29-31",
+      "date_confidence": "Confirmed date",
+      "title": "Memorial Day Weekend",
+      "summary": "Unofficial start of summer with beach openings, fleet/veterans programming, cookouts and travel.",
+      "category": "Holiday",
+      "type": "Public holiday / summer kickoff",
+      "location": "Citywide, beaches, parks",
+      "research_notes": [
+        "History: Memorial Day began after the Civil War as a day to decorate the graves of fallen soldiers and became a federal holiday honoring U.S. military members who died in service. In New York it also functions as the unofficial start of summer, so its significance is both solemn and practical: remembrance, parades, beaches, travel and seasonal business all converge.",
+        "Who celebrates: Families, veterans groups, hospitality, outdoor brands",
+        "Collaboration angle: Beach guides, picnic maps, veteran nonprofit features, summer campaign launches.",
+        "Content use: Use this as the start of the summer outdoor calendar.",
+        "Neighborhood tags: Douglaston-Little Neck, Howard Beach, Middle Village, Broad Channel, Rockaway Peninsula, Far Rockaway, Rockaway Beach, Rockaway Park, Breezy Point"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "june-nba-playoffs-and-finals-window",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Apr-June, if Knicks/Nets qualify",
+      "date_confidence": "League window",
+      "title": "NBA Playoffs and Finals Window",
+      "summary": "The NBA play-in, playoffs and Finals run from April into June. Knicks or Nets participation can quickly become a citywide content moment.",
+      "category": "Sports",
+      "type": "Basketball playoffs / finals",
+      "location": "Madison Square Garden, Barclays Center, watch parties",
+      "research_notes": [
+        "History: The NBA playoffs are the league's highest-stakes storytelling period, when local fandom, celebrity culture, sports bars, fashion and media attention intensify. In NYC, any Knicks or Nets postseason run becomes more than sports content because basketball is deeply tied to playground culture, sneaker culture and the city's self-image.",
+        "Who celebrates: Basketball fans, sports bars, hotels, fashion and sneaker audiences",
+        "Collaboration angle: Watch-party guides, sneaker/fashion content, neighborhood bar maps, playoff explainer videos.",
+        "Content use: Keep this as a flexible content window and activate only when local teams are alive."
+      ],
+      "source_labels": [
+        "2026-27 NBA season planning reference",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "june-nhl-playoffs-and-stanley-cup-final-window",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Apr-June, if Rangers/Islanders/Devils qualify",
+      "date_confidence": "League window",
+      "title": "NHL Playoffs and Stanley Cup Final Window",
+      "summary": "The NHL postseason runs from April into June, with three metro-area teams capable of creating high-intensity local fan moments.",
+      "category": "Sports",
+      "type": "Hockey playoffs / final",
+      "location": "MSG, UBS Arena, Prudential Center, watch parties",
+      "research_notes": [
+        "History: The Stanley Cup is one of the oldest trophies in North American sports, and the NHL playoffs are built around endurance, rivalries and regional identity. In the New York metro area, Rangers, Islanders and Devils postseason runs activate distinct fan bases and neighborhood viewing cultures across Manhattan, Long Island and New Jersey.",
+        "Who celebrates: Hockey fans, sports bars, commuter audiences, families",
+        "Collaboration angle: Rivalry content, Long Island vs Manhattan viewing guides, youth hockey features.",
+        "Content use: Use team advancement as trigger points for new articles and short-form video."
+      ],
+      "source_labels": [
+        "2026-27 NHL season planning reference",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "june-caribbean-american-heritage-month",
+      "year": 2027,
+      "month": "June",
+      "date_display": "June",
+      "date_confidence": "Confirmed annual observance",
+      "title": "Caribbean American Heritage Month",
+      "summary": "A month for Caribbean American history, food, music, entrepreneurship, politics and diaspora culture.",
+      "category": "Social",
+      "type": "Heritage month",
+      "location": "Southeast Queens, Richmond Hill, South Richmond Hill, citywide",
+      "research_notes": [
+        "History: Caribbean American Heritage Month is observed in June in the United States and recognizes the contributions of Caribbean immigrants and descendants across civic life, arts, food, business and culture.",
+        "Who celebrates: Caribbean communities, restaurants, churches, music venues, small businesses, civic organizations",
+        "Collaboration angle: Country-by-country Caribbean Queens guide, roti/doubles/jamaican patties content, music playlists, civic leader profiles.",
+        "Content use: Use June to build toward West Indian Carnival season while keeping Queens-specific corridors visible.",
+        "Community tags: Guyanese, Trinidadian, Jamaican, Haitian, Barbadian, Grenadian"
+      ],
+      "source_labels": [
+        "Little Caribbean street co-namings",
+        "Queens demographic overview"
+      ]
+    },
+    {
+      "id": "june-downtown-jamaica-arts-and-music-season",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Summer",
+      "date_confidence": "Watchlist / annual programming",
+      "title": "Downtown Jamaica arts and music season",
+      "summary": "Summer arts, music, public-space and small-business programming around Downtown Jamaica.",
+      "category": "Culture",
+      "type": "Queens neighborhood arts season",
+      "location": "Jamaica, Queens",
+      "research_notes": [
+        "History: Jamaica has long been a Queens transportation, shopping, education and Black cultural hub; arts programming there connects the area's commercial history with contemporary Southeast Queens creativity.",
+        "Who celebrates: Southeast Queens families, students, Black cultural institutions, Caribbean communities, local businesses",
+        "Collaboration angle: Avenue crawls, mural walks, DJ sets, Jamaica Avenue retail spotlights, campus and creator partnerships.",
+        "Content use: Use Jamaica as a full cultural center, not only a transit transfer point.",
+        "Community tags: Bangladeshi, Jamaican, Haitian, Guyanese, Trinidadian, Dominican",
+        "Neighborhood tags: Jamaica, Springfield Gardens, South Jamaica, Rochdale Village, Locust Manor"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "june-nyc-pride-march-and-pride-month",
+      "year": 2027,
+      "month": "June",
+      "date_display": "June; March expected Jun 27",
+      "date_confidence": "Annual expected",
+      "title": "NYC Pride March and Pride Month",
+      "summary": "June is NYC's major LGBTQIA+ programming month, usually culminating in the Pride March on the last Sunday.",
+      "category": "Culture",
+      "type": "LGBTQIA+ culture / parade season",
+      "location": "Citywide, Manhattan core",
+      "research_notes": [
+        "History: NYC Pride is rooted in the 1969 Stonewall uprising, when LGBTQ people resisted police raids in Greenwich Village. The annual march and surrounding events became a global symbol of queer liberation, mourning, protest and celebration. In content planning, Pride should be treated as both a party season and a civil rights history month.",
+        "Who celebrates: LGBTQIA+ communities, visitors, nightlife, nonprofits, brands",
+        "Collaboration angle: Queer-owned business guides, nonprofit partnerships, nightlife maps, community safety resources.",
+        "Content use: Build a month-long editorial arc with clear distinction between celebration, advocacy and history."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "june-queens-rising",
+      "year": 2027,
+      "month": "June",
+      "date_display": "June, expected",
+      "date_confidence": "Annual expected",
+      "title": "Queens Rising",
+      "summary": "A borough-wide multidisciplinary arts celebration designed to showcase Queens artists, stories and cultural diversity.",
+      "category": "Festival",
+      "type": "Queens arts festival / borough-wide culture",
+      "location": "Borough-wide, Queens",
+      "research_notes": [
+        "History: Queens Rising is a June arts celebration created to highlight Queens' culture and creative diversity. The official site describes it as a multidisciplinary borough-wide celebration with live music, performances, exhibitions and community programming.",
+        "Who celebrates: Queens artists, cultural institutions, local businesses, families, creators, sponsors",
+        "Collaboration angle: Artist spotlights, gallery walks, borough-wide itineraries, local sponsor packages, Queens creator residencies.",
+        "Content use: Use Queens Rising as the umbrella for June Queens arts coverage and partnership outreach.",
+        "Community tags: Chinese, Taiwanese, Korean, Japanese, Filipino, Thai, Tibetan, Nepali, Indian, Bangladeshi, Colombian, Ecuadorian, Mexican, Guyanese, Trinidadian, Jamaican, Haitian, Egyptian, Greek, Italian, Irish, Polish",
+        "Neighborhood tags: Astoria, Long Island City, Sunnyside, College Point, Kew Gardens Hills"
+      ],
+      "source_labels": [
+        "Queens Rising",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "june-brooklyn-queens-day-anniversary-day",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Jun 3, Thu, expected historical date",
+      "date_confidence": "Historical observance / not current school day off",
+      "title": "Brooklyn-Queens Day / Anniversary Day",
+      "summary": "A uniquely NYC local history moment: once a Brooklyn and Queens public-school holiday, later citywide, now replaced on the NYC school calendar.",
+      "category": "Culture",
+      "type": "NYC civic history / Brooklyn and Queens local observance",
+      "location": "Brooklyn and Queens; formerly NYC school calendar",
+      "research_notes": [
+        "History: Brooklyn-Queens Day, also called Anniversary Day, traces back to 19th-century Sunday school parades in Brooklyn. It became associated with Brooklyn, later Queens, and was long known as a school-calendar day. The day off was removed after Diwali became an NYC public school holiday, but the date remains valuable for local-history content.",
+        "Who celebrates: Brooklyn and Queens history audiences, schools, local civic groups, neighborhood creators, parents",
+        "Collaboration angle: Local historians, Queens and Brooklyn museums, schools, archive accounts, borough-pride creators.",
+        "Content use: Make this an explainer: why Brooklyn and Queens had a day, how it changed, and what it says about NYC's evolving school calendar."
+      ],
+      "source_labels": [
+        "Brooklyn-Queens Day / Anniversary Day history",
+        "NYC Public Schools Calendar"
+      ]
+    },
+    {
+      "id": "june-governors-ball-music-festival",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Early June, expected",
+      "date_confidence": "Annual expected",
+      "title": "Governors Ball Music Festival",
+      "summary": "NYC's flagship multi-day music festival and a major Gen Z / creator / brand activation moment in Queens.",
+      "category": "Festival",
+      "type": "Queens music festival / social media moment",
+      "location": "Flushing Meadows Corona Park, Queens",
+      "research_notes": [
+        "History: Governors Ball launched in 2011 and later moved to Queens, with recent editions hosted at Flushing Meadows Corona Park. The official festival positions itself as New York's big multi-genre music weekend with global artists and local food.",
+        "Who celebrates: Music fans, Gen Z audiences, brands, fashion creators, food vendors, hotels, Queens visitors",
+        "Collaboration angle: Festival fashion, food vendor guides, creator lounges, transit explainers, brand activations, Queens after-party guides.",
+        "Content use: Plan lineup reactions when announced, then festival survival guides, outfit content, vendor guides and Queens after-hours maps.",
+        "Neighborhood tags: Corona, Flushing Meadows-Corona Park"
+      ],
+      "source_labels": [
+        "Governors Ball",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "june-queens-pride-parade-and-multicultural-festival",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Jun 6, Sun, expected",
+      "date_confidence": "Annual expected",
+      "title": "Queens Pride Parade and Multicultural Festival",
+      "summary": "Queens' major LGBTQIA+ parade and multicultural festival, traditionally held on the first Sunday in June in Jackson Heights.",
+      "category": "Parade",
+      "type": "Queens parade / Pride / multicultural festival",
+      "location": "Jackson Heights, Queens",
+      "research_notes": [
+        "History: Queens Pride began in 1993 after the murder of Julio Rivera and amid local fights over LGBTQ visibility and multicultural education. It is now a major Jackson Heights event and one of NYC's most locally rooted Pride traditions.",
+        "Who celebrates: LGBTQIA+ communities, Jackson Heights residents, immigrant communities, families, nightlife, nonprofits",
+        "Collaboration angle: Queer and trans community orgs, Jackson Heights food guides, safety resources, drag performers, Pride Month brand partners.",
+        "Content use: Use it as a Queens-first Pride kickoff: history, route, community safety, local businesses and multicultural context.",
+        "Community tags: Colombian, Ecuadorian, Mexican, Peruvian, Dominican, Puerto Rican, Tibetan, Nepali, Bangladeshi, Pakistani, Indian",
+        "Neighborhood tags: Jackson Heights"
+      ],
+      "source_labels": [
+        "Queens Pride Parade history",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "june-philippine-independence-day",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Jun 12, Sat",
+      "date_confidence": "Confirmed annual date",
+      "title": "Philippine Independence Day",
+      "summary": "Philippine Independence Day, a Filipino diaspora pride moment tied to Little Manila, food, churches, remittance and family networks.",
+      "category": "Culture",
+      "type": "National independence day / diaspora pride",
+      "location": "Woodside Little Manila and Filipino community spaces",
+      "research_notes": [
+        "History: June 12 commemorates the 1898 Philippine declaration of independence from Spain. In Queens, Woodside's Little Manila makes the day a strong local story even when major parades happen elsewhere.",
+        "Who celebrates: Filipino families, restaurants, bakeries, churches, nurses and health-care workers, community groups",
+        "Collaboration angle: Little Manila Avenue guide, Filipino bakery crawl, health-care worker profiles, karaoke/music content.",
+        "Content use: Use this as the June anchor for Filipino Queens, then continue into Filipino American History Month in October.",
+        "Community tags: Filipino"
+      ],
+      "source_labels": [
+        "Little Manila in Woodside",
+        "Filipinos in the New York metropolitan area"
+      ]
+    },
+    {
+      "id": "june-national-puerto-rican-day-parade",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Jun 13, Sun",
+      "date_confidence": "Confirmed date",
+      "title": "National Puerto Rican Day Parade",
+      "summary": "America's largest Puerto Rican cultural celebration returns for its 70th annual parade on June 13, 2027.",
+      "category": "Parade",
+      "type": "Puerto Rican heritage parade",
+      "location": "Fifth Avenue, Manhattan",
+      "research_notes": [
+        "History: The National Puerto Rican Day Parade grew out of NYC's large Puerto Rican community and became one of the city's most powerful displays of Boricua identity. Its significance goes beyond the parade route: it celebrates diaspora history, language, music, politics, migration, family pride and the central role Puerto Ricans have played in shaping modern New York.",
+        "Who celebrates: Puerto Rican diaspora, Latin music fans, families, civic leaders, tourism",
+        "Collaboration angle: Boricua business guides, music playlists, artist interviews, sponsor activations, 152nd Street festival tie-ins.",
+        "Content use: Create a full Boricua week package: food, music, history, parade logistics and community profiles.",
+        "Community tags: Puerto Rican"
+      ],
+      "source_labels": [
+        "National Puerto Rican Day Parade",
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "june-coney-island-mermaid-parade",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Mid/late June, date TBD",
+      "date_confidence": "Annual expected",
+      "title": "Coney Island Mermaid Parade",
+      "summary": "A beloved Coney Island arts parade and summer ritual with costumes, boardwalk culture and Brooklyn eccentricity.",
+      "category": "Parade",
+      "type": "Arts parade / summer kickoff",
+      "location": "Coney Island, Brooklyn",
+      "research_notes": [
+        "History: The Coney Island Mermaid Parade began in 1983 as an arts-driven celebration of seaside mythology, boardwalk eccentricity and Brooklyn creativity. It matters because it keeps Coney Island's carnival spirit alive, blending costume, performance, neighborhood identity and the unofficial start of summer beach culture.",
+        "Who celebrates: Artists, families, nightlife, photographers, beachgoers",
+        "Collaboration angle: Costume creator profiles, boardwalk food guide, beach-day packages, local artist partnerships.",
+        "Content use: Lead with visual storytelling, but include transport and family-friendly viewing notes."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "june-juneteenth",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Jun 19, Sat",
+      "date_confidence": "Confirmed date",
+      "title": "Juneteenth",
+      "summary": "Federal holiday commemorating the end of slavery in the United States, with civic, cultural and community programming across NYC.",
+      "category": "Holiday",
+      "type": "Public holiday / cultural programming",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Juneteenth commemorates June 19, 1865, when enslaved people in Galveston, Texas learned of their freedom after the Civil War. It became a federal holiday in 2021, but Black communities had celebrated it for generations. In NYC, Juneteenth is a moment for Black history, emancipation education, arts, food, family gatherings and civic reflection.",
+        "Who celebrates: Black communities, museums, schools, nonprofits, families",
+        "Collaboration angle: Black-owned business guides, history walks, museum partnerships, community festival coverage.",
+        "Content use: Treat as both commemoration and cultural celebration; avoid flattening it into generic summer content."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "june-father-s-day",
+      "year": 2027,
+      "month": "June",
+      "date_display": "Jun 20, Sun",
+      "date_confidence": "Confirmed annual rule",
+      "title": "Father's Day",
+      "summary": "A restaurant, retail, sports, grooming and family storytelling moment that often overlaps with June outdoor programming.",
+      "category": "Social",
+      "type": "National social holiday / retail moment",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Father's Day is observed in the United States on the third Sunday in June. It recognizes fathers, fatherhood and paternal bonds, and has become a major dining, gifting and family content moment.",
+        "Who celebrates: Families, restaurants, retailers, barbershops, sports venues, creators",
+        "Collaboration angle: Steakhouse and barbecue guides, sports-day packages, father-child creator stories, grooming and menswear partners.",
+        "Content use: Pair Father's Day with sports, outdoor dining and summer family guides.",
+        "NYC teams to highlight: New York Yankees, New York Mets, New York City FC, Brooklyn Cyclones"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "july-international-soccer-friendlies-and-summer-tours",
+      "year": 2027,
+      "month": "July",
+      "date_display": "July-Aug, match announcements TBD",
+      "date_confidence": "Watchlist",
+      "title": "International Soccer Friendlies and Summer Tours",
+      "summary": "NYC regularly draws international club and national-team soccer events. 2027 matches are not yet confirmed, but this is a high-priority watchlist window.",
+      "category": "Sports",
+      "type": "International soccer",
+      "location": "Likely MetLife, Red Bull Arena, Yankee Stadium or Citi Field",
+      "research_notes": [
+        "History: International soccer friendlies in New York draw on the region's role as a global diaspora hub. Matches involving major clubs or national teams become cultural gatherings as much as sports events, activating restaurants, bars, flags, languages and neighborhood identities tied to the teams on the field.",
+        "Who celebrates: Global football fans, diaspora communities, tourism, sports bars",
+        "Collaboration angle: Country-specific watch parties, consulate/cultural group partnerships, football-fashion content.",
+        "Content use: Create placeholder pages only after match announcements publish."
+      ],
+      "source_labels": [
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "july-independence-day",
+      "year": 2027,
+      "month": "July",
+      "date_display": "Jul 4, Sun; observed Jul 5",
+      "date_confidence": "Confirmed date",
+      "title": "Independence Day",
+      "summary": "Major holiday weekend with fireworks, waterfront viewing, barbecues and heavy visitor planning needs.",
+      "category": "Holiday",
+      "type": "Public holiday / fireworks",
+      "location": "Citywide waterfront",
+      "research_notes": [
+        "History: Independence Day commemorates the adoption of the Declaration of Independence in 1776. In NYC, the holiday is experienced through fireworks, waterfront crowds, tourism and public-space planning, but it also invites more thoughtful content around immigration, citizenship, civic identity and who gets to define American freedom.",
+        "Who celebrates: Families, tourists, hotels, restaurants, rooftop venues",
+        "Collaboration angle: Viewing guides, rooftop partners, picnic boxes, transit explainers, safety content.",
+        "Content use: Publish early because prime viewing spots and reservations fill quickly.",
+        "Neighborhood tags: Long Island City, The Hole, Rockaway Peninsula, Rockaway Beach, Rockaway Park, Breezy Point"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "july-mls-2027-28-season-begins",
+      "year": 2027,
+      "month": "July",
+      "date_display": "July-Dec, then resumes 2028",
+      "date_confidence": "Confirmed window",
+      "title": "MLS 2027-28 Season Begins",
+      "summary": "MLS begins its first full summer-to-spring season in July 2027, creating a second major soccer launch moment after the spring sprint season.",
+      "category": "Sports",
+      "type": "Soccer season launch",
+      "location": "NYCFC, Red Bulls, metro area",
+      "research_notes": [
+        "History: MLS's move toward a summer-to-spring calendar is a major structural shift meant to align the league more closely with global soccer rhythms. For NYC, where soccer fandom is highly international, the change creates a useful cultural bridge between local clubs, immigrant fan communities and worldwide football calendars.",
+        "Who celebrates: Soccer fans, supporters groups, international communities, youth clubs",
+        "Collaboration angle: New calendar explainers, supporter bar guides, player arrival stories, summer soccer content.",
+        "Content use: Make a 'new era of MLS in NYC' package around the July start.",
+        "Neighborhood tags: Willets Point, Flushing Meadows-Corona Park"
+      ],
+      "source_labels": [
+        "2027-28 Major League Soccer season background",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "july-colombian-independence-day",
+      "year": 2027,
+      "month": "July",
+      "date_display": "Jul 20, Tue",
+      "date_confidence": "Confirmed annual date",
+      "title": "Colombian Independence Day",
+      "summary": "Colombian Independence Day, a major Queens Latino pride moment centered on Jackson Heights and Colombian business corridors.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Jackson Heights, Calle Colombia / 82nd Street, Little Colombia corridor",
+      "research_notes": [
+        "History: Colombian Independence Day commemorates the July 20, 1810 events in Bogota that began the independence process from Spain. In Queens, it connects directly to Calle Colombia and Little Colombia street identity.",
+        "Who celebrates: Colombian families, restaurants, bakeries, soccer fans, beauty businesses, Spanish-language media",
+        "Collaboration angle: Calle Colombia walking guide, Colombian bakery crawl, soccer bar content, Independence Day playlist.",
+        "Content use: Make Calle Colombia the local hook and explain the 82nd Street / 37th Avenue distinction.",
+        "Community tags: Colombian"
+      ],
+      "source_labels": [
+        "Colombian Independence Day",
+        "The New Yorker: Calle Colombia in Jackson Heights",
+        "Jackson Heights communities"
+      ]
+    },
+    {
+      "id": "july-thunderbird-american-indian-powwow",
+      "year": 2027,
+      "month": "July",
+      "date_display": "Late July, expected",
+      "date_confidence": "Annual expected",
+      "title": "Thunderbird American Indian Powwow",
+      "summary": "A cultural gathering with dance, crafts, art and food, listed by NYC Tourism as a summer cultural festival.",
+      "category": "Festival",
+      "type": "Indigenous culture festival",
+      "location": "Queens County Farm Museum, Glen Oaks",
+      "research_notes": [
+        "History: Powwows are intertribal gatherings centered on dance, music, regalia, food, craft and community. In Queens, the Thunderbird American Indian Powwow gives New Yorkers a chance to encounter Indigenous cultural expression in a city where Native histories are often overlooked, while also requiring respectful, Native-led storytelling.",
+        "Who celebrates: Families, cultural travelers, educators, craft and food audiences",
+        "Collaboration angle: Educational explainers, artisan spotlights, family guides, museum partnerships.",
+        "Content use: Center Indigenous voices and organizer-provided context."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "july-peruvian-independence-day",
+      "year": 2027,
+      "month": "July",
+      "date_display": "Jul 28, Wed",
+      "date_confidence": "Confirmed annual date",
+      "title": "Peruvian Independence Day",
+      "summary": "Peruvian Independence Day, a South American diaspora moment for restaurants, music, dance, soccer and family gatherings.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Jackson Heights, Corona, Elmhurst and Peruvian business corridors",
+      "research_notes": [
+        "History: Peru celebrates independence on July 28, marking the 1821 proclamation of independence. Queens planning can connect the date to cevicherias, pollerias, music, dance and soccer communities.",
+        "Who celebrates: Peruvian families, restaurants, dance groups, soccer fans, Spanish-language creators",
+        "Collaboration angle: Ceviche and pollo a la brasa guide, marinera dance content, Peruvian bakery and grocery features.",
+        "Content use: Use as a July South American content pillar after Colombian Independence Day.",
+        "Community tags: Peruvian"
+      ],
+      "source_labels": [
+        "National Hispanic Heritage Month",
+        "Jackson Heights communities"
+      ]
+    },
+    {
+      "id": "august-harlem-week",
+      "year": 2027,
+      "month": "August",
+      "date_display": "August, expected",
+      "date_confidence": "Annual expected",
+      "title": "Harlem Week",
+      "summary": "A multi-day celebration of Harlem's cultural history through music, dance, dining, panels and community programming.",
+      "category": "Festival",
+      "type": "Neighborhood culture festival",
+      "location": "Harlem",
+      "research_notes": [
+        "History: Harlem Week began in the 1970s as a one-day tribute and expanded into a multi-day celebration of Harlem's cultural, economic and political legacy. Its significance comes from Harlem's central role in Black arts, music, literature, activism, religion, entrepreneurship and neighborhood pride.",
+        "Who celebrates: Harlem residents, Black culture audiences, music fans, food lovers",
+        "Collaboration angle: Harlem restaurant guides, business spotlights, music history walks, panel recaps.",
+        "Content use: Use it as the anchor for an August Harlem cultural series.",
+        "Community tags: Jamaican, Haitian, Barbadian, Grenadian"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "august-jamaican-independence-day",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 6, Fri",
+      "date_confidence": "Confirmed annual date",
+      "title": "Jamaican Independence Day",
+      "summary": "Jamaican Independence Day, a major Southeast Queens Caribbean pride moment tied to food, music, flags and family gatherings.",
+      "category": "Culture",
+      "type": "National independence day / diaspora pride",
+      "location": "Jamaica, St. Albans, Cambria Heights, Laurelton",
+      "research_notes": [
+        "History: Jamaica became independent from the United Kingdom on August 6, 1962. In Queens, the day connects to Southeast Queens Caribbean identity and West Indian Carnival season.",
+        "Who celebrates: Jamaican families, restaurants, churches, reggae/dancehall audiences, Caribbean businesses",
+        "Collaboration angle: Southeast Queens Jamaican food guide, reggae/dancehall playlists, patty shop maps, community elder stories.",
+        "Content use: Clarify that Jamaica, Queens is not named for the country, while still using Southeast Queens Jamaican community as the local anchor.",
+        "Community tags: Jamaican"
+      ],
+      "source_labels": [
+        "Cambria Heights, Queens",
+        "Queens demographic overview"
+      ]
+    },
+    {
+      "id": "august-hong-kong-dragon-boat-festival-in-new-york",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug, expected",
+      "date_confidence": "Annual expected",
+      "title": "Hong Kong Dragon Boat Festival in New York",
+      "summary": "One of the country's major dragon boat festivals, combining competitive racing with Chinese cultural performance, food and vendors.",
+      "category": "Festival",
+      "type": "Sports / multicultural festival",
+      "location": "Meadow Lake, Flushing Meadows Corona Park",
+      "research_notes": [
+        "History: Dragon boat racing has roots in ancient Chinese tradition and is associated with the Dragon Boat Festival honoring the poet Qu Yuan. The Queens festival matters because it turns Meadow Lake into a competitive sports and cultural gathering, connecting Asian heritage, teamwork, food, performance and Flushing's global identity.",
+        "Who celebrates: Asian communities, athletes, families, food audiences, Queens visitors",
+        "Collaboration angle: Team profiles, Asian food maps, paddling explainers, sponsor tents, family activity guides.",
+        "Content use: Treat as both a sports competition and a cultural festival.",
+        "Community tags: Chinese, Taiwanese",
+        "Neighborhood tags: Flushing, College Point, Flushing Meadows-Corona Park"
+      ],
+      "source_labels": [
+        "Hong Kong Dragon Boat Festival in New York",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "august-dominican-day-parade",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 8, Sun, expected",
+      "date_confidence": "Annual expected",
+      "title": "Dominican Day Parade",
+      "summary": "A major Dominican heritage celebration traditionally held on the second Sunday in August.",
+      "category": "Parade",
+      "type": "Dominican heritage parade",
+      "location": "Sixth Avenue, Manhattan",
+      "research_notes": [
+        "History: The Dominican Day Parade celebrates Dominican heritage, migration and community power in New York, home to one of the largest Dominican populations outside the Dominican Republic. Its significance is tied to music, flags, family pride, political visibility and uptown neighborhoods such as Washington Heights and Inwood.",
+        "Who celebrates: Dominican diaspora, Latin music fans, families, restaurants",
+        "Collaboration angle: Washington Heights business guides, merengue/bachata playlists, fashion and flag-color content.",
+        "Content use: Build a neighborhood-to-parade content bridge with uptown voices.",
+        "Community tags: Dominican"
+      ],
+      "source_labels": [
+        "Culture of New York City",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "august-ecuador-independence-day-first-cry-of-independence",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 10, Tue",
+      "date_confidence": "Confirmed annual date",
+      "title": "Ecuador Independence Day / First Cry of Independence",
+      "summary": "Ecuadorian national day with strong Queens relevance through Corona, Jackson Heights and Elmhurst communities.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Corona, Jackson Heights, Elmhurst, Woodside",
+      "research_notes": [
+        "History: August 10 marks Ecuador's First Cry of Independence in 1809. In Queens, Ecuadorian community life is visible in restaurants, soccer, parishes, remittance businesses and family networks.",
+        "Who celebrates: Ecuadorian families, restaurants, soccer fans, Spanish-language media, churches",
+        "Collaboration angle: Ecuadorian food guide, soccer watch content, Corona/Jackson Heights business features, flag-day reels.",
+        "Content use: Use this as an August Ecuadorian Queens anchor and pair with Hispanic Heritage Month planning.",
+        "Community tags: Ecuadorian",
+        "Neighborhood tags: Corona"
+      ],
+      "source_labels": [
+        "Ecuador Independence Day context",
+        "Demographics of Queens",
+        "Corona, Queens"
+      ]
+    },
+    {
+      "id": "august-hip-hop-anniversary-week",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 11 week",
+      "date_confidence": "Confirmed cultural anniversary",
+      "title": "Hip-hop anniversary week",
+      "summary": "A content window for Queens hip-hop history, from Queensbridge to Hollis to South Jamaica.",
+      "category": "Culture",
+      "type": "Music / cultural history",
+      "location": "Citywide; Queensbridge, Hollis and South Jamaica focus",
+      "research_notes": [
+        "History: Hip-hop's widely recognized origin date is August 11, 1973 in the Bronx, but Queens became one of the culture's defining boroughs through Queensbridge, Hollis and South Jamaica artists.",
+        "Who celebrates: Music fans, DJs, schools, museums, streetwear brands, local historians, record shops",
+        "Collaboration angle: Queens hip-hop map, archival photo carousels, DJ sets, school workshops, merch drops and oral-history interviews.",
+        "Content use: Treat Queens hip-hop as neighborhood-specific: Queensbridge is not Hollis, and Hollis is not South Jamaica.",
+        "Neighborhood tags: Hollis"
+      ],
+      "source_labels": [
+        "Hip-hop history background",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "august-pakistan-independence-day",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 14, Sat",
+      "date_confidence": "Confirmed annual date",
+      "title": "Pakistan Independence Day",
+      "summary": "Pakistani national day for diaspora pride, flags, food, music, fashion and community gatherings.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Jackson Heights, Elmhurst, Jamaica, Richmond Hill",
+      "research_notes": [
+        "History: Pakistan Independence Day marks the creation of Pakistan in 1947 following the partition of British India. Queens observance connects to halal businesses, mosques, cricket, fashion and Urdu-language community life.",
+        "Who celebrates: Pakistani families, restaurants, mosques, fashion retailers, cricket communities",
+        "Collaboration angle: Pakistani food and sweets guides, fashion reels, cricket content, community group listings.",
+        "Content use: Pair with India Day and South Asian August coverage while keeping Pakistani identity distinct.",
+        "Community tags: Pakistani"
+      ],
+      "source_labels": [
+        "New York City ethnic enclaves",
+        "Little India locations in Queens"
+      ]
+    },
+    {
+      "id": "august-india-day-parade",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Mid-August, expected",
+      "date_confidence": "Annual expected",
+      "title": "India Day Parade",
+      "summary": "A major Indian diaspora celebration around India's Independence Day with parade, culture, food and community pride.",
+      "category": "Parade",
+      "type": "Indian heritage parade",
+      "location": "Madison Avenue / Midtown, expected",
+      "research_notes": [
+        "History: India Day Parade marks India's independence from British rule in 1947 and celebrates Indian diaspora culture in New York. The parade's significance spans national pride, religion, language, Bollywood, fashion, food, business and the broader South Asian presence across Queens, New Jersey and the metro area.",
+        "Who celebrates: Indian diaspora, South Asian communities, families, restaurants, retail",
+        "Collaboration angle: South Asian dining guides, fashion partnerships, founder interviews, Bollywood/music content.",
+        "Content use: Connect Independence Day history with NYC's South Asian business and cultural communities.",
+        "Community tags: Indian, Punjabi",
+        "Neighborhood tags: Jackson Heights, Richmond Hill"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "august-korean-liberation-day",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 15, Sun",
+      "date_confidence": "Confirmed annual date",
+      "title": "Korean Liberation Day",
+      "summary": "Korean Liberation Day, marking Korea's liberation from Japanese colonial rule and a major Korean national remembrance day.",
+      "category": "Culture",
+      "type": "National liberation day",
+      "location": "Flushing, Murray Hill, Bayside, Korean community spaces",
+      "research_notes": [
+        "History: Korean Liberation Day is observed on August 15 and commemorates the end of Japanese colonial rule in 1945. In Queens, it can anchor Korean history, elder stories and Korean business corridor content.",
+        "Who celebrates: Korean families, churches, restaurants, senior organizations, Korean-language media",
+        "Collaboration angle: Northern Boulevard Korean business guide, elder oral histories, Korean food content, church/community calendar listings.",
+        "Content use: Use a respectful history-first tone, then connect to Chuseok and Korean food/business coverage in September.",
+        "Community tags: Korean"
+      ],
+      "source_labels": [
+        "Koreatown, Queens"
+      ]
+    },
+    {
+      "id": "august-ukrainian-independence-day",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 24, Tue",
+      "date_confidence": "Confirmed annual date",
+      "title": "Ukrainian Independence Day",
+      "summary": "Ukrainian Independence Day, a civic and diaspora observance for Ukrainian culture, resilience and community support.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Ridgewood, Glendale, Forest Hills and Eastern European networks",
+      "research_notes": [
+        "History: Ukraine's Independence Day commemorates the 1991 declaration of independence from the Soviet Union. In Queens, it connects to Eastern European churches, businesses and post-2022 support networks.",
+        "Who celebrates: Ukrainian families, churches, bakeries, relief organizations, Eastern European communities",
+        "Collaboration angle: Ukrainian bakery/church listings, relief organization spotlights, music and flag explainers.",
+        "Content use: Use care around ongoing-war context and prioritize Ukrainian-led sources.",
+        "Community tags: Ukrainian",
+        "Neighborhood tags: Ridgewood"
+      ],
+      "source_labels": [
+        "Independence Day of Ukraine",
+        "Queens demographic overview"
+      ]
+    },
+    {
+      "id": "august-women-s-equality-day",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 26, Thu",
+      "date_confidence": "Confirmed annual date",
+      "title": "Women's Equality Day",
+      "summary": "A late-summer civic and social-media moment connected to voting rights, leadership and gender equity.",
+      "category": "Social",
+      "type": "Social calendar / civic observance",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Women's Equality Day is observed on August 26 in the United States to mark the certification of the 19th Amendment, which prohibited denying the vote on the basis of sex. It is used by civic, educational and advocacy groups to discuss gender equity and political participation.",
+        "Who celebrates: Civic groups, women-led organizations, educators, nonprofits, founders, creators",
+        "Collaboration angle: Voting-rights explainers, women-in-politics panels, founder stories, civic education partners.",
+        "Content use: Use as a bridge from summer content into fall civic and school-season planning."
+      ],
+      "source_labels": [
+        "Women's History Month"
+      ]
+    },
+    {
+      "id": "august-us-open-tennis",
+      "year": 2027,
+      "month": "August",
+      "date_display": "Aug 29-Sep 12, expected",
+      "date_confidence": "Annual expected",
+      "title": "US Open Tennis",
+      "summary": "NYC's global tennis centerpiece and one of the city's most valuable sports tourism windows, running across Labor Day weekend.",
+      "category": "Sports",
+      "type": "Grand Slam tennis",
+      "location": "USTA Billie Jean King National Tennis Center, Queens",
+      "research_notes": [
+        "History: The US Open began in the late 19th century and became one of tennis's four Grand Slam tournaments. Its Queens location gives NYC a global sports spotlight every year, combining elite competition, international visitors, celebrity culture, fashion, hospitality and the borough's role as a world-facing gateway.",
+        "Who celebrates: International visitors, tennis fans, luxury brands, restaurants, hotels",
+        "Collaboration angle: Hotel packages, fashion and wellness partners, Queens dining guides, player-country fan maps.",
+        "Content use: Build premium and accessible guides: tickets, grounds passes, transit, food and after-match plans.",
+        "Neighborhood tags: Corona, Flushing, Forest Hills, Willets Point, Flushing Meadows-Corona Park"
+      ],
+      "source_labels": [
+        "US Open Tennis overview",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "september-brazilian-day",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Labor Day weekend, expected",
+      "date_confidence": "Annual expected",
+      "title": "Brazilian Day",
+      "summary": "A Labor Day weekend Brazilian cultural moment with music, food, flags and large street crowds when produced.",
+      "category": "Festival",
+      "type": "Brazilian culture festival",
+      "location": "Little Brazil / Midtown, expected",
+      "research_notes": [
+        "History: Brazilian Day in New York is connected to Brazil's Independence Day period and the city's Brazilian diaspora. When produced, it brings music, food, flags and Portuguese-language culture into Midtown, turning a national celebration into a public expression of diaspora pride.",
+        "Who celebrates: Brazilian diaspora, music fans, food audiences, tourism",
+        "Collaboration angle: Brazilian restaurant guides, music and dance content, tourism partners, creator takeovers.",
+        "Content use: Watch for organizer updates and street activity permits before publishing logistics.",
+        "Community tags: Brazilian",
+        "Neighborhood tags: Astoria"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "september-j-ouvert-and-west-indian-american-day-carnival",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Sep 6, Mon",
+      "date_confidence": "Confirmed by annual rule",
+      "title": "J'Ouvert and West Indian American Day Carnival",
+      "summary": "A massive Caribbean cultural celebration on Labor Day, with early-morning J'Ouvert and the daytime West Indian American Day Carnival.",
+      "category": "Parade",
+      "type": "Caribbean carnival / parade",
+      "location": "Brooklyn, Eastern Parkway and surrounding areas",
+      "research_notes": [
+        "History: West Indian American Day Carnival grew from Caribbean pre-Lenten and emancipation traditions and became a major Brooklyn Labor Day celebration. Its significance lies in Caribbean diaspora identity, mas bands, steelpan, soca, calypso, food, flags and the political visibility of communities from Trinidad, Jamaica, Haiti, Barbados and beyond.",
+        "Who celebrates: Caribbean diaspora, music fans, food vendors, families, tourists",
+        "Collaboration angle: Mas band profiles, soca/calypso playlists, Caribbean food guides, safety and transit explainers.",
+        "Content use: Separate J'Ouvert and Carnival coverage; both have distinct cultural meanings and logistics.",
+        "Community tags: Guyanese, Trinidadian, Jamaican, Haitian, Barbadian, Grenadian",
+        "Neighborhood tags: East Elmhurst, Jamaica, Hollis, St. Albans, Cambria Heights, Laurelton, Rosedale, Springfield Gardens, South Jamaica, Locust Manor, Queens Village, Richmond Hill, Ozone Park, South Ozone Park, Woodhaven"
+      ],
+      "source_labels": [
+        "NYC.gov: J'Ouvert and West Indian American Day Carnival",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "september-brazil-independence-day",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Sep 7, Tue",
+      "date_confidence": "Confirmed annual date",
+      "title": "Brazil Independence Day",
+      "summary": "Brazilian national day, distinct from any produced Brazilian Day festival, with Queens relevance through Astoria and Portuguese-language communities.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Astoria, Sunnyside, Long Island City and citywide Brazilian spaces",
+      "research_notes": [
+        "History: Brazil's Independence Day commemorates the 1822 declaration of independence from Portugal. In NYC, Brazilian cultural visibility also connects to music, dance, soccer, food and Portuguese-language businesses.",
+        "Who celebrates: Brazilian families, restaurants, music audiences, soccer fans, beauty businesses",
+        "Collaboration angle: Astoria Brazilian food guide, samba/capoeira listings, soccer watch parties, churrasco content.",
+        "Content use: Connect to Brazilian Day if produced, but keep September 7 as the fixed national date.",
+        "Community tags: Brazilian"
+      ],
+      "source_labels": [
+        "Independence Day of Brazil",
+        "Astoria cultural communities"
+      ]
+    },
+    {
+      "id": "september-nfl-regular-season-begins",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Sep-Jan, exact schedule TBD",
+      "date_confidence": "Expected window",
+      "title": "NFL Regular Season Begins",
+      "summary": "Giants and Jets home games drive fall sports weekends, watch-party culture and regional travel around MetLife Stadium.",
+      "category": "Sports",
+      "type": "Football season",
+      "location": "MetLife Stadium and NYC watch parties",
+      "research_notes": [
+        "History: The NFL season is a fall ritual in American sports culture, and Giants and Jets games turn MetLife Stadium and NYC sports bars into weekly gathering points. For content planning, its significance comes from tailgating, fantasy football, rivalries, commuting patterns and the way football structures autumn weekends.",
+        "Who celebrates: Football fans, sports bars, commuters, tailgate audiences",
+        "Collaboration angle: Tailgate guides, sports bar maps, rivalry content, transit and rideshare explainers.",
+        "Content use: Build weekly content only after the NFL schedule is released.",
+        "NYC teams to highlight: New York Giants, New York Jets"
+      ],
+      "source_labels": [
+        "Super Bowl LXII",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "september-chuseok",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Sep 14-16",
+      "date_confidence": "Confirmed 2027 reference",
+      "title": "Chuseok",
+      "summary": "Korean harvest and family holiday, associated with ancestor remembrance, travel, songpyeon and seasonal foods.",
+      "category": "Culture",
+      "type": "Korean harvest holiday",
+      "location": "Flushing, Murray Hill, Bayside and Korean community spaces",
+      "research_notes": [
+        "History: Chuseok is one of Korea's most important holidays and falls on the 15th day of the 8th lunar month. Families traditionally gather, honor ancestors and share harvest foods.",
+        "Who celebrates: Korean families, restaurants, bakeries, churches, senior centers, Korean-language media",
+        "Collaboration angle: Songpyeon and Korean market guides, family recipe reels, Northern Boulevard shopping guides.",
+        "Content use: Pair with Korean Liberation Day and Korean business corridor stories.",
+        "Community tags: Korean"
+      ],
+      "source_labels": [
+        "Chuseok",
+        "Koreatown, Queens"
+      ]
+    },
+    {
+      "id": "september-central-american-independence-day",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Sep 15, Wed",
+      "date_confidence": "Confirmed annual date",
+      "title": "Central American Independence Day",
+      "summary": "Independence day for Guatemala, El Salvador and other Central American nations, opening Hispanic Heritage Month.",
+      "category": "Culture",
+      "type": "Regional independence day",
+      "location": "Corona, Flushing, Jamaica, Elmhurst and Central American corridors",
+      "research_notes": [
+        "History: September 15 marks the 1821 independence of several Central American countries from Spain, including Guatemala and El Salvador. It is also the opening date of U.S. Hispanic Heritage Month.",
+        "Who celebrates: Guatemalan, Salvadoran and Central American families, pupuserias, bakeries, churches, soccer communities",
+        "Collaboration angle: Pupusa and Central American bakery guides, independence explainers, flag content, soccer watch maps.",
+        "Content use: Use this as the kickoff to Hispanic Heritage Month with separate Salvadoran and Guatemalan angles.",
+        "Community tags: Salvadoran, Guatemalan"
+      ],
+      "source_labels": [
+        "Independence Day of Central America",
+        "National Hispanic Heritage Month",
+        "New York City ethnic enclaves"
+      ]
+    },
+    {
+      "id": "september-national-hispanic-heritage-month",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Sep 15-Oct 15",
+      "date_confidence": "Confirmed annual observance",
+      "title": "National Hispanic Heritage Month",
+      "summary": "A major content window for Latino culture, history, food, music, business and community storytelling.",
+      "category": "Social",
+      "type": "Social calendar / heritage month",
+      "location": "Citywide; Queens, Upper Manhattan, Bronx and Brooklyn focus",
+      "research_notes": [
+        "History: National Hispanic Heritage Month runs from September 15 to October 15. The start date connects to independence anniversaries for several Latin American countries, and the observance expanded from a week to a month in 1988.",
+        "Who celebrates: Latino communities, restaurants, music and dance audiences, schools, creators, brands",
+        "Collaboration angle: Country-by-country food guides, Latino founder stories, music playlists, dance studios, community orgs.",
+        "Content use: Do not treat Latino NYC as one monolith; build distinct Puerto Rican, Dominican, Mexican, Colombian, Ecuadorian, Peruvian and Central American threads.",
+        "Community tags: Colombian, Ecuadorian, Mexican, Peruvian, Argentine, Uruguayan, Venezuelan, Salvadoran, Guatemalan, Bolivian, Dominican, Puerto Rican",
+        "Neighborhood tags: Jackson Heights"
+      ],
+      "source_labels": [
+        "National Hispanic Heritage Month",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "september-feast-of-san-gennaro",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Mid-late September, expected",
+      "date_confidence": "Annual expected",
+      "title": "Feast of San Gennaro",
+      "summary": "Little Italy's signature Italian American feast, with food vendors, religious procession, entertainment and dense street traffic.",
+      "category": "Festival",
+      "type": "Italian American feast / street fair",
+      "location": "Little Italy, Manhattan",
+      "research_notes": [
+        "History: The Feast of San Gennaro began in Little Italy in 1926 when Neapolitan immigrants honored Saint Januarius, the patron saint of Naples. Today it is both a religious feast and a street festival, preserving Italian American memory while also reflecting how immigrant neighborhoods become tourism and food destinations.",
+        "Who celebrates: Italian American communities, tourists, food lovers, families",
+        "Collaboration angle: Vendor spotlights, cannoli/sausage guides, Little Italy history, restaurant partnerships.",
+        "Content use: Cover food and faith separately: the street fair experience and the San Gennaro procession."
+      ],
+      "source_labels": [
+        "The Feast of San Gennaro",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "september-mexican-independence-day",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Sep 16, Thu",
+      "date_confidence": "Confirmed annual date",
+      "title": "Mexican Independence Day",
+      "summary": "Mexican Independence Day, a major Queens Latino moment for food, music, flags, soccer and family gatherings.",
+      "category": "Culture",
+      "type": "National independence day",
+      "location": "Corona, Jackson Heights, Elmhurst, Woodside",
+      "research_notes": [
+        "History: Mexican Independence Day commemorates the Cry of Dolores in 1810, which launched Mexico's independence struggle. It is distinct from Cinco de Mayo and is Mexico's central national day.",
+        "Who celebrates: Mexican families, restaurants, bakeries, markets, soccer fans, Spanish-language media",
+        "Collaboration angle: Mexican food corridor guide, bakery and market features, flag explainers, mariachi/music listings.",
+        "Content use: Use Sep 16 as the real Mexican national-day anchor; Cinco de Mayo can be a secondary U.S. content moment.",
+        "Community tags: Mexican",
+        "Neighborhood tags: Corona"
+      ],
+      "source_labels": [
+        "Mexican Independence Day",
+        "Corona, Queens",
+        "National Hispanic Heritage Month"
+      ]
+    },
+    {
+      "id": "september-queens-county-fair",
+      "year": 2027,
+      "month": "September",
+      "date_display": "September",
+      "date_confidence": "Expected annual event",
+      "title": "Queens County Fair",
+      "summary": "A borough fair at NYC's largest remaining tract of undisturbed farmland.",
+      "category": "Festival",
+      "type": "Queens fair / family event",
+      "location": "Queens County Farm Museum, Floral Park",
+      "research_notes": [
+        "History: Queens County Farm Museum preserves a farming landscape with roots in the late 17th century, making the fair a rare reminder that Queens includes rural and agricultural histories too.",
+        "Who celebrates: Families, schools, food vendors, local makers, history audiences, eastern Queens communities",
+        "Collaboration angle: Harvest content, school field-trip guides, farm-to-table vendor stories, eastern Queens family itineraries.",
+        "Content use: Use this to balance the borough narrative: Queens is not only dense transit corridors; it also contains farm history.",
+        "Community tags: Indian, Punjabi, Guyanese, Haitian, Jamaican",
+        "Neighborhood tags: Bayside, Douglaston-Little Neck, Fresh Meadows, Auburndale, Bellerose, Floral Park, Glen Oaks"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "september-queens-county-fair-2",
+      "year": 2027,
+      "month": "September",
+      "date_display": "September",
+      "date_confidence": "Expected annual event",
+      "title": "Queens County Fair",
+      "summary": "A borough fair at NYC's largest remaining tract of undisturbed farmland.",
+      "category": "Festival",
+      "type": "Queens fair / family event",
+      "location": "Queens County Farm Museum, Floral Park",
+      "research_notes": [
+        "History: Queens County Farm Museum preserves a farming landscape with roots in the late 17th century, making the fair a rare reminder that Queens includes rural and agricultural histories too.",
+        "Who celebrates: Families, schools, food vendors, local makers, history audiences, eastern Queens communities",
+        "Collaboration angle: Harvest content, school field-trip guides, farm-to-table vendor stories, eastern Queens family itineraries.",
+        "Content use: Use this to balance the borough narrative: Queens is not only dense transit corridors; it also contains farm history.",
+        "Community tags: Indian, Punjabi, Guyanese, Haitian, Jamaican",
+        "Neighborhood tags: Bayside, Douglaston-Little Neck, Fresh Meadows, Auburndale, Bellerose, Floral Park, Glen Oaks"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "september-african-american-day-parade",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Third Sunday in September, expected",
+      "date_confidence": "Annual expected",
+      "title": "African American Day Parade",
+      "summary": "A major Harlem parade celebrating African American heritage, institutions, civic life and culture.",
+      "category": "Parade",
+      "type": "Black culture / heritage parade",
+      "location": "Harlem",
+      "research_notes": [
+        "History: The African American Day Parade began in Harlem in the late 1960s and is one of the country's major Black heritage parades. It celebrates Black institutions, civic leaders, schools, marching bands, faith groups and cultural pride, keeping Harlem's public avenue traditions connected to community recognition.",
+        "Who celebrates: Black communities, civic groups, schools, families, Harlem businesses",
+        "Collaboration angle: Harlem business features, HBCU/community organization spotlights, marching-band content.",
+        "Content use: Pair parade logistics with Harlem history and community leadership profiles.",
+        "Community tags: Jamaican, Haitian, Barbadian, Grenadian",
+        "Neighborhood tags: East Elmhurst, St. Albans"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "september-atlantic-antic",
+      "year": 2027,
+      "month": "September",
+      "date_display": "Late September, expected",
+      "date_confidence": "Annual expected",
+      "title": "Atlantic Antic",
+      "summary": "A large Brooklyn street festival with food, vendors, music and neighborhood organizations along Atlantic Avenue.",
+      "category": "Festival",
+      "type": "Brooklyn street fair",
+      "location": "Atlantic Avenue, Brooklyn",
+      "research_notes": [
+        "History: Atlantic Antic is one of Brooklyn's largest street festivals and reflects the borough's layered commercial and residential life. Its significance is hyperlocal: restaurants, makers, civic groups, families and performers use the avenue as a long public commons for one day.",
+        "Who celebrates: Brooklyn residents, families, food lovers, small businesses",
+        "Collaboration angle: Small-business guides, maker markets, restaurant crawls, family route maps.",
+        "Content use: Use it to spotlight Boerum Hill, Cobble Hill and Brooklyn Heights businesses."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "october-filipino-american-history-month",
+      "year": 2027,
+      "month": "October",
+      "date_display": "October",
+      "date_confidence": "Confirmed annual observance",
+      "title": "Filipino American History Month",
+      "summary": "A month for Filipino American history, migration, labor, health care, food, faith and family storytelling.",
+      "category": "Social",
+      "type": "Heritage month",
+      "location": "Woodside Little Manila, Hollis, Jamaica and citywide Filipino spaces",
+      "research_notes": [
+        "History: Filipino American History Month is observed in October, tied to the documented arrival of Filipinos in what is now the United States in 1587 and later Filipino American organizing.",
+        "Who celebrates: Filipino families, Little Manila businesses, nurses and health-care workers, churches, schools, creators",
+        "Collaboration angle: Little Manila Avenue guide, Filipino bakery and restaurant crawl, nurse/health-care worker profiles, family archive stories.",
+        "Content use: Use October as the second Filipino anchor after Philippine Independence Day in June.",
+        "Community tags: Filipino",
+        "Neighborhood tags: Woodside"
+      ],
+      "source_labels": [
+        "Filipino American History Month",
+        "Little Manila in Woodside",
+        "Filipinos in the New York metropolitan area"
+      ]
+    },
+    {
+      "id": "october-italian-american-heritage-and-culture-month",
+      "year": 2027,
+      "month": "October",
+      "date_display": "October",
+      "date_confidence": "Confirmed annual observance",
+      "title": "Italian-American Heritage and Culture Month",
+      "summary": "A month for Italian American history, food, family, faith, labor and neighborhood memory.",
+      "category": "Social",
+      "type": "Heritage month",
+      "location": "Howard Beach, Middle Village, Whitestone, Corona and citywide Italian American spaces",
+      "research_notes": [
+        "History: Italian-American Heritage and Culture Month is observed in October in the United States. In Queens, it intersects with Italian American neighborhood histories beyond Manhattan's Little Italy.",
+        "Who celebrates: Italian American families, bakeries, delis, restaurants, Catholic institutions, social clubs",
+        "Collaboration angle: Queens Italian bakery/deli map, family recipe videos, feast calendars, neighborhood memory stories.",
+        "Content use: Use Queens neighborhoods to avoid making Italian American coverage only about Manhattan's Little Italy.",
+        "Community tags: Italian",
+        "Neighborhood tags: Whitestone, Howard Beach, Glendale, Maspeth, Middle Village"
+      ],
+      "source_labels": [
+        "Italian-American Heritage and Culture Month",
+        "Demographics of Queens",
+        "Corona, Queens"
+      ]
+    },
+    {
+      "id": "october-mlb-postseason-and-world-series-window",
+      "year": 2027,
+      "month": "October",
+      "date_display": "Oct-early Nov, if Yankees/Mets qualify",
+      "date_confidence": "League window",
+      "title": "MLB Postseason and World Series Window",
+      "summary": "MLB's postseason begins after the regular season and can run into early November. Yankees or Mets contention creates high-value citywide attention.",
+      "category": "Sports",
+      "type": "Baseball playoffs / World Series",
+      "location": "Yankee Stadium, Citi Field, watch parties",
+      "research_notes": [
+        "History: MLB's postseason turns a long regular season into a high-pressure civic drama. In New York, Yankees or Mets playoff baseball activates deep histories of championship memory, neighborhood identity, rivalry, sports radio, bars and family traditions passed across generations.",
+        "Who celebrates: Baseball fans, sports bars, hotels, neighborhood businesses",
+        "Collaboration angle: Playoff watch guides, rivalry content, ballpark neighborhood activations.",
+        "Content use: Prepare evergreen playoff explainers, then activate if local teams clinch.",
+        "NYC teams to highlight: New York Yankees, New York Mets"
+      ],
+      "source_labels": [
+        "Major League Baseball postseason",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "october-rosh-hashanah",
+      "year": 2027,
+      "month": "October",
+      "date_display": "Begins sunset Sep 30; Oct 1-2",
+      "date_confidence": "Confirmed Hebrew-calendar date",
+      "title": "Rosh Hashanah",
+      "summary": "Jewish New Year and start of the High Holy Days, with synagogue, family meal, reflection and food business relevance.",
+      "category": "Holiday",
+      "type": "Jewish New Year",
+      "location": "Forest Hills, Rego Park, Kew Gardens Hills, Far Rockaway, Bayside",
+      "research_notes": [
+        "History: Rosh Hashanah begins the Jewish High Holy Days and is associated with prayer, the shofar, repentance and symbolic foods such as apples and honey for a sweet new year.",
+        "Who celebrates: Jewish and Israeli communities, synagogues, kosher restaurants, schools, families",
+        "Collaboration angle: Kosher bakery and apple/honey guides, synagogue calendar listings, family meal planning, reflective creator content.",
+        "Content use: Use evening-start language because the holiday begins at sunset before the civil calendar date.",
+        "Community tags: Israeli and Jewish"
+      ],
+      "source_labels": [
+        "Yom Ha'atzmaut",
+        "Race and ethnicity in New York City"
+      ]
+    },
+    {
+      "id": "october-pulaski-day-parade",
+      "year": 2027,
+      "month": "October",
+      "date_display": "Oct 3, Sun, expected",
+      "date_confidence": "Annual expected",
+      "title": "Pulaski Day Parade",
+      "summary": "A long-running Polish heritage parade traditionally held on the first Sunday in October.",
+      "category": "Parade",
+      "type": "Polish heritage parade",
+      "location": "Fifth Avenue, Manhattan",
+      "research_notes": [
+        "History: Pulaski Day Parade honors Casimir Pulaski, a Polish-born military leader remembered for his role in the American Revolution. In NYC it is also a public expression of Polish American heritage, connecting Fifth Avenue ceremony with communities such as Greenpoint and broader Polish diaspora networks.",
+        "Who celebrates: Polish diaspora, families, civic groups, cultural organizations",
+        "Collaboration angle: Greenpoint business guides, Polish food features, folk dance and history explainers.",
+        "Content use: Connect Fifth Avenue parade coverage with Greenpoint neighborhood content.",
+        "Community tags: Polish",
+        "Neighborhood tags: Glendale, Ridgewood, Maspeth"
+      ],
+      "source_labels": [
+        "Culture of New York City",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "october-italian-heritage-indigenous-peoples-day",
+      "year": 2027,
+      "month": "October",
+      "date_display": "Oct 11, Mon",
+      "date_confidence": "Confirmed date",
+      "title": "Italian Heritage / Indigenous Peoples' Day",
+      "summary": "A civic holiday with overlapping Italian heritage and Indigenous Peoples' Day programming, depending on institution and community.",
+      "category": "Holiday",
+      "type": "Public holiday / cultural observance",
+      "location": "Citywide",
+      "research_notes": [
+        "History: This October holiday carries different meanings depending on the community and institution. Italian heritage celebrations often emphasize immigrant pride and Italian American contributions, while Indigenous Peoples' Day reframes the date around Native survival, sovereignty and the harms of colonization. The significance is in handling both histories with precision and respect.",
+        "Who celebrates: Schools, families, Italian American groups, Indigenous communities, museums",
+        "Collaboration angle: Dual-track coverage, museum education guides, community-led explainers.",
+        "Content use: Be precise with naming and source each event's framing from its organizer.",
+        "Community tags: Italian"
+      ],
+      "source_labels": [
+        "NYC Public Schools Calendar",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "october-diwali",
+      "year": 2027,
+      "month": "October",
+      "date_display": "Oct 29, Fri",
+      "date_confidence": "Confirmed date reference",
+      "title": "Diwali",
+      "summary": "Festival of Lights celebrated by Hindu, Sikh, Jain and some Buddhist communities, with school-calendar and public-event relevance in NYC.",
+      "category": "Holiday",
+      "type": "Religious / cultural holiday",
+      "location": "Citywide; Queens and South Asian communities",
+      "research_notes": [
+        "History: Diwali, the Festival of Lights, is celebrated by Hindu, Sikh, Jain and some Buddhist communities with lamps, sweets, prayer, family visits and renewal. In NYC, especially Queens, it has grown in public visibility through school-calendar recognition, South Asian business corridors, temple events and community festivals.",
+        "Who celebrates: South Asian communities, families, restaurants, retail, schools",
+        "Collaboration angle: Sweets and mithai guides, fashion and jewelry partnerships, Queens neighborhood content, family events.",
+        "Content use: Start content two weeks ahead for shopping, food ordering and event discovery.",
+        "Community tags: Indian, Punjabi, Guyanese, Trinidadian, Nepali, Sri Lankan",
+        "Neighborhood tags: Jackson Heights, Rego Park, Kew Gardens Hills, Briarwood, Queens Village, Bellerose, Floral Park, Glen Oaks, Richmond Hill, Ozone Park, South Ozone Park, Woodhaven"
+      ],
+      "source_labels": [
+        "Diwali date reference",
+        "NYC Public Schools Calendar"
+      ]
+    },
+    {
+      "id": "october-village-halloween-parade",
+      "year": 2027,
+      "month": "October",
+      "date_display": "Oct 31, Sun",
+      "date_confidence": "Confirmed by annual rule",
+      "title": "Village Halloween Parade",
+      "summary": "NYC's major public Halloween pageant, open to costumed participants and watched by large crowds in the Village.",
+      "category": "Parade",
+      "type": "Participatory arts parade",
+      "location": "Greenwich Village, Manhattan",
+      "research_notes": [
+        "History: The Village Halloween Parade began in the 1970s as a neighborhood arts procession and grew into one of NYC's most famous participatory events. Its significance comes from creative freedom, queer nightlife, puppetry, costume culture and the Village's long history as a space for performance and counterculture.",
+        "Who celebrates: Artists, nightlife, families, tourists, costume makers",
+        "Collaboration angle: Costume makers, nightlife partners, after-party guides, creator street-style coverage.",
+        "Content use: Build route, participation rules and costume-shopping guides throughout October.",
+        "Neighborhood tags: Forest Hills, Ridgewood"
+      ],
+      "source_labels": [
+        "NYC Village Halloween Parade",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "november-dia-de-los-muertos",
+      "year": 2027,
+      "month": "November",
+      "date_display": "Nov 1-2",
+      "date_confidence": "Confirmed annual date",
+      "title": "Dia de los Muertos",
+      "summary": "Mexican and broader Latin American remembrance tradition with altars, marigolds, food, music and family memory.",
+      "category": "Culture",
+      "type": "Mexican remembrance tradition",
+      "location": "Corona, Jackson Heights, Elmhurst, museums and community spaces",
+      "research_notes": [
+        "History: Dia de los Muertos is rooted in Mexican traditions honoring deceased loved ones around November 1 and 2. Ofrendas, flowers, candles, food and photos make memory visible in homes and public spaces.",
+        "Who celebrates: Mexican families, cultural organizations, museums, schools, bakeries, florists",
+        "Collaboration angle: Ofrenda guides, pan de muerto features, florists, museum programming, respectful education-first social content.",
+        "Content use: Avoid treating it as Halloween; lead with remembrance, family and Mexican cultural context.",
+        "Community tags: Mexican"
+      ],
+      "source_labels": [
+        "Mexican Independence Day",
+        "National Hispanic Heritage Month"
+      ]
+    },
+    {
+      "id": "november-native-american-heritage-month",
+      "year": 2027,
+      "month": "November",
+      "date_display": "November",
+      "date_confidence": "Confirmed annual observance",
+      "title": "Native American Heritage Month",
+      "summary": "A November content window for Indigenous histories, contemporary Native culture, education and land acknowledgment done with care.",
+      "category": "Social",
+      "type": "Social calendar / heritage month",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Native American Heritage Month is observed in November in the United States. It is used by cultural institutions, educators and Native communities to recognize Indigenous histories, sovereignty, art, language and contemporary life.",
+        "Who celebrates: Indigenous communities, museums, educators, cultural institutions, families, civic organizations",
+        "Collaboration angle: Museum programming, Indigenous artist spotlights, education partners, responsible land-acknowledgment resources.",
+        "Content use: Prioritize Native-led sources and avoid using the month only as a Thanksgiving side note.",
+        "Neighborhood tags: Far Rockaway"
+      ],
+      "source_labels": [
+        "Native American Heritage Month",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "november-election-day",
+      "year": 2027,
+      "month": "November",
+      "date_display": "Nov 2, Tue",
+      "date_confidence": "Confirmed date",
+      "title": "Election Day",
+      "summary": "Civic date with school-calendar relevance, polling-place logistics and public affairs content potential.",
+      "category": "Holiday",
+      "type": "Civic holiday / school closure",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Election Day is a civic anchor for voting, public schools and local political life. In NYC, even off-year elections can determine city and state offices, ballot questions and neighborhood-level power, making it a useful moment for nonpartisan voter education and civic literacy.",
+        "Who celebrates: Voters, families, civic organizations, students",
+        "Collaboration angle: Nonpartisan voter guides, civic education partners, neighborhood polling logistics.",
+        "Content use: Keep content nonpartisan and focused on access, dates and civic literacy."
+      ],
+      "source_labels": [
+        "NYC Public Schools Calendar"
+      ]
+    },
+    {
+      "id": "november-tcs-new-york-city-marathon",
+      "year": 2027,
+      "month": "November",
+      "date_display": "Nov 7, Sun",
+      "date_confidence": "Confirmed by annual rule",
+      "title": "TCS New York City Marathon",
+      "summary": "The world's largest marathon runs through all five boroughs on the first Sunday in November, creating a rare citywide sports-and-community moment.",
+      "category": "Sports",
+      "type": "World Marathon Major",
+      "location": "All five boroughs",
+      "research_notes": [
+        "History: The New York City Marathon began in 1970 with loops in Central Park before expanding into a five-borough race in 1976. Its significance is enormous: it turns the entire city into a course, combines elite sport with charity fundraising and neighborhood cheering, and gives every borough a visible role in one global event.",
+        "Who celebrates: Runners, families, global visitors, wellness brands, neighborhoods along course",
+        "Collaboration angle: Training series, cheering-zone maps, borough food guides, recovery partners, charity runner stories.",
+        "Content use: This deserves a full content hub: runner logistics, spectator maps, neighborhood parties and human-interest profiles.",
+        "Neighborhood tags: Long Island City, Kew Gardens, Rockaway Peninsula"
+      ],
+      "source_labels": [
+        "New York City Marathon",
+        "NYC Tourism: Sports in NYC"
+      ]
+    },
+    {
+      "id": "november-veterans-day-parade",
+      "year": 2027,
+      "month": "November",
+      "date_display": "Nov 11, Thu",
+      "date_confidence": "Confirmed by annual rule",
+      "title": "Veterans Day Parade",
+      "summary": "The city's major Veterans Day commemoration and parade, with military, civic and family participation.",
+      "category": "Parade",
+      "type": "Civic parade",
+      "location": "Fifth Avenue, Manhattan",
+      "research_notes": [
+        "History: Veterans Day began as Armistice Day, marking the end of World War I on November 11, 1918, and later expanded to honor all U.S. military veterans. New York's parade tradition makes the day a civic commemoration, connecting service, family memory, public gratitude and veteran support organizations.",
+        "Who celebrates: Veterans, families, civic groups, schools, nonprofits",
+        "Collaboration angle: Veteran nonprofit partnerships, service-member profiles, resource guides.",
+        "Content use: Prioritize respectful storytelling and practical route information."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "november-macy-s-thanksgiving-day-parade",
+      "year": 2027,
+      "month": "November",
+      "date_display": "Nov 25, Thu",
+      "date_confidence": "Confirmed date",
+      "title": "Macy's Thanksgiving Day Parade",
+      "summary": "A nationally watched NYC holiday parade with balloons, performances, family travel and major brand visibility.",
+      "category": "Parade",
+      "type": "Holiday parade",
+      "location": "Upper West Side to Midtown",
+      "research_notes": [
+        "History: Macy's Thanksgiving Day Parade began in 1924 and became one of America's best-known holiday broadcasts. Its significance is both local and national: it turns Manhattan into a live performance corridor and signals the start of the holiday shopping season, family travel and brand storytelling.",
+        "Who celebrates: Families, tourists, brands, hotels, broadcasters",
+        "Collaboration angle: Hotel packages, family viewing guides, balloon inflation coverage, Thanksgiving dining partners.",
+        "Content use: Publish viewing and transit guides early; add balloon-inflation content the day before."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    },
+    {
+      "id": "november-black-friday-and-small-business-saturday",
+      "year": 2027,
+      "month": "November",
+      "date_display": "Nov 26-27",
+      "date_confidence": "Confirmed annual rule",
+      "title": "Black Friday and Small Business Saturday",
+      "summary": "A major retail and neighborhood-commerce weekend immediately after Thanksgiving.",
+      "category": "Social",
+      "type": "Retail / social media moment",
+      "location": "Citywide; neighborhood retail corridors",
+      "research_notes": [
+        "History: Black Friday is the Friday after Thanksgiving and has become a major U.S. retail shopping day. Small Business Saturday follows the next day and is widely used to push local shopping, neighborhood discovery and independent retail.",
+        "Who celebrates: Retailers, makers, restaurants, neighborhood BIDs, creators, gift-guide audiences",
+        "Collaboration angle: Gift guides, borough shopping maps, maker markets, local retail reels, restaurant/shop bundles.",
+        "Content use: Use this for collaboration packages with Queens, Brooklyn and Manhattan small businesses before holiday markets peak."
+      ],
+      "source_labels": [
+        "U.S. OPM: 2027 Federal Holidays",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "november-cyber-monday-and-givingtuesday",
+      "year": 2027,
+      "month": "November",
+      "date_display": "Nov 29-30",
+      "date_confidence": "Confirmed annual rule",
+      "title": "Cyber Monday and GivingTuesday",
+      "summary": "Back-to-back digital commerce and nonprofit fundraising moments after Thanksgiving weekend.",
+      "category": "Social",
+      "type": "Digital retail / nonprofit giving moment",
+      "location": "Digital-first; citywide partners",
+      "research_notes": [
+        "History: Cyber Monday is the Monday after Thanksgiving and is tied to online shopping. GivingTuesday follows on Tuesday and began as a global generosity movement, making it a natural day for nonprofits, mutual aid groups and mission-led brands.",
+        "Who celebrates: E-commerce brands, nonprofits, creators, donors, small businesses, community organizations",
+        "Collaboration angle: Affiliate campaigns, nonprofit donation drives, creator fundraising, holiday product drops, impact reports.",
+        "Content use: Separate the tone: Cyber Monday is offer-led; GivingTuesday should be mission-led and transparent about impact."
+      ],
+      "source_labels": [
+        "GivingTuesday",
+        "U.S. OPM: 2027 Federal Holidays"
+      ]
+    },
+    {
+      "id": "december-holiday-markets-hanukkah-kwanzaa-and-winter-programming",
+      "year": 2027,
+      "month": "December",
+      "date_display": "December",
+      "date_confidence": "Annual expected",
+      "title": "Holiday Markets, Hanukkah, Kwanzaa and Winter Programming",
+      "summary": "December brings overlapping religious, cultural and shopping moments, from menorah lightings and Kwanzaa programs to markets and performances.",
+      "category": "Festival",
+      "type": "Holiday season",
+      "location": "Citywide",
+      "research_notes": [
+        "History: NYC's holiday season layers many traditions at once: Christmas windows and trees, Hanukkah menorah lightings, Kwanzaa programming, winter markets, concerts, school breaks and tourism. Its significance is that New York becomes a stage for both religious observance and commercial spectacle.",
+        "Who celebrates: Families, shoppers, tourists, cultural institutions, restaurants",
+        "Collaboration angle: Gift guides, market maps, interfaith programming, performance calendars, family itineraries.",
+        "Content use: Create a modular holiday hub by neighborhood and by tradition.",
+        "Neighborhood tags: Rego Park, Kew Gardens Hills"
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "december-christmas-day",
+      "year": 2027,
+      "month": "December",
+      "date_display": "Dec 25, Sat",
+      "date_confidence": "Confirmed date",
+      "title": "Christmas Day",
+      "summary": "Major public holiday with closures, church services, tourism, restaurants and family programming.",
+      "category": "Holiday",
+      "type": "Public holiday",
+      "location": "Citywide",
+      "research_notes": [
+        "History: Christmas commemorates the birth of Jesus in Christian tradition and has also become a major cultural and commercial holiday in the United States. In NYC, it is tied to church services, family meals, tourism, retail windows, Rockefeller Center, music and the question of what remains open in a dense global city.",
+        "Who celebrates: Families, tourists, churches, restaurants, hotels",
+        "Collaboration angle: Open-on-Christmas dining guide, church music listings, hotel holiday packages.",
+        "Content use: Clarify what is open, closed and reservation-only."
+      ],
+      "source_labels": [
+        "NYC Public Schools Calendar",
+        "NYC Tourism: Events & Festivals"
+      ]
+    },
+    {
+      "id": "december-times-square-new-year-s-eve",
+      "year": 2027,
+      "month": "December",
+      "date_display": "Dec 31, Fri",
+      "date_confidence": "Confirmed by annual rule",
+      "title": "Times Square New Year's Eve",
+      "summary": "NYC's global countdown moment with enormous media, travel, nightlife and public-safety relevance.",
+      "category": "Festival",
+      "type": "Global broadcast event",
+      "location": "Times Square, Manhattan",
+      "research_notes": [
+        "History: Times Square New Year's Eve grew from early 20th-century public celebrations around the New York Times building and the famous ball drop. It became a global media ritual, making NYC the symbolic capital of the countdown and a major test of crowd management, live entertainment and destination marketing.",
+        "Who celebrates: Tourists, hotels, nightlife, broadcasters, brands",
+        "Collaboration angle: Hotel and dining packages, safety guides, non-Times-Square alternatives, livestream content.",
+        "Content use: Publish a survival guide and alternative neighborhood celebration guide."
+      ],
+      "source_labels": [
+        "NYC Tourism: Events & Festivals",
+        "Culture of New York City"
+      ]
+    }
+  ]
+}

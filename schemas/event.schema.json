@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ChaiWithJai/mbiq-hermes-research-agent/schemas/event.schema.json",
+  "title": "MBIQ event calendar",
+  "type": "object",
+  "required": ["metadata", "events"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["source_url", "year", "event_count", "imported_at"],
+      "properties": {
+        "source_url": { "type": "string", "format": "uri" },
+        "year": { "type": "integer" },
+        "event_count": { "type": "integer", "minimum": 1 },
+        "imported_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "year", "month", "date_display", "date_confidence", "title", "summary", "category", "type", "location", "research_notes", "source_labels"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "year": { "type": "integer" },
+          "month": { "type": "string" },
+          "date_display": { "type": "string" },
+          "date_confidence": { "type": "string" },
+          "title": { "type": "string" },
+          "summary": { "type": "string" },
+          "category": { "type": "string" },
+          "type": { "type": "string" },
+          "location": { "type": "string" },
+          "research_notes": { "type": "array", "items": { "type": "string" } },
+          "source_labels": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}
+
