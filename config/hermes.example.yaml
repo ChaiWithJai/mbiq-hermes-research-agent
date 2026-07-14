@@ -1,7 +1,9 @@
 model:
   provider: custom
   base_url: http://127.0.0.1:8080/v1
-  default: prism-ml/Ternary-Bonsai-27B-mlx-2bit
+  # MLX's reserved name uses the model already loaded by start-bonsai.sh.
+  default: default_model
+  context_length: 262144
 
 mcp_servers:
   exa:
