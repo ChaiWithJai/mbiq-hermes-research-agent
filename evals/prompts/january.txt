@@ -1,0 +1,2 @@
+Work only inside this repository. Read AGENTS.md, prompts/editorial-plan.md, and every January record in data/events.json. Use the Exa MCP search and fetch tools to test the real source landscape. Produce a January 2027 editorial research plan at briefs/2027-january-plan.md. Consider all January records. Advance only events with a defensible Queens-specific path; hold or reject the rest and explain the evidence gap. Preserve every source date and confidence label. End at human editorial review. Do not publish or contact anyone.
+

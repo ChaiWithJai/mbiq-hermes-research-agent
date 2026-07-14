@@ -48,6 +48,7 @@ The importer finds the deployed Next.js calendar chunk, extracts the calendar ar
 - [Model capability assessment](docs/model-capabilities.md) separates Qwen3.6-27B capability claims from the compressed Bonsai model and from the still-unproven MBIQ job.
 - [Research brief contract](prompts/research-brief.md) defines the artifact and minimum source bar.
 - [Job-level rubric](evals/rubric.md) defines what “meaningful economic job” means here.
+- [Verification protocol](docs/verification.md) requires traced January and February planning runs through Hermes, local Bonsai, and Exa.
 
 ## Writing approach
 

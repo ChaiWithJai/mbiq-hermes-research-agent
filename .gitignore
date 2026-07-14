@@ -2,4 +2,6 @@
 .DS_Store
 briefs/*.md
 !briefs/.gitkeep
-
+!briefs/2027-january-plan.md
+!briefs/2027-february-plan.md
+evals/runs/*.raw.log
