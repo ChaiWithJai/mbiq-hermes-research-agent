@@ -31,7 +31,17 @@ for (const spec of specs) {
     }
   }
 
-  const advanceCount = (plan.match(/\b(?:decision\s*:\s*|\|\s*)advance\b/gi) || []).length;
+  const planLines = plan.split('\n');
+  const decisions = new Map();
+  for (const event of events) {
+    const decisionRows = planLines.filter((line) => line.trim().startsWith('|') && line.includes(event.id) && /\b(advance|hold|reject)\b/i.test(line));
+    if (decisionRows.length !== 1) {
+      errors.push(`${spec.month}: expected one canonical decision row for ${event.id}, found ${decisionRows.length}`);
+      continue;
+    }
+    decisions.set(event.id, decisionRows[0].match(/\b(advance|hold|reject)\b/i)[1].toLowerCase());
+  }
+  const advanceCount = [...decisions.values()].filter((decision) => decision === 'advance').length;
   if (advanceCount > spec.maxAdvance) {
     errors.push(`${spec.month}: advances ${advanceCount} events; maximum is ${spec.maxAdvance}`);
   }
