@@ -19,3 +19,8 @@ approvals:
   mode: ask
   cron_mode: deny
 
+display:
+  tool_progress: verbose
+  show_reasoning: true
+  reasoning_full: true
+  persist_prompts: true

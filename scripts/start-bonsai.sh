@@ -20,4 +20,5 @@ fi
 exec "$HOME/.local/bin/mlx_lm.server" \
   --model "$MODEL_PATH" \
   --host 127.0.0.1 \
-  --port 8080
+  --port 8080 \
+  --max-tokens "${MBIQ_MAX_TOKENS:-8192}"

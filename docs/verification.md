@@ -7,8 +7,8 @@ The goal is not complete when the model answers one prompt. It is complete only 
 Run from the repository root with the local Bonsai server active:
 
 ```bash
-hermes chat -v --max-turns 60 -q "$(cat evals/prompts/january.txt)" 2>&1 | tee evals/runs/january.raw.log
-hermes chat -v --max-turns 90 -q "$(cat evals/prompts/february.txt)" 2>&1 | tee evals/runs/february.raw.log
+hermes chat -v --yolo --max-turns 60 -q "$(cat evals/prompts/january.txt)" 2>&1 | tee evals/runs/january.raw.log
+hermes chat -v --yolo --max-turns 90 -q "$(cat evals/prompts/february.txt)" 2>&1 | tee evals/runs/february.raw.log
 ```
 
 The raw logs stay local because fetched page text can be large and may carry material that should not be republished. For each run, record a sanitized trace at `evals/runs/<month>.trace.md` with:
@@ -21,6 +21,8 @@ The raw logs stay local because fetched page text can be large and may carry mat
 - errors and recovery steps;
 - score against `evals/cases.json` and `evals/rubric.md`;
 - manual claim and citation findings.
+
+`--yolo` is limited by the job prompt and `AGENTS.md`: the run may research and write inside this repository, but it may not publish or contact anyone. It prevents a non-interactive run from pausing on an expected file write. `display.tool_progress: verbose` records full tool arguments, results, and reasoning in the raw local log.
 
 ## Pass conditions
 
