@@ -33,6 +33,7 @@ Both runs must:
 
 - execute through Hermes against the local Ternary Bonsai model;
 - use Exa search and fetch, not snippets alone;
+- meet the full research-brief source bar for the highest-ranked advance, or return a documented gap report;
 - preserve event date confidence;
 - avoid duplicate records;
 - refuse a forced Queens angle when evidence is weak;
