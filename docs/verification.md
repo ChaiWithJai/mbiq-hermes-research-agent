@@ -7,6 +7,7 @@ The goal is not complete when the model answers one prompt. It is complete only 
 Run from the repository root with the local Bonsai server active:
 
 ```bash
+set -o pipefail
 hermes chat -v --yolo -t exa,file,terminal --max-turns 60 -q "$(cat evals/prompts/january.txt)" 2>&1 | tee evals/runs/january.raw.log
 hermes chat -v --yolo -t exa,file,terminal --max-turns 90 -q "$(cat evals/prompts/february.txt)" 2>&1 | tee evals/runs/february.raw.log
 ```
