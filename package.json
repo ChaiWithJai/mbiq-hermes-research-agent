@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "events:import": "node scripts/import-events.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "verify:plans": "node scripts/verify-plans.mjs"
   },
   "engines": {
     "node": ">=20"
   }
 }
-

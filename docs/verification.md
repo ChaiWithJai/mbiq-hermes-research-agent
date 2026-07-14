@@ -35,3 +35,10 @@ Both runs must:
 - end at human editorial review;
 - score 2 on every applicable rubric case.
 
+After both plans and sanitized traces exist, run the deterministic artifact audit:
+
+```bash
+npm run verify:plans
+```
+
+This checks that every source event was considered with its exact ID, displayed date, and confidence label; February advances no more than four assignments; each plan has source URLs and a human-review gate; and each trace identifies the Hermes/model setup, Exa activity, rubric result, and manual citation audit.
