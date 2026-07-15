@@ -164,8 +164,8 @@ fixtures with exact expected decisions.
 | --- | --- | --- | --- | --- |
 | P1 | Close deep-research briefs as experiment 001 without a capability verdict. | Maintainer | Complete | This post-mortem and README status |
 | P2 | Select one bounded architecture using an explicit scorecard. | Maintainer | Complete | RFC 002 |
-| P3 | Implement compact local tools with schema validation and payload caps. | Maintainer | Planned | Unit tests reject oversized or malformed results |
-| P4 | Create ten fixture conversations with exact tool and routing expectations. | Evaluation owner | Planned | Deterministic evaluator passes 10/10 |
+| P3 | Implement compact local tools with validation and payload caps. | Maintainer | Complete | `scripts/calendar-desk.mjs`; all observed results remain below 2,000 characters |
+| P4 | Create ten fixture cases with exact tool and routing expectations. | Evaluation owner | Complete | Deterministic evaluator passes 10/10 |
 | P5 | Reboot, prove a short CPU-only 27B tool loop, then run fixtures one at a time. | Human operator | Planned | Swap, RSS, tokens, calls, latency, and outputs recorded |
 | P6 | Reconsider deep research only after bounded jobs pass reliably. | Product owner | Deferred | Separate approved experiment and resource budget |
 

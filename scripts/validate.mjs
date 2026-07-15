@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 
 const calendar = JSON.parse(await readFile('data/events.json', 'utf8'));
 const cases = JSON.parse(await readFile('evals/cases.json', 'utf8'));
+const calendarDeskCases = JSON.parse(await readFile('evals/calendar-desk-cases.json', 'utf8'));
 const errors = [];
 
 if (calendar.metadata.event_count !== calendar.events.length) errors.push('metadata event_count does not match events');
@@ -20,9 +21,10 @@ for (const event of calendar.events.filter((item) => item.duplicate_of)) {
   if (!ids.has(event.duplicate_of)) errors.push(`${event.id}: duplicate_of target does not exist`);
 }
 if (cases.length < 5) errors.push('job evaluation suite is incomplete');
+if (calendarDeskCases.length !== 10) errors.push(`expected 10 Calendar Desk cases, found ${calendarDeskCases.length}`);
 
 if (errors.length) {
   console.error(errors.join('\n'));
   process.exit(1);
 }
-console.log(`Validated ${calendar.events.length} source records (${calendar.metadata.duplicate_count} marked duplicates) and ${cases.length} job-level eval cases.`);
+console.log(`Validated ${calendar.events.length} source records (${calendar.metadata.duplicate_count} marked duplicates), ${cases.length} research cases, and ${calendarDeskCases.length} Calendar Desk cases.`);

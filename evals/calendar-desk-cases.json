@@ -1,0 +1,107 @@
+[
+  {
+    "id": "find-january-bounded",
+    "tool": "find_events",
+    "input": {"month": "January"},
+    "expect": {"ok": true, "count": 3},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "lookup-known-event",
+    "tool": "get_event",
+    "input": {"event_id": "february-lunar-new-year"},
+    "expect": {"ok": true, "event": {"id": "february-lunar-new-year", "date_confidence": "Confirmed holiday, parade dates TBD"}},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "lookup-invented-id",
+    "tool": "get_event",
+    "input": {"event_id": "queens-invented-festival"},
+    "expect": {"ok": false, "error": {"code": "event_not_found"}},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "detect-exact-duplicate",
+    "tool": "check_duplicate",
+    "input": {"title": "Queens Night Market Season", "date_display": "Apr-Oct"},
+    "expect": {"ok": true, "duplicate": true},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "accept-grounded-queens-submission",
+    "tool": "validate_submission",
+    "input": {
+      "title": "Sunnyside Heritage Oral History Day",
+      "date_display": "Oct 9, Sat",
+      "date_confidence": "Confirmed date",
+      "location": "Sunnyside, Queens",
+      "source_url": "https://example.org/sunnyside-history"
+    },
+    "expect": {"ok": true, "decision": "accept", "reasons": ["schema_and_scope_passed"], "preserved_date_confidence": "Confirmed date"},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "hold-missing-source",
+    "tool": "validate_submission",
+    "input": {
+      "title": "Woodside Community Archive Day",
+      "date_display": "May 2, Sun",
+      "date_confidence": "Annual expected",
+      "location": "Woodside, Queens"
+    },
+    "expect": {"ok": true, "decision": "hold", "reasons": ["missing_source_url"]},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "hold-unclear-queens-relevance",
+    "tool": "validate_submission",
+    "input": {
+      "title": "City Heritage Open House",
+      "date_display": "Jun 12, Sat",
+      "date_confidence": "Confirmed date",
+      "location": "Citywide",
+      "source_url": "https://example.org/open-house"
+    },
+    "expect": {"ok": true, "decision": "hold", "reasons": ["queens_relevance_unverified"]},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "reject-outside-queens",
+    "tool": "validate_submission",
+    "input": {
+      "title": "Brooklyn Waterfront Festival",
+      "date_display": "Jul 10, Sat",
+      "date_confidence": "Confirmed date",
+      "location": "Brooklyn",
+      "source_url": "https://example.org/brooklyn-waterfront"
+    },
+    "expect": {"ok": true, "decision": "reject", "reasons": ["outside_queens"]},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "reject-existing-calendar-record",
+    "tool": "validate_submission",
+    "input": {
+      "title": "Lunar New Year",
+      "date_display": "Feb 6, Sat; parades likely following weekends",
+      "date_confidence": "Confirmed holiday, parade dates TBD",
+      "location": "Flushing, Queens",
+      "source_url": "https://example.org/lunar-new-year"
+    },
+    "expect": {"ok": true, "decision": "reject", "reasons": ["exact_duplicate"], "canonical_event_ids": ["february-lunar-new-year"]},
+    "max_result_chars": 2000
+  },
+  {
+    "id": "hold-unsupported-confidence",
+    "tool": "validate_submission",
+    "input": {
+      "title": "Richmond Hill Cultural Weekend",
+      "date_display": "Aug 14-15",
+      "date_confidence": "Definitely happening",
+      "location": "Richmond Hill, Queens",
+      "source_url": "https://example.org/richmond-hill"
+    },
+    "expect": {"ok": true, "decision": "hold", "reasons": ["unsupported_date_confidence"], "preserved_date_confidence": "Definitely happening"},
+    "max_result_chars": 2000
+  }
+]

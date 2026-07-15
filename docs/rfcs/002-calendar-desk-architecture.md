@@ -1,6 +1,6 @@
 # RFC 002: Select the bounded MBIQ Calendar Desk
 
-- **Status:** Proposed for implementation
+- **Status:** Accepted; phase 1 deterministic core implemented
 - **Date:** 2026-07-14
 - **Owner:** Repository maintainer
 - **Related incident:** `EXP-2026-07-14-MBIQ-RESEARCH-001`
@@ -163,9 +163,9 @@ unreachable, not merely less likely.
 
 ### Phase 1: deterministic core
 
-- Implement read-only local event lookup, duplicate checking, and validation.
-- Add ten fixtures and a model-free evaluator.
-- Verify all tool caps without loading Bonsai.
+- [x] Implement read-only local event lookup, duplicate checking, and validation.
+- [x] Add ten fixtures and a model-free evaluator.
+- [x] Verify all tool caps without loading Bonsai.
 
 ### Phase 2: exact-model harness canary
 
@@ -206,3 +206,12 @@ Approve MBIQ Calendar Desk as experiment 002 and retire deep-research briefs as
 the acceptance target for this hardware configuration. Implementation begins
 with model-free typed tools and fixtures; no 27B weights load until the machine
 has rebooted and the swap gate passes.
+
+## Phase 1 evidence
+
+- `scripts/calendar-desk.mjs` implements the four local operations.
+- `evals/calendar-desk-cases.json` defines ten exact outcomes.
+- `scripts/verify-calendar-desk.mjs` checks expected result subsets and byte
+  ceilings.
+- `npm run validate` passes all ten cases. The largest result observed across
+  every current event ID, title, and month is 1,476 serialized characters.

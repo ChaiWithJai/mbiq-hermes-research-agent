@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "events:import": "node scripts/import-events.mjs",
-    "validate": "node scripts/validate.mjs",
+    "calendar:test": "node scripts/verify-calendar-desk.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/verify-calendar-desk.mjs",
     "verify:plans": "node scripts/verify-plans.mjs"
   },
   "engines": {

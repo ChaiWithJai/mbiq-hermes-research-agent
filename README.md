@@ -17,10 +17,14 @@ The deep-research brief was experiment 001. It is closed without a model
 capability verdict because the runtime failed before January or February
 produced an accepted plan. See the [experiment post-mortem](docs/postmortems/001-research-brief-experiment.md).
 
-Experiment 002 is the proposed [MBIQ Calendar Desk](docs/rfcs/002-calendar-desk-architecture.md),
+Experiment 002 is the selected [MBIQ Calendar Desk](docs/rfcs/002-calendar-desk-architecture.md),
 adapted from Google's current TypeScript customer-service sample. It replaces
-open-ended discovery with one bounded calendar case, typed tools, deterministic
+open-ended discovery with one bounded calendar case, structured tools, deterministic
 decisions, and an editor handoff.
+
+The model-free Calendar Desk core is implemented and passes ten deterministic
+cases. Its [tool contract](docs/calendar-desk.md) caps each result at 2,000
+characters and keeps canonical decisions outside the model.
 
 ## Run it
 
@@ -57,10 +61,17 @@ uses the narrow compatibility patch in `patches/hermes-32k-minimum.patch` to
 lower that startup floor to 32,000 for this evaluation only. It also lets the
 configured 40 percent threshold trigger compaction at 12,288 input tokens.
 
-Then give Hermes a bounded job:
+Then give Hermes one bounded Calendar Desk case using
+`prompts/calendar-desk.md`. For example:
 
 ```text
-Choose one Queens-specific event from data/events.json. Build a research brief under the contract in prompts/research-brief.md. Use Exa search and fetch, save the result to briefs/<event-id>.md, and score it against evals/cases.json and evals/rubric.md. Stop at the human editorial review gate.
+Read prompts/calendar-desk.md. Answer this case: What is the displayed date and date confidence for event ID february-lunar-new-year? Use the local Calendar Desk command, return the compact case packet, and stop at human editorial review.
+```
+
+Test the business rules without loading a model:
+
+```bash
+npm run calendar:test
 ```
 
 The first server start downloads the current 8.49 GB MLX package. The evaluation Mac has enough local storage, but long-context memory safety is not yet proven. Its T7 is mounted as NTFS, which macOS treats as read-only, so `scripts/start-bonsai.sh` overrides the machine's T7 Hugging Face cache setting and uses `~/.cache/huggingface-local`.
@@ -86,6 +97,7 @@ The importer finds the deployed Next.js calendar chunk, extracts the calendar ar
 - [CPU runtime preflight](evals/runs/cpu-runtime-preflight.trace.md) records the non-weight-bearing compatibility check and the remaining reboot gate.
 - [Experiment 001 post-mortem](docs/postmortems/001-research-brief-experiment.md) closes the failed economic-job test without overstating model capability.
 - [Calendar Desk architecture](docs/rfcs/002-calendar-desk-architecture.md) scores the alternatives and selects the next bounded use case.
+- [Calendar Desk tool contract](docs/calendar-desk.md) defines the implemented local operations and deterministic routing boundary.
 
 ## Writing approach
 
