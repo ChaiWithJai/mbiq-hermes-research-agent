@@ -14,14 +14,14 @@ A small, local-first research desk for Meanwhile Back in Queens. Hermes is the a
 ## Run it
 
 > [!WARNING]
-> Local 27B runs are temporarily disabled. A 44,960-token Hermes turn caused a
+> A 44,960-token Hermes turn caused a
 > macOS GPU-driver kernel panic on the 24 GiB evaluation Mac. Read the
 > [incident report](docs/incidents/2026-07-14-mlx-gpu-kernel-panic.md) and
-> [memory-safety RFC](docs/rfcs/001-local-model-memory-safety.md). Do not start
-> `mlx_lm.server` for this evaluation until the RFC's blocking controls and
-> hardware canary have passed.
+> [simple safety rules](docs/rfcs/001-local-model-memory-safety.md). Use the
+> 32k settings in this repository and run the observed compaction canary
+> before resuming the monthly evaluation.
 
-After those controls are implemented and approved, the intended entry point is:
+Use this entry point for the canary. Use it for monthly work only after the canary passes:
 
 ```bash
 ./scripts/start-bonsai.sh
@@ -58,7 +58,7 @@ The importer finds the deployed Next.js calendar chunk, extracts the calendar ar
 - [Job-level rubric](evals/rubric.md) defines what “meaningful economic job” means here.
 - [Verification protocol](docs/verification.md) requires traced January and February planning runs through Hermes, local Bonsai, and Exa.
 - [MLX GPU kernel-panic incident](docs/incidents/2026-07-14-mlx-gpu-kernel-panic.md) records the failed long-context run and evidence.
-- [Local model memory-safety RFC](docs/rfcs/001-local-model-memory-safety.md) blocks further 27B acceptance runs until deterministic guards and a hardware canary pass.
+- [Simple local model rules](docs/rfcs/001-local-model-memory-safety.md) use a smaller working range and one observed canary before monthly evaluation resumes.
 
 ## Writing approach
 

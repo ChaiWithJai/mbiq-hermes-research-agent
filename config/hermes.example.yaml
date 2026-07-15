@@ -3,12 +3,21 @@ model:
   base_url: http://127.0.0.1:8080/v1
   # MLX's reserved name uses the model already loaded by start-bonsai.sh.
   default: default_model
-  context_length: 262144
+  # This is the local working limit, not the model's theoretical limit.
+  context_length: 32768
+  # Reserve output room inside the same context window.
+  max_tokens: 2048
+
+compression:
+  enabled: true
+  threshold: 0.75
+  target_ratio: 0.20
+  protect_last_n: 8
 
 mcp_servers:
   exa:
     url: https://mcp.exa.ai/mcp?tools=web_search_exa,web_search_advanced_exa,web_fetch_exa
-    supports_parallel_tool_calls: true
+    supports_parallel_tool_calls: false
     tools:
       include:
         - web_search_exa

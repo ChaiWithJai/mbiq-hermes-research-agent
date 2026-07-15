@@ -14,7 +14,9 @@
 
 ## Executive summary
 
-During a local Hermes evaluation of the 2-bit Ternary Bonsai 27B model, three parallel Exa searches added about 147,000 characters of tool output to one agent turn. Hermes then submitted a roughly 44,960-token request to `mlx_lm.server`. While MLX was processing that long context, macOS panicked in `IOGPUFamily` with `"completeMemory() prepare count underflow" @IOGPUMemory.cpp:550`.
+During a local Hermes evaluation of the 2-bit Ternary Bonsai 27B model, three parallel Exa searches added about 147,000 characters of tool output to one agent turn. Hermes then submitted a roughly 44,960-token request to `mlx_lm.server`. We did not attempt the model's theoretical 262,144-token context. Hermes advertised that limit, but the failing request used about 17 percent of it.
+
+MLX reported a 42,468-token prefill for the request. The last progress observed in the live server output was 36,864 of 42,468 tokens at 20:49:21. The kernel panic occurred 76 seconds later, at 20:50:37, before the model returned an answer. The exact final prefill token was not written to disk. macOS panicked in `IOGPUFamily` with `"completeMemory() prepare count underflow" @IOGPUMemory.cpp:550`.
 
 The panic report definitively identifies the panicked task as a 29-thread `python3.13` process. The timestamp, runtime, and signature match the MLX server used by this evaluation. Similar failures are reported upstream for long-context `mlx_lm.server` workloads in [mlx-lm#883](https://github.com/ml-explore/mlx-lm/issues/883) and for the same Apple GPU panic signature in [mlx#3346](https://github.com/ml-explore/mlx/issues/3346).
 
@@ -39,6 +41,7 @@ Times are America/New_York on 2026-07-14.
 | 20:38:44 | Hermes launches three parallel advanced Exa searches, each requesting eight results. | `evals/runs/january.raw.log:1173-1175` |
 | 20:38:54–20:39:06 | Exa returns 60,023, 33,342, and 54,027 characters. | `evals/runs/january.raw.log:1185,1738,2052` |
 | 20:39:07 | Hermes submits the combined turn, estimated at 44,960 tokens. | `evals/runs/january.raw.log:2547-2549` |
+| 20:49:21 | MLX reports 36,864 of 42,468 prompt tokens processed. This is the last observed progress line. | live server output captured during the run |
 | 20:50:37 | macOS panics in `IOGPUFamily`; panicked task is `pid 74906: python3.13`, 29 threads. | `/Library/Logs/DiagnosticReports/.contents.panic` (local system artifact) |
 | 20:52:05 | After reboot, the server is restarted while recovering the interrupted evaluation. | local terminal trace |
 | 20:55 | The operator reports the crash; Hermes and MLX are stopped. | local process audit confirms no `hermes chat` or `mlx_lm.server` process remains |
@@ -62,7 +65,7 @@ evals/prompts/january.txt
 
 Repository anchors:
 
-- `scripts/start-bonsai.sh:27-33` starts the server with an 8,192-token output ceiling and a 4 GiB prompt-cache allowance, but no input-context or Metal-memory ceiling.
+- At incident commit `fd83223`, `scripts/start-bonsai.sh:27-33` started the server with an 8,192-token output ceiling and a 4 GiB prompt-cache allowance, but no input-context or Metal-memory ceiling.
 - `evals/prompts/january.txt:1` now limits discovery searches to five results and forbids broad parallel searches. This reduces exposure but is not a sufficient runtime control.
 - `config/hermes.example.yaml` advertises a 262,144-token context to Hermes.
 
@@ -88,7 +91,7 @@ Repository anchors:
 
 The immediate cause is **verified**: Apple `IOGPUFamily` panicked at `IOGPUMemory.cpp:550` while the MLX Python process was active.
 
-The trigger chain is **high confidence**: a large MLX model was processing a 44,960-token agent turn immediately before the matching panic, and upstream MLX reports reproduce the same signature under long-context server workloads.
+The trigger chain is **high confidence**: a large MLX model had processed at least 36,864 prefill tokens from a roughly 44,960-token agent turn immediately before the matching panic, and upstream MLX reports reproduce the same signature under long-context server workloads.
 
 The narrower statement that ordinary pageable RAM was exhausted is **not proven by this panic excerpt**. It reports compressor and swap status as OK. The safer conclusion is that this workload triggered an Apple GPU-memory bookkeeping failure; unified-memory/KV growth is a supported mechanism, not a directly measured final allocation in this incident.
 
@@ -107,7 +110,7 @@ To guarantee recurrence, we would:
 - restart immediately after a panic without changing the resource envelope; and
 - rely on Activity Monitor or a human noticing pressure after the GPU has already allocated memory.
 
-RFC 001 blocks each of those paths with request rejection, bounded evidence, a staged canary, memory telemetry, and a no-go state after any panic.
+RFC 001 addresses those paths with a smaller working range, focused searches, one observed canary, and clear stop conditions.
 
 ## Mitigation and corrective actions
 
@@ -124,13 +127,11 @@ RFC 001 blocks each of those paths with request rejection, bounded evidence, a s
 
 | ID | Action | Owner | Due | Status | Verification path |
 | --- | --- | --- | --- | --- | --- |
-| A1 | Add a hard input-token/request-byte gate in front of MLX. | Repo maintainer | Before any 27B rerun | Open | Oversized fixture receives a deterministic rejection before MLX |
-| A2 | Replace direct server launch with a wrapper that sets conservative MLX cache, memory, and wired limits supported by the installed version. | Repo maintainer | Before any 27B rerun | Open | Startup prints effective limits; automated smoke asserts them |
-| A3 | Reduce prompt-cache size/bytes and default output limit for evaluation mode. | Repo maintainer | Before canary | Open | Process command and server startup record bounded values |
-| A4 | Add live `mx.metal` active/cache/peak telemetry and abort below an OS-reserve threshold. | Repo maintainer | Before canary | Open | Synthetic threshold test terminates the request/server cleanly |
-| A5 | Run staged 2k, 4k, 8k, then 12k context canaries; stop on pressure, swap acceleration, or Metal errors. | Human operator | After A1–A4 | Open | Signed canary table with peak memory and exit result |
-| A6 | Resume January and February only within the largest canary-proven envelope; split research into bounded jobs if necessary. | Human operator | After A5 | Open | Both Hermes traces show enforced budgets and completed artifacts |
-| A7 | Document upstream/version status and reassess after macOS or MLX upgrades. | Repo maintainer | Before dependency upgrade | Open | Version-specific safety note updated with official issue links |
+| A1 | Set Hermes to a 32,768 token context with 2,048 tokens reserved for output. | Repo maintainer | Before canary | Complete | `config/hermes.example.yaml` contains the smaller limit |
+| A2 | Reduce MLX output, cache, prefill size, and concurrency defaults. | Repo maintainer | Before canary | Complete | `scripts/start-bonsai.sh` contains the smaller defaults |
+| A3 | Keep Exa searches focused and sequential. | Evaluation author | Before canary | Complete | January and February prompts limit discovery and fetching |
+| A4 | Run one observed canary across Hermes's 26,112 token compaction trigger. | Human operator | Before January | Open | Confirm compaction happens before another large MLX request and stop on any warning sign |
+| A5 | Resume January and February with the same settings. | Evaluation author | After A4 | Open | Both traced jobs finish without computer instability |
 
 ## Evidence provenance
 
@@ -138,10 +139,10 @@ RFC 001 blocks each of those paths with request rejection, bounded evidence, a s
 | --- | --- | --- |
 | Panic signature and panicked task | `/Library/Logs/DiagnosticReports/.contents.panic`, generated 2026-07-14 20:50 | Minimal non-personal excerpt recorded here; full system report is not committed |
 | Hermes requests and Exa payload sizes | `evals/runs/january.raw.log` | Raw verbose log remains ignored because it can contain fetched page bodies; stable line anchors summarized here |
-| Runtime command | `scripts/start-bonsai.sh:27-33` | Committed source |
+| Runtime command | Commit `fd83223`, `scripts/start-bonsai.sh:27-33` | Committed source |
 | Machine memory | `sysctl -n hw.memsize` = 25,769,803,776 bytes | Aggregate hardware fact only |
 | Upstream matching reports | MLX GitHub issues linked above | Public primary-source issue records |
 
 ## Closure criteria
 
-This incident remains open until A1–A5 are implemented and a bounded canary completes without a kernel panic, Metal error, unsafe memory peak, or unbounded request. Completion of the January and February editorial plans is not an incident-closure substitute.
+This incident remains open until the compaction canary finishes without a kernel panic, Metal error, red memory pressure, or computer instability. Completion of the January and February plans is separate from incident closure.

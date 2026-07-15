@@ -4,6 +4,16 @@ The goal is not complete when the model answers one prompt. It is complete only 
 
 ## Runs
 
+Before the monthly runs, confirm that `hermes config show` reports:
+
+- a 32,768 token context;
+- a 2,048 token output limit;
+- compression enabled at a 75 percent configured threshold;
+- eight protected recent messages; and
+- sequential Exa MCP calls.
+
+Run the compaction canary in [RFC 001](rfcs/001-local-model-memory-safety.md). The canary passes only if the raw Hermes log shows pre-API compression after the request estimate crosses the 26,112 token trigger and before another large request reaches MLX.
+
 Run from the repository root with the local Bonsai server active:
 
 ```bash
@@ -23,6 +33,7 @@ The raw logs stay local because fetched page text can be large and may carry mat
 - event IDs advanced, held, or rejected;
 - output path;
 - errors and recovery steps;
+- largest request estimate and every Hermes compression event;
 - score against `evals/cases.json` and `evals/rubric.md`;
 - manual claim and citation findings.
 
