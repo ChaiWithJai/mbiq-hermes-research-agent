@@ -1,6 +1,6 @@
 # RFC 001: Munger-style rules for local model runs
 
-- **Status:** Accepted for the January and February evaluation
+- **Status:** 27B configuration rejected after hardware canary
 - **Date:** 2026-07-14
 - **Owner:** Repository maintainer
 - **Related incident:** [INC-2026-07-14-MLX-001](../incidents/2026-07-14-mlx-gpu-kernel-panic.md)
@@ -21,7 +21,7 @@ No research run is worth crashing the computer.
 
 - Hermes gets a 32,768 token context for this evaluation.
 - MLX may generate no more than 2,048 tokens per turn.
-- MLX keeps one prompt cache with a 512 MiB limit.
+- MLX keeps no prompt cache between requests.
 - Hermes sends one model request at a time.
 
 ### 2. Invert the failure
@@ -38,13 +38,13 @@ The crash followed three broad searches that added about 147,000 characters to o
 The model supports a much larger context than this Mac has proved it can run. We will use the smaller number.
 
 - The working context is 32,768 tokens, not the model's 262,144 token limit.
-- Hermes reserves 2,048 tokens for output and starts compression around 26,112 input tokens.
+- Hermes reserves 2,048 tokens for output and starts compression around 12,288 input tokens.
 - We will not raise the working limit during the January or February evaluation.
 - If the evidence does not fit, Hermes will split collection from synthesis.
 
 ### 4. Change one thing at a time
 
-Before January resumes, we will run one compaction canary that grows past Hermes's 26,112 token trigger. We will confirm that Hermes compacts before it sends another large request to MLX. We will watch Activity Monitor during the run.
+Before January resumes, we will run one compaction canary that grows past Hermes's 12,288-token trigger. We will confirm that Hermes compacts before it sends another large request to MLX. We will watch memory and swap during the run.
 
 If the canary finishes and the computer stays responsive, January may resume with the same settings. We will not change the model, context, cache, and search pattern at the same time.
 
@@ -56,7 +56,7 @@ Stop the run if any of these things happen:
 - Swap grows quickly throughout one request.
 - The desktop starts to freeze or lag.
 - MLX reports a Metal or memory error.
-- Hermes fails to compact after the request estimate passes 26,112 tokens.
+- Hermes fails to compact after the request estimate passes 12,288 tokens.
 
 Do not retry the same failed request. Shorten the context first.
 
@@ -72,10 +72,10 @@ The January and February traces will record the largest prompt, the number of Ex
 | --- | --- | --- |
 | Hermes context | 262,144 tokens | 32,768 tokens |
 | Generated tokens | 8,192 | 2,048 |
-| Prompt caches | 2 | 1 |
-| Prompt cache limit | 4 GiB | 512 MiB |
+| Prompt caches | 2 | 0 |
+| Prompt cache limit | 4 GiB | disabled |
 | Search pattern | Three broad searches in parallel | One focused search at a time |
-| Canary | Short reply only | One observed compaction across the 26,112 token trigger |
+| Canary | Short reply only | One observed compaction across the 12,288-token trigger |
 
 ## Hermes compaction we rely on
 
@@ -83,7 +83,7 @@ Hermes already has the needed controls. We will use them instead of adding anoth
 
 - The built-in `ContextCompressor` is on by default.
 - Hermes estimates the full next request immediately before each model call. This includes tool results that arrived during the current turn.
-- At the current settings, Hermes starts compression at about 26,112 input tokens.
+- At the current settings, the evaluation fork starts compression at about 12,288 input tokens.
 - Hermes first replaces older tool results with short notes.
 - Hermes then summarizes the middle of the conversation and keeps the system prompt, the first exchange, and four recent messages.
 - Hermes caps each message at 6,000 characters when it builds the summary prompt. It does not send a full large Exa result into the summary call.
@@ -95,8 +95,8 @@ These behaviors come from the pinned Hermes source in `agent/conversation_loop.p
 
 ## When work may resume
 
-January may resume after the compaction canary passes. February may use the same settings after January completes without computer instability.
+The 40 percent compaction logic passed, but the 27B hardware canary failed because swap grew by about 6.45 GiB. January and February may not use this 27B configuration.
 
-The canary passed on 2026-07-14. Its sanitized evidence is in [the compaction canary trace](../../evals/runs/compaction-canary.trace.md).
+The sanitized evidence is in [the compaction canary trace](../../evals/runs/compaction-canary.trace.md).
 
 If another kernel panic occurs, local 27B work stops. We will then use a smaller model or a different runtime instead of adding more process around the same setup.

@@ -35,5 +35,5 @@ exec "$HOME/.local/bin/mlx_lm.server" \
   --decode-concurrency 1 \
   --prompt-concurrency 1 \
   --prefill-step-size "${MBIQ_PREFILL_STEP_SIZE:-512}" \
-  --prompt-cache-size 1 \
-  --prompt-cache-bytes "${MBIQ_PROMPT_CACHE_BYTES:-536870912}"
+  --prompt-cache-size 0 \
+  --prompt-cache-bytes 0

@@ -18,10 +18,11 @@ A small, local-first research desk for Meanwhile Back in Queens. Hermes is the a
 > macOS GPU-driver kernel panic on the 24 GiB evaluation Mac. Read the
 > [incident report](docs/incidents/2026-07-14-mlx-gpu-kernel-panic.md) and
 > [simple safety rules](docs/rfcs/001-local-model-memory-safety.md). Use the
-> 32k settings in this repository and run the observed compaction canary
-> before resuming the monthly evaluation.
+> 32K settings in this repository. The 40 percent compaction logic passed,
+> but the 27B canary caused about 6.45 GiB of swap growth. Do not resume the
+> monthly evaluation on this model and Mac.
 
-Use this entry point for the canary. Use it for monthly work only after the canary passes:
+This entry point is retained for reproducibility. Do not use it for monthly work unless a new hardware canary passes:
 
 ```bash
 ./scripts/start-bonsai.sh
@@ -30,8 +31,13 @@ Use this entry point for the canary. Use it for monthly work only after the cana
 In another terminal, from this repository:
 
 ```bash
-hermes
+scripts/hermes-32k.sh
 ```
+
+The pinned Hermes revision normally rejects contexts below 64K. This wrapper
+uses the narrow compatibility patch in `patches/hermes-32k-minimum.patch` to
+lower that startup floor to 32,000 for this evaluation only. It also lets the
+configured 40 percent threshold trigger compaction at 12,288 input tokens.
 
 Then give Hermes a bounded job:
 

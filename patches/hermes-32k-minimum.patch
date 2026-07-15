@@ -1,0 +1,108 @@
+diff --git a/agent/agent_init.py b/agent/agent_init.py
+index 0c700c2..50ae84b 100644
+--- a/agent/agent_init.py
++++ b/agent/agent_init.py
+@@ -34,6 +34,7 @@ from agent.context_compressor import ContextCompressor
+ from agent.iteration_budget import IterationBudget
+ from agent.memory_manager import StreamingContextScrubber
+ from agent.model_metadata import (
++    AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH,
+     MINIMUM_CONTEXT_LENGTH,
+     fetch_model_metadata,
+     is_local_endpoint,
+@@ -1883,15 +1884,15 @@ def init_agent(
+     # Reject models whose context window is below the minimum required
+     # for reliable tool-calling workflows (64K tokens).
+     _ctx = getattr(agent.context_compressor, "context_length", 0)
+-    if _ctx and _ctx < MINIMUM_CONTEXT_LENGTH:
++    if _ctx and _ctx < AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH:
+         raise ValueError(
+             f"Model {agent.model} has a context window of {_ctx:,} tokens, "
+-            f"which is below the minimum {MINIMUM_CONTEXT_LENGTH:,} required "
++            f"which is below the minimum {AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH:,} required "
+             f"by Hermes Agent.  Choose a model with at least "
+-            f"{MINIMUM_CONTEXT_LENGTH // 1000}K context.  If your server "
++            f"{AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH // 1000}K context.  If your server "
+             f"reports a window smaller than the model's true window, set "
+             f"model.context_length in config.yaml to the real value "
+-            f"(this must be at least {MINIMUM_CONTEXT_LENGTH // 1000}K)."
++            f"(this must be at least {AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH // 1000}K)."
+         )
+ 
+     # Nous Hermes 3/4 are chat models, not tool-call-tuned. The interactive
+diff --git a/agent/context_compressor.py b/agent/context_compressor.py
+index ec4314a..49bedae 100644
+--- a/agent/context_compressor.py
++++ b/agent/context_compressor.py
+@@ -19,6 +19,7 @@ Improvements over v2:
+ import hashlib
+ import json
+ import logging
++import os
+ import sqlite3
+ import re
+ import time
+@@ -1071,6 +1072,8 @@ class ContextCompressor(ContextEngine):
+         Large-context models keep the configured value — at 512K+ the default
+         50% trigger already leaves ample post-compaction headroom.
+         """
++        if os.environ.get("HERMES_ALLOW_LOW_CONTEXT_COMPRESSION_THRESHOLD") == "1":
++            return threshold_percent
+         if context_length and context_length < _SMALL_CTX_WINDOW_LIMIT:
+             return max(threshold_percent, _SMALL_CTX_THRESHOLD_PERCENT)
+         return threshold_percent
+@@ -1107,6 +1110,8 @@ class ContextCompressor(ContextEngine):
+         if effective_window <= 0:
+             effective_window = context_length
+         pct_value = int(effective_window * threshold_percent)
++        if os.environ.get("HERMES_ALLOW_LOW_CONTEXT_COMPRESSION_THRESHOLD") == "1":
++            return max(1, min(pct_value, effective_window - 1))
+         floored = max(pct_value, MINIMUM_CONTEXT_LENGTH)
+         # If flooring pushed the threshold to/over the effective window it can
+         # never be reached. Trigger at 85% of the effective input budget so a
+diff --git a/agent/conversation_compression.py b/agent/conversation_compression.py
+index 6f2c5eb..7cb18fb 100644
+--- a/agent/conversation_compression.py
++++ b/agent/conversation_compression.py
+@@ -198,6 +198,7 @@ def check_compression_model_feasibility(agent: Any) -> None:
+             get_text_auxiliary_client,
+         )
+         from agent.model_metadata import (
++            AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH,
+             MINIMUM_CONTEXT_LENGTH,
+             get_model_context_length,
+         )
+@@ -275,13 +276,13 @@ def check_compression_model_feasibility(agent: Any) -> None:
+         # __init__), so the compression model must too — otherwise it
+         # cannot summarise a full threshold-sized window of main-model
+         # content.  Mirrors the main-model rejection pattern.
+-        if aux_context and aux_context < MINIMUM_CONTEXT_LENGTH:
++        if aux_context and aux_context < AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH:
+             raise ValueError(
+                 f"Auxiliary compression model {aux_model} has a context "
+                 f"window of {aux_context:,} tokens, which is below the "
+-                f"minimum {MINIMUM_CONTEXT_LENGTH:,} required by Hermes "
++                f"minimum {AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH:,} required by Hermes "
+                 f"Agent.  Choose a compression model with at least "
+-                f"{MINIMUM_CONTEXT_LENGTH // 1000}K context (set "
++                f"{AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH // 1000}K context (set "
+                 f"auxiliary.compression.model in config.yaml), or set "
+                 f"auxiliary.compression.context_length to override the "
+                 f"detected value if it is wrong."
+diff --git a/agent/model_metadata.py b/agent/model_metadata.py
+index 03c0517..62df567 100644
+--- a/agent/model_metadata.py
++++ b/agent/model_metadata.py
+@@ -193,6 +193,12 @@ DEFAULT_FALLBACK_CONTEXT = CONTEXT_PROBE_TIERS[0]
+ # Sessions, model switches, and cron jobs should reject models below this.
+ MINIMUM_CONTEXT_LENGTH = 64_000
+ 
++# An explicit local evaluation may accept a smaller startup floor without
++# changing the 64K floor used by context-compression threshold calculations.
++AGENT_STARTUP_MINIMUM_CONTEXT_LENGTH = int(
++    os.environ.get("HERMES_STARTUP_MINIMUM_CONTEXT_LENGTH", str(MINIMUM_CONTEXT_LENGTH))
++)
++
+ # Short-lived in-process cache for local-server context probes. Bounds the
+ # probe rate when the new local-endpoint live-probe paths (reconcile-on-hit +
+ # pre-defaults step 7) resolve the same model several times during one startup

@@ -8,20 +8,21 @@ Before the monthly runs, confirm that `hermes config show` reports:
 
 - a 32,768 token context;
 - a 2,048 token output limit;
-- compression enabled at a 75 percent configured threshold;
-- four protected recent messages;
+- compression enabled at a 40 percent configured threshold;
+- one protected head message and two protected recent messages;
 - the main local model selected for compression;
-- MLX thinking disabled so compression returns content rather than a reasoning-only response; and
+- MLX thinking disabled so compression returns content rather than a reasoning-only response;
+- persistent MLX prompt caching disabled; and
 - sequential Exa MCP calls.
 
-Run the compaction canary in [RFC 001](rfcs/001-local-model-memory-safety.md). The canary passes only if the raw Hermes log shows pre-API compression after the request estimate crosses the 26,112 token trigger and before another large request reaches MLX.
+Run the compaction canary in [RFC 001](rfcs/001-local-model-memory-safety.md). The canary passes only if the raw Hermes log shows pre-API compression after the request estimate crosses the 12,288-token trigger, the result falls below that trigger, and swap remains stable.
 
 Run from the repository root with the local Bonsai server active:
 
 ```bash
 set -o pipefail
-hermes chat -v --yolo -t exa,file,terminal --max-turns 60 -q "$(cat evals/prompts/january.txt)" 2>&1 | tee evals/runs/january.raw.log
-hermes chat -v --yolo -t exa,file,terminal --max-turns 90 -q "$(cat evals/prompts/february.txt)" 2>&1 | tee evals/runs/february.raw.log
+scripts/hermes-32k.sh chat -v --yolo -t exa,file,terminal --max-turns 60 -q "$(cat evals/prompts/january.txt)" 2>&1 | tee evals/runs/january.raw.log
+scripts/hermes-32k.sh chat -v --yolo -t exa,file,terminal --max-turns 90 -q "$(cat evals/prompts/february.txt)" 2>&1 | tee evals/runs/february.raw.log
 ```
 
 `scripts/start-bonsai.sh` hashes the complete weight file before launch and refuses to start unless it matches the pinned Hugging Face LFS SHA-256.

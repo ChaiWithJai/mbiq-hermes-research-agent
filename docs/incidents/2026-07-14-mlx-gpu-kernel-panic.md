@@ -8,7 +8,7 @@
 | Date | 2026-07-14 |
 | Severity | SEV-2: developer workstation outage and data-loss risk |
 | Class | Operational outage |
-| Status | Resolved; 32K compaction canary passed at 21:33 on 2026-07-14 |
+| Status | Reopened; 27B canary caused unsafe swap growth at 22:00 on 2026-07-14 |
 | Customer impact | None |
 | Direct impact | The evaluation Mac kernel-panicked and restarted; the in-flight January run was lost |
 
@@ -46,6 +46,7 @@ Times are America/New_York on 2026-07-14.
 | 20:52:05 | After reboot, the server is restarted while recovering the interrupted evaluation. | local terminal trace |
 | 20:55 | The operator reports the crash; Hermes and MLX are stopped. | local process audit confirms no `hermes chat` or `mlx_lm.server` process remains |
 | 21:33 | The corrected 32K canary compacts 38,762 estimated tokens to 17,952 with a real summary and no fallback. | `evals/runs/compaction-canary.trace.md` |
+| 22:00 | A forked 40 percent canary compacts successfully, but swap grows from 2.46 GiB to 8.91 GiB. MLX is stopped. | `evals/runs/compaction-canary.trace.md` |
 
 Detection was reactive: macOS restarted and surfaced a panic dialog. The harness had no proactive context-size or Metal-memory alarm.
 
@@ -131,7 +132,7 @@ RFC 001 addresses those paths with a smaller working range, focused searches, on
 | A1 | Set Hermes to a 32,768 token context with 2,048 tokens reserved for output. | Repo maintainer | Before canary | Complete | `config/hermes.example.yaml` contains the smaller limit |
 | A2 | Reduce MLX output, cache, prefill size, and concurrency defaults. | Repo maintainer | Before canary | Complete | `scripts/start-bonsai.sh` contains the smaller defaults |
 | A3 | Keep Exa searches focused and sequential. | Evaluation author | Before canary | Complete | January and February prompts limit discovery and fetching |
-| A4 | Run one observed canary across Hermes's 26,112 token compaction trigger. | Human operator | Before January | Complete | `evals/runs/compaction-canary.trace.md` records a 38,762-to-17,952 token reduction without fallback or instability |
+| A4 | Run one observed canary across the forked 12,288-token compaction trigger. | Human operator | Before January | Failed on 27B | Compaction succeeded, but swap grew by about 6.45 GiB; see `evals/runs/compaction-canary.trace.md` |
 | A5 | Resume January and February with the same settings. | Evaluation author | After A4 | Open | Both traced jobs finish without computer instability |
 
 ## Evidence provenance
@@ -146,4 +147,4 @@ RFC 001 addresses those paths with a smaller working range, focused searches, on
 
 ## Closure criteria
 
-This incident closed after the corrected compaction canary finished without a kernel panic, Metal error, red memory pressure, swap growth, or computer instability. Completion of the January and February plans remains a separate evaluation requirement.
+This incident is reopened because the 27B model caused unsafe swap growth even when the fork compacted at 40 percent and persistent prompt caching was disabled. Do not resume the 27B evaluation on this Mac. A smaller model or different runtime requires a new canary before monthly work resumes.
