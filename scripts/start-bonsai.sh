@@ -10,10 +10,17 @@ export HF_HUB_ETAG_TIMEOUT=60
 # Resolve the exact downloaded snapshot rather than following a moving main branch.
 MODEL_REVISION="${MBIQ_MODEL_REVISION:-badd9a64565446a6eb8b76583dfa2a62917d8347}"
 MODEL_PATH="$HF_HOME/hub/models--prism-ml--Ternary-Bonsai-27B-mlx-2bit/snapshots/$MODEL_REVISION"
+EXPECTED_MODEL_SHA256="8acd4597893ea7004e2d7336c3cf6e3157b8896592bbcf066db004021e45846b"
 
 if [[ ! -f "$MODEL_PATH/model.safetensors" ]]; then
   echo "Missing model weights at $MODEL_PATH/model.safetensors" >&2
   echo "Finish the pinned model download before starting the server." >&2
+  exit 1
+fi
+
+ACTUAL_MODEL_SHA256="$(shasum -a 256 "$MODEL_PATH/model.safetensors" | awk '{print $1}')"
+if [[ "$ACTUAL_MODEL_SHA256" != "$EXPECTED_MODEL_SHA256" ]]; then
+  echo "Model checksum failed: expected $EXPECTED_MODEL_SHA256, got $ACTUAL_MODEL_SHA256" >&2
   exit 1
 fi
 

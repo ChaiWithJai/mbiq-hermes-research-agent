@@ -12,6 +12,8 @@ hermes chat -v --yolo -t exa,file,terminal --max-turns 60 -q "$(cat evals/prompt
 hermes chat -v --yolo -t exa,file,terminal --max-turns 90 -q "$(cat evals/prompts/february.txt)" 2>&1 | tee evals/runs/february.raw.log
 ```
 
+`scripts/start-bonsai.sh` hashes the complete weight file before launch and refuses to start unless it matches the pinned Hugging Face LFS SHA-256.
+
 The raw logs stay local because fetched page text can be large and may carry material that should not be republished. For each run, record a sanitized trace at `evals/runs/<month>.trace.md` with:
 
 - Hermes version, model ID, provider, and endpoint;
