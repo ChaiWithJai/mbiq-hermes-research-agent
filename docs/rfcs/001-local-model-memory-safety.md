@@ -1,6 +1,6 @@
 # RFC 001: Munger-style rules for local model runs
 
-- **Status:** 27B configuration rejected after hardware canary
+- **Status:** 27B GPU configuration rejected; CPU canary pending
 - **Date:** 2026-07-14
 - **Owner:** Repository maintainer
 - **Related incident:** [INC-2026-07-14-MLX-001](../incidents/2026-07-14-mlx-gpu-kernel-panic.md)
@@ -23,6 +23,8 @@ No research run is worth crashing the computer.
 - MLX may generate no more than 2,048 tokens per turn.
 - MLX keeps no prompt cache between requests.
 - Hermes sends one model request at a time.
+- The launcher selects MLX's CPU device before importing the server.
+- The launcher refuses to start above 1 GiB of existing swap.
 
 ### 2. Invert the failure
 
@@ -44,7 +46,7 @@ The model supports a much larger context than this Mac has proved it can run. We
 
 ### 4. Change one thing at a time
 
-Before January resumes, we will run one compaction canary that grows past Hermes's 12,288-token trigger. We will confirm that Hermes compacts before it sends another large request to MLX. We will watch memory and swap during the run.
+Before January resumes, we will reboot to clear stale swap and run one CPU-only compaction canary that grows past Hermes's 12,288-token trigger. We will confirm that Hermes compacts before it sends another large request to MLX. We will watch memory and swap during the run.
 
 If the canary finishes and the computer stays responsive, January may resume with the same settings. We will not change the model, context, cache, and search pattern at the same time.
 
@@ -74,6 +76,7 @@ The January and February traces will record the largest prompt, the number of Ex
 | Generated tokens | 8,192 | 2,048 |
 | Prompt caches | 2 | 0 |
 | Prompt cache limit | 4 GiB | disabled |
+| MLX device | GPU / Metal | CPU |
 | Search pattern | Three broad searches in parallel | One focused search at a time |
 | Canary | Short reply only | One observed compaction across the 12,288-token trigger |
 
@@ -95,8 +98,14 @@ These behaviors come from the pinned Hermes source in `agent/conversation_loop.p
 
 ## When work may resume
 
-The 40 percent compaction logic passed, but the 27B hardware canary failed because swap grew by about 6.45 GiB. January and February may not use this 27B configuration.
+The 40 percent compaction logic passed, but the 27B GPU canary failed because swap grew by about 6.45 GiB. January and February may not use the GPU configuration.
+
+The exact 27B weights remain the evaluation model. The next candidate changes
+only the MLX execution device to CPU. A non-weight-bearing Qwen 3.5
+gated-delta forward pass succeeded on CPU. The full weights have not been
+loaded on that path because stale swap remains above the launch limit. The
+CPU configuration is therefore compatible in principle but not yet accepted.
 
 The sanitized evidence is in [the compaction canary trace](../../evals/runs/compaction-canary.trace.md).
 
-If another kernel panic occurs, local 27B work stops. We will then use a smaller model or a different runtime instead of adding more process around the same setup.
+If another kernel panic occurs, local 27B work stops. We will then use a different runtime or record that this Mac cannot complete the requested evaluation. A smaller model may be tested as a separate variant, but it cannot stand in for the 27B result.

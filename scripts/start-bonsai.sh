@@ -7,6 +7,25 @@ export HF_HUB_DISABLE_XET=1
 export HF_HUB_DOWNLOAD_TIMEOUT=600
 export HF_HUB_ETAG_TIMEOUT=60
 
+# The 27B Metal path caused a kernel panic and later unsafe swap growth on this
+# 24 GiB Mac. Keep inference on CPU unless a future, separately reviewed
+# hardware profile explicitly replaces this launcher.
+MLX_LM_PYTHON="${MBIQ_MLX_LM_PYTHON:-$HOME/.local/share/uv/tools/mlx-lm/bin/python}"
+if [[ ! -x "$MLX_LM_PYTHON" ]]; then
+  echo "Missing mlx-lm Python runtime at $MLX_LM_PYTHON" >&2
+  exit 1
+fi
+
+# A reboot should leave swap near zero. Starting while old swap is still
+# resident makes a canary ambiguous and removes the machine's safety margin.
+SWAP_USED_MB="$(sysctl -n vm.swapusage | sed -E 's/.*used = ([0-9.]+)M.*/\1/')"
+MAX_START_SWAP_MB="${MBIQ_MAX_START_SWAP_MB:-1024}"
+if ! awk -v used="$SWAP_USED_MB" -v max="$MAX_START_SWAP_MB" 'BEGIN { exit !(used <= max) }'; then
+  echo "Refusing to start: swap use is ${SWAP_USED_MB} MiB (limit ${MAX_START_SWAP_MB} MiB)." >&2
+  echo "Reboot this Mac, then rerun the bounded canary." >&2
+  exit 1
+fi
+
 # Resolve the exact downloaded snapshot rather than following a moving main branch.
 MODEL_REVISION="${MBIQ_MODEL_REVISION:-badd9a64565446a6eb8b76583dfa2a62917d8347}"
 MODEL_PATH="$HF_HOME/hub/models--prism-ml--Ternary-Bonsai-27B-mlx-2bit/snapshots/$MODEL_REVISION"
@@ -26,7 +45,7 @@ fi
 
 # Hermes sends its 2,048-token limit on normal turns. Compression deliberately
 # omits that request field, so this smaller server default bounds summaries.
-exec "$HOME/.local/bin/mlx_lm.server" \
+exec "$MLX_LM_PYTHON" "$(dirname "$0")/mlx-lm-server-cpu.py" \
   --model "$MODEL_PATH" \
   --host 127.0.0.1 \
   --port 8080 \

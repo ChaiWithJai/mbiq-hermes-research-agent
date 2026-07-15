@@ -5,7 +5,7 @@ A small, local-first research desk for Meanwhile Back in Queens. Hermes is the a
 ## What is ready
 
 - Hermes Agent is installed from Nous Research commit `7e84d2b5a43d47b1da33cfa662d0f87991774b1c`.
-- Hermes requests MLX's reserved `default_model` at `http://127.0.0.1:8080/v1`; `scripts/start-bonsai.sh` binds that name to the pinned local `prism-ml/Ternary-Bonsai-27B-mlx-2bit` snapshot.
+- Hermes requests MLX's reserved `default_model` at `http://127.0.0.1:8080/v1`; `scripts/start-bonsai.sh` binds that name to the pinned local `prism-ml/Ternary-Bonsai-27B-mlx-2bit` snapshot and selects MLX's CPU device before the server imports.
 - The official Exa remote MCP is configured with search, advanced search, and fetch tools.
 - `data/events.json` contains all 109 source records from the MBIQ Research Hub, with the original date text and confidence labels. Three exact duplicate records are preserved and marked with `duplicate_of`.
 - `AGENTS.md` gives Hermes the MBIQ role, research workflow, evidence gates, and writing rules.
@@ -20,13 +20,20 @@ A small, local-first research desk for Meanwhile Back in Queens. Hermes is the a
 > [simple safety rules](docs/rfcs/001-local-model-memory-safety.md). Use the
 > 32K settings in this repository. The 40 percent compaction logic passed,
 > but the 27B canary caused about 6.45 GiB of swap growth. Do not resume the
-> monthly evaluation on this model and Mac.
+> monthly evaluation on the failed GPU configuration. The CPU path still needs
+> a bounded canary after reboot.
 
-This entry point is retained for reproducibility. Do not use it for monthly work unless a new hardware canary passes:
+The launcher refuses to start above 1 GiB of existing swap. Reboot the Mac
+before the next canary, confirm swap is near zero, and then use:
 
 ```bash
 ./scripts/start-bonsai.sh
 ```
+
+The launcher uses the exact 27B weights on MLX's CPU device. This avoids model
+substitution and keeps inference off the Metal execution path involved in the
+panic. A tiny Qwen 3.5 gated-delta forward pass succeeded on CPU, but that only
+proves runtime compatibility. It does not replace the full 27B canary.
 
 In another terminal, from this repository:
 
@@ -64,7 +71,8 @@ The importer finds the deployed Next.js calendar chunk, extracts the calendar ar
 - [Job-level rubric](evals/rubric.md) defines what “meaningful economic job” means here.
 - [Verification protocol](docs/verification.md) requires traced January and February planning runs through Hermes, local Bonsai, and Exa.
 - [MLX GPU kernel-panic incident](docs/incidents/2026-07-14-mlx-gpu-kernel-panic.md) records the failed long-context run and evidence.
-- [Simple local model rules](docs/rfcs/001-local-model-memory-safety.md) use a smaller working range and one observed canary before monthly evaluation resumes.
+- [Simple local model rules](docs/rfcs/001-local-model-memory-safety.md) use a smaller working range, CPU-only inference, and one observed canary before monthly evaluation resumes.
+- [CPU runtime preflight](evals/runs/cpu-runtime-preflight.trace.md) records the non-weight-bearing compatibility check and the remaining reboot gate.
 
 ## Writing approach
 
