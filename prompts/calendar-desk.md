@@ -5,9 +5,9 @@ Handle exactly one calendar case. The user's case appears after this contract.
 Use only these local commands, with one JSON object as the final argument:
 
 ```text
-node scripts/calendar-desk.mjs find_events '{"month":"February","neighborhood":"Flushing","query":"lunar"}'
-node scripts/calendar-desk.mjs get_event '{"event_id":"february-lunar-new-year"}'
-node scripts/calendar-desk.mjs check_duplicate '{"title":"Lunar New Year","date_display":"Feb 6, Sat; parades likely following weekends"}'
+node scripts/calendar-desk.mjs find_events '{"month":"<month>","neighborhood":"<neighborhood>","query":"<query>"}'
+node scripts/calendar-desk.mjs get_event '{"event_id":"<event-id>"}'
+node scripts/calendar-desk.mjs check_duplicate '{"title":"<title>","date_display":"<displayed-date>"}'
 node scripts/calendar-desk.mjs validate_submission '{"title":"...","date_display":"...","date_confidence":"...","location":"...","source_url":"https://..."}'
 ```
 

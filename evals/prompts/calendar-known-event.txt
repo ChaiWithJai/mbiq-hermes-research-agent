@@ -1,0 +1,8 @@
+Handle one known-event Calendar Desk case.
+
+Question: What are the canonical displayed date and date-confidence label for
+event ID `february-lunar-new-year`?
+
+You must call `get_event` through `node scripts/calendar-desk.mjs`. Use exactly
+one terminal tool call. Then return the five-line case packet from the contract.
+Set `Decision` to `answer`. Do not add a preamble or closing paragraph.

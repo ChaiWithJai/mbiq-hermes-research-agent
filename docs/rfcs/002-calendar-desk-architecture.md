@@ -169,6 +169,7 @@ unreachable, not merely less likely.
 
 ### Phase 2: exact-model harness canary
 
+- [x] Add a bounded runner, resource monitor, and trace verifier.
 - Reboot to clear stale swap.
 - Start the exact 27B checkpoint on the CPU path.
 - Run one known-event lookup with no Exa call.
@@ -213,5 +214,8 @@ has rebooted and the swap gate passes.
 - `evals/calendar-desk-cases.json` defines ten exact outcomes.
 - `scripts/verify-calendar-desk.mjs` checks expected result subsets and byte
   ceilings.
+- `scripts/run-calendar-canary.sh` and `scripts/verify-calendar-harness.mjs`
+  prepare the exact-model Hermes gate without loading weights on an unsafe
+  machine state.
 - `npm run validate` passes all ten cases. The largest result observed across
   every current event ID, title, and month is 1,476 serialized characters.

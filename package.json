@@ -6,7 +6,8 @@
   "scripts": {
     "events:import": "node scripts/import-events.mjs",
     "calendar:test": "node scripts/verify-calendar-desk.mjs",
-    "validate": "node scripts/validate.mjs && node scripts/verify-calendar-desk.mjs",
+    "calendar:harness:verify": "node scripts/verify-calendar-harness.mjs --self-test",
+    "validate": "node scripts/validate.mjs && node scripts/verify-calendar-desk.mjs && node scripts/verify-calendar-harness.mjs --self-test",
     "verify:plans": "node scripts/verify-plans.mjs"
   },
   "engines": {

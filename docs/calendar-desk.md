@@ -81,3 +81,22 @@ known and invented IDs, exact duplicates, acceptance, missing evidence,
 unclear Queens relevance, outside-Queens rejection, and unsupported confidence
 language. `npm run calendar:test` executes every case and enforces its payload
 limit without loading a model.
+
+## Exact-model canary
+
+After rebooting and confirming swap is near zero, run:
+
+```bash
+scripts/run-calendar-canary.sh
+```
+
+The runner starts the exact Bonsai 27B checkpoint on MLX CPU, gives Hermes only
+the terminal tool, and runs the known-event case in
+`evals/prompts/calendar-known-event.txt`. It samples resources every two
+seconds and aborts above 1 GiB of swap growth, below 25 percent free memory,
+above 16 GiB server RSS, or after 15 minutes. It always stops Hermes and the
+model server.
+
+The trace verifier requires exactly one `get_event` terminal call, the exact
+canonical ID, displayed date, and confidence label, an `answer` decision, a
+maximum 4,096-token rough request estimate, and no Exa or write tool call.

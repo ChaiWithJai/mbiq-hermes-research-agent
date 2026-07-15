@@ -74,6 +74,16 @@ Test the business rules without loading a model:
 npm run calendar:test
 ```
 
+After a clean reboot, the exact-model gate is one command:
+
+```bash
+scripts/run-calendar-canary.sh
+```
+
+It refuses stale swap or low free memory, monitors the run, stops both
+processes on every exit path, and verifies the traced Hermes tool call and
+final case packet.
+
 The first server start downloads the current 8.49 GB MLX package. The evaluation Mac has enough local storage, but long-context memory safety is not yet proven. Its T7 is mounted as NTFS, which macOS treats as read-only, so `scripts/start-bonsai.sh` overrides the machine's T7 Hugging Face cache setting and uses `~/.cache/huggingface-local`.
 
 ## Refresh the event calendar
