@@ -1,118 +1,55 @@
-# MBIQ Hermes research agent
+# Archived: MBIQ Hermes research agent
 
-A small, local-first research desk for Meanwhile Back in Queens. Hermes is the agent harness, Ternary Bonsai 27B is the local model, Exa supplies web search and page fetch, and the output is a source-backed research brief for a human editor.
+This repository is the record of a closed experiment. It is not a working
+research agent and should not be used as a setup guide.
 
-## What is ready
+## What we tried
 
-- Hermes Agent is installed from Nous Research commit `7e84d2b5a43d47b1da33cfa662d0f87991774b1c`.
-- Hermes requests MLX's reserved `default_model` at `http://127.0.0.1:8080/v1`; `scripts/start-bonsai.sh` binds that name to the pinned local `prism-ml/Ternary-Bonsai-27B-mlx-2bit` snapshot and selects MLX's CPU device before the server imports.
-- The official Exa remote MCP is configured with search, advanced search, and fetch tools.
-- `data/events.json` contains all 109 source records from the MBIQ Research Hub, with the original date text and confidence labels. Three exact duplicate records are preserved and marked with `duplicate_of`.
-- `AGENTS.md` gives Hermes the MBIQ role, research workflow, evidence gates, and writing rules.
-- The eval suite measures whether the system completes an editor-ready research job.
+We asked Hermes and a local Ternary Bonsai 27B model to turn 109 MBIQ event
+records into source-backed January and February editorial plans. The agent
+could also search the web through Exa.
 
-## Experiment status
+This was too ambitious for a first test. It combined local model setup, long
+context, web search, citation checks, historical judgment, editorial voice,
+and month-wide planning in one run.
 
-The deep-research brief was experiment 001. It is closed without a model
-capability verdict because the runtime failed before January or February
-produced an accepted plan. See the [experiment post-mortem](docs/postmortems/001-research-brief-experiment.md).
+## What happened
 
-Experiment 002 is the selected [MBIQ Calendar Desk](docs/rfcs/002-calendar-desk-architecture.md),
-adapted from Google's current TypeScript customer-service sample. It replaces
-open-ended discovery with one bounded calendar case, structured tools, deterministic
-decisions, and an editor handoff.
+The January run sent 42,468 prefill tokens to MLX after three large search
+results entered the conversation. The Mac then restarted because of a GPU
+driver kernel panic. A later compaction test produced an 8,570-token summary,
+but swap grew by about 6.45 GiB.
 
-The model-free Calendar Desk core is implemented and passes ten deterministic
-cases. Its [tool contract](docs/calendar-desk.md) caps each result at 2,000
-characters and keeps canonical decisions outside the model.
+No January or February plan was accepted. The experiment therefore did not
+prove whether the model can do the editorial job.
 
-## Run it
+## What worked
 
-> [!WARNING]
-> A 44,960-token Hermes turn caused a
-> macOS GPU-driver kernel panic on the 24 GiB evaluation Mac. Read the
-> [incident report](docs/incidents/2026-07-14-mlx-gpu-kernel-panic.md) and
-> [simple safety rules](docs/rfcs/001-local-model-memory-safety.md). Use the
-> 32K settings in this repository. The 40 percent compaction logic passed,
-> but the 27B canary caused about 6.45 GiB of swap growth. Do not resume the
-> monthly evaluation on the failed GPU configuration. The CPU path still needs
-> a bounded canary after reboot.
+The event importer preserved 109 records and marked three exact duplicates.
+Hermes compaction triggered at the configured limit. A later model-free
+Calendar Desk passed ten deterministic tests. These were useful component
+checks, but they did not prove the complete agent.
 
-The launcher refuses to start above 1 GiB of existing swap. Reboot the Mac
-before the next canary, confirm swap is near zero, and then use:
+## What we learned
 
-```bash
-./scripts/start-bonsai.sh
-```
+Start with one small job that has an exact pass condition. Prove one local
+tool call, one model decision, and one verification step before adding search,
+long context, or editorial judgment.
 
-The launcher uses the exact 27B weights on MLX's CPU device. This avoids model
-substitution and keeps inference off the Metal execution path involved in the
-panic. A tiny Qwen 3.5 gated-delta forward pass succeeded on CPU, but that only
-proves runtime compatibility. It does not replace the full 27B canary.
+The selected next experiment is a local bug fixer based on Google's Software
+Bug Assistant sample. It will reproduce one failing test, inspect a small set
+of local files, make one patch, and rerun the test. It will not use web search,
+a ticket database, remote GitHub tools, or automatic commits.
 
-In another terminal, from this repository:
+## Records
 
-```bash
-scripts/hermes-32k.sh
-```
+- [Project post-mortem](docs/postmortems/002-project-was-too-ambitious.md)
+- [GPU kernel panic incident](docs/incidents/2026-07-14-mlx-gpu-kernel-panic.md)
+- [First experiment post-mortem](docs/postmortems/001-research-brief-experiment.md)
+- [Next local experiment](docs/rfcs/003-local-bug-fixer.md)
+- [Model capability notes](docs/model-capabilities.md)
+- [Event data](data/events.json)
+- [Calendar Desk tests](evals/calendar-desk-cases.json)
 
-The pinned Hermes revision normally rejects contexts below 64K. This wrapper
-uses the narrow compatibility patch in `patches/hermes-32k-minimum.patch` to
-lower that startup floor to 32,000 for this evaluation only. It also lets the
-configured 40 percent threshold trigger compaction at 12,288 input tokens.
-
-Then give Hermes one bounded Calendar Desk case using
-`prompts/calendar-desk.md`. For example:
-
-```text
-Read prompts/calendar-desk.md. Answer this case: What is the displayed date and date confidence for event ID february-lunar-new-year? Use the local Calendar Desk command, return the compact case packet, and stop at human editorial review.
-```
-
-Test the business rules without loading a model:
-
-```bash
-npm run calendar:test
-```
-
-After a clean reboot, the exact-model gate is one command:
-
-```bash
-scripts/run-calendar-canary.sh
-```
-
-It refuses stale swap or low free memory, monitors the run, stops both
-processes on every exit path, and verifies the traced Hermes tool call and
-final case packet.
-
-The first server start downloads the current 8.49 GB MLX package. The evaluation Mac has enough local storage, but long-context memory safety is not yet proven. Its T7 is mounted as NTFS, which macOS treats as read-only, so `scripts/start-bonsai.sh` overrides the machine's T7 Hugging Face cache setting and uses `~/.cache/huggingface-local`.
-
-## Refresh the event calendar
-
-```bash
-npm run events:import
-npm run validate
-```
-
-The importer finds the deployed Next.js calendar chunk, extracts the calendar array in an isolated JavaScript context, preserves all research notes and source labels, and fails unless exactly 109 events are present. A later site change should fail visibly instead of silently producing partial data.
-
-## Architecture decisions
-
-- [Reference architecture map](docs/reference-architectures.md) explains every relevant pattern in Google's current TypeScript sample and its Hermes equivalent.
-- [Model capability assessment](docs/model-capabilities.md) separates Qwen3.6-27B capability claims from the compressed Bonsai model and from the still-unproven MBIQ job.
-- [Research brief contract](prompts/research-brief.md) defines the artifact and minimum source bar.
-- [Job-level rubric](evals/rubric.md) defines what “meaningful economic job” means here.
-- [Verification protocol](docs/verification.md) requires traced January and February planning runs through Hermes, local Bonsai, and Exa.
-- [MLX GPU kernel-panic incident](docs/incidents/2026-07-14-mlx-gpu-kernel-panic.md) records the failed long-context run and evidence.
-- [Simple local model rules](docs/rfcs/001-local-model-memory-safety.md) use a smaller working range, CPU-only inference, and one observed canary before monthly evaluation resumes.
-- [CPU runtime preflight](evals/runs/cpu-runtime-preflight.trace.md) records the non-weight-bearing compatibility check and the remaining reboot gate.
-- [Experiment 001 post-mortem](docs/postmortems/001-research-brief-experiment.md) closes the failed economic-job test without overstating model capability.
-- [Calendar Desk architecture](docs/rfcs/002-calendar-desk-architecture.md) scores the alternatives and selects the next bounded use case.
-- [Calendar Desk tool contract](docs/calendar-desk.md) defines the implemented local operations and deterministic routing boundary.
-
-## Writing approach
-
-The project uses a focused subset of the 814 rules in [shreyashankar/mine-writing-rules](https://github.com/shreyashankar/mine-writing-rules): lead with the main point, use concrete language and active voice, cut filler, calibrate certainty, integrate citations, and keep claims no broader than the evidence. MBIQ adds its own rule: the Queens community is the protagonist.
-
-## Safety boundary
-
-The agent may research and draft locally. It may not publish, contact people, or treat unresolved history as settled fact. Every brief ends at human editorial review.
+The code and traces remain here as evidence. This repository is archived and
+will not receive further development.
