@@ -12,7 +12,13 @@ compression:
   enabled: true
   threshold: 0.75
   target_ratio: 0.20
-  protect_last_n: 8
+  protect_last_n: 4
+
+# Keep compaction on the pinned local model. Do not let an automatic
+# auxiliary route probe remote providers during a memory-safety boundary.
+auxiliary:
+  compression:
+    provider: main
 
 mcp_servers:
   exa:

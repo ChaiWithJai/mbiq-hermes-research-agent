@@ -8,7 +8,7 @@
 | Date | 2026-07-14 |
 | Severity | SEV-2: developer workstation outage and data-loss risk |
 | Class | Operational outage |
-| Status | Contained; 27B evaluation paused pending safety controls |
+| Status | Resolved; 32K compaction canary passed at 21:33 on 2026-07-14 |
 | Customer impact | None |
 | Direct impact | The evaluation Mac kernel-panicked and restarted; the in-flight January run was lost |
 
@@ -45,6 +45,7 @@ Times are America/New_York on 2026-07-14.
 | 20:50:37 | macOS panics in `IOGPUFamily`; panicked task is `pid 74906: python3.13`, 29 threads. | `/Library/Logs/DiagnosticReports/.contents.panic` (local system artifact) |
 | 20:52:05 | After reboot, the server is restarted while recovering the interrupted evaluation. | local terminal trace |
 | 20:55 | The operator reports the crash; Hermes and MLX are stopped. | local process audit confirms no `hermes chat` or `mlx_lm.server` process remains |
+| 21:33 | The corrected 32K canary compacts 38,762 estimated tokens to 17,952 with a real summary and no fallback. | `evals/runs/compaction-canary.trace.md` |
 
 Detection was reactive: macOS restarted and surfaced a panic dialog. The harness had no proactive context-size or Metal-memory alarm.
 
@@ -130,7 +131,7 @@ RFC 001 addresses those paths with a smaller working range, focused searches, on
 | A1 | Set Hermes to a 32,768 token context with 2,048 tokens reserved for output. | Repo maintainer | Before canary | Complete | `config/hermes.example.yaml` contains the smaller limit |
 | A2 | Reduce MLX output, cache, prefill size, and concurrency defaults. | Repo maintainer | Before canary | Complete | `scripts/start-bonsai.sh` contains the smaller defaults |
 | A3 | Keep Exa searches focused and sequential. | Evaluation author | Before canary | Complete | January and February prompts limit discovery and fetching |
-| A4 | Run one observed canary across Hermes's 26,112 token compaction trigger. | Human operator | Before January | Open | Confirm compaction happens before another large MLX request and stop on any warning sign |
+| A4 | Run one observed canary across Hermes's 26,112 token compaction trigger. | Human operator | Before January | Complete | `evals/runs/compaction-canary.trace.md` records a 38,762-to-17,952 token reduction without fallback or instability |
 | A5 | Resume January and February with the same settings. | Evaluation author | After A4 | Open | Both traced jobs finish without computer instability |
 
 ## Evidence provenance
@@ -145,4 +146,4 @@ RFC 001 addresses those paths with a smaller working range, focused searches, on
 
 ## Closure criteria
 
-This incident remains open until the compaction canary finishes without a kernel panic, Metal error, red memory pressure, or computer instability. Completion of the January and February plans is separate from incident closure.
+This incident closed after the corrected compaction canary finished without a kernel panic, Metal error, red memory pressure, swap growth, or computer instability. Completion of the January and February plans remains a separate evaluation requirement.

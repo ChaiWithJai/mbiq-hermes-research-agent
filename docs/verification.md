@@ -9,7 +9,9 @@ Before the monthly runs, confirm that `hermes config show` reports:
 - a 32,768 token context;
 - a 2,048 token output limit;
 - compression enabled at a 75 percent configured threshold;
-- eight protected recent messages; and
+- four protected recent messages;
+- the main local model selected for compression;
+- MLX thinking disabled so compression returns content rather than a reasoning-only response; and
 - sequential Exa MCP calls.
 
 Run the compaction canary in [RFC 001](rfcs/001-local-model-memory-safety.md). The canary passes only if the raw Hermes log shows pre-API compression after the request estimate crosses the 26,112 token trigger and before another large request reaches MLX.

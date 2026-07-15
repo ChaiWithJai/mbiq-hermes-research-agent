@@ -1,6 +1,6 @@
 # RFC 001: Munger-style rules for local model runs
 
-- **Status:** Revised proposal
+- **Status:** Accepted for the January and February evaluation
 - **Date:** 2026-07-14
 - **Owner:** Repository maintainer
 - **Related incident:** [INC-2026-07-14-MLX-001](../incidents/2026-07-14-mlx-gpu-kernel-panic.md)
@@ -85,8 +85,9 @@ Hermes already has the needed controls. We will use them instead of adding anoth
 - Hermes estimates the full next request immediately before each model call. This includes tool results that arrived during the current turn.
 - At the current settings, Hermes starts compression at about 26,112 input tokens.
 - Hermes first replaces older tool results with short notes.
-- Hermes then summarizes the middle of the conversation and keeps the system prompt, the first exchange, and a recent tail.
+- Hermes then summarizes the middle of the conversation and keeps the system prompt, the first exchange, and four recent messages.
 - Hermes caps each message at 6,000 characters when it builds the summary prompt. It does not send a full large Exa result into the summary call.
+- Compression stays on the pinned local model instead of probing automatic auxiliary providers. The MLX chat template disables thinking so summaries arrive as usable content, and a compression request that omits an output limit defaults to 512 generated tokens.
 - The manual `/compress <focus>` command can compact around one topic when automatic compression needs help.
 - Hermes can use another context engine through `context.engine`, but the built-in compressor is enough for this test.
 
@@ -95,5 +96,7 @@ These behaviors come from the pinned Hermes source in `agent/conversation_loop.p
 ## When work may resume
 
 January may resume after the compaction canary passes. February may use the same settings after January completes without computer instability.
+
+The canary passed on 2026-07-14. Its sanitized evidence is in [the compaction canary trace](../../evals/runs/compaction-canary.trace.md).
 
 If another kernel panic occurs, local 27B work stops. We will then use a smaller model or a different runtime instead of adding more process around the same setup.

@@ -24,11 +24,14 @@ if [[ "$ACTUAL_MODEL_SHA256" != "$EXPECTED_MODEL_SHA256" ]]; then
   exit 1
 fi
 
+# Hermes sends its 2,048-token limit on normal turns. Compression deliberately
+# omits that request field, so this smaller server default bounds summaries.
 exec "$HOME/.local/bin/mlx_lm.server" \
   --model "$MODEL_PATH" \
   --host 127.0.0.1 \
   --port 8080 \
-  --max-tokens "${MBIQ_MAX_TOKENS:-2048}" \
+  --max-tokens "${MBIQ_SERVER_DEFAULT_MAX_TOKENS:-512}" \
+  --chat-template-args '{"enable_thinking":false}' \
   --decode-concurrency 1 \
   --prompt-concurrency 1 \
   --prefill-step-size "${MBIQ_PREFILL_STEP_SIZE:-512}" \
