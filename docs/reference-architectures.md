@@ -2,7 +2,7 @@
 
 ## What exists in Google's TypeScript samples
 
-At Google ADK Samples commit `68989de5a041a0be2321bfdb9f7d657b148e0558`, the `typescript` tree contains one implemented agent: `agents/customer_service`.
+At Google ADK Samples commit `40adfa3ad3ba522b8fcda73d5c812f619e1d2ed7`, the `typescript` tree contains one implemented agent: `agents/customer_service`.
 
 | Pattern | Google sample | MBIQ equivalent |
 |---|---|---|
@@ -37,3 +37,11 @@ editor request
 
 Start with one bounded agent and measure completed briefs. Add parallel research only when the failure data shows that source discovery is the bottleneck. If that happens, Hermes can delegate separate source classes, such as archives, public records, and community voices, then merge them into one source ledger. Keep final claim checking and publication approval in a single accountable step.
 
+## Experiment 002 selection
+
+Experiment 001 showed that open-ended research is a poor first acceptance job
+for the 27B model on the evaluation Mac. [RFC 002](rfcs/002-calendar-desk-architecture.md)
+therefore reuses the same TypeScript customer-service pattern as a bounded
+MBIQ Calendar Desk: one case, typed local tools, compact results, one optional
+supplied-URL fetch, and a human editorial handoff. The deep-research design
+remains a future growth path, not the next runtime test.

@@ -11,6 +11,17 @@ A small, local-first research desk for Meanwhile Back in Queens. Hermes is the a
 - `AGENTS.md` gives Hermes the MBIQ role, research workflow, evidence gates, and writing rules.
 - The eval suite measures whether the system completes an editor-ready research job.
 
+## Experiment status
+
+The deep-research brief was experiment 001. It is closed without a model
+capability verdict because the runtime failed before January or February
+produced an accepted plan. See the [experiment post-mortem](docs/postmortems/001-research-brief-experiment.md).
+
+Experiment 002 is the proposed [MBIQ Calendar Desk](docs/rfcs/002-calendar-desk-architecture.md),
+adapted from Google's current TypeScript customer-service sample. It replaces
+open-ended discovery with one bounded calendar case, typed tools, deterministic
+decisions, and an editor handoff.
+
 ## Run it
 
 > [!WARNING]
@@ -73,6 +84,8 @@ The importer finds the deployed Next.js calendar chunk, extracts the calendar ar
 - [MLX GPU kernel-panic incident](docs/incidents/2026-07-14-mlx-gpu-kernel-panic.md) records the failed long-context run and evidence.
 - [Simple local model rules](docs/rfcs/001-local-model-memory-safety.md) use a smaller working range, CPU-only inference, and one observed canary before monthly evaluation resumes.
 - [CPU runtime preflight](evals/runs/cpu-runtime-preflight.trace.md) records the non-weight-bearing compatibility check and the remaining reboot gate.
+- [Experiment 001 post-mortem](docs/postmortems/001-research-brief-experiment.md) closes the failed economic-job test without overstating model capability.
+- [Calendar Desk architecture](docs/rfcs/002-calendar-desk-architecture.md) scores the alternatives and selects the next bounded use case.
 
 ## Writing approach
 
